@@ -7,6 +7,7 @@ These reports distinguish controlled tests from ordinary progression. Large capt
 - `checkpoint-hashes.json`: integrity and size records for seven accepted local checkpoint files.
 - `interaction-review.md`: real browser and installed Windows observations, including tool limitations.
 - `windows-release.json`: final installer/portable checksums and installed archive verification.
+- `publication.json`: verified public downloads, uploaded digests, release tag/source commit and pull request.
 
 Run `pnpm test` for the suite and first-night controller. The longer chain uses the environment flags documented in the root README. Scene fixtures and browser review pages are in `tests/visual-fixtures.test.ts` and `tools/`; they are excluded from the packaged game.
 

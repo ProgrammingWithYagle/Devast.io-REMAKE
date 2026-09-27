@@ -13,5 +13,5 @@
   "nativePersistence": "2026-09-27 final package passed offline save/quit/relaunch/load after more than five hours closed; no closed-time advancement",
   "finalNativeUi": "Passed retained manual slot 1, keyboard crafting, named write to manual slot 2, clean close, offline relaunch, slot-2 load and pause",
   "finalSave": {"name":"Final Windows release check","slot":2,"ageSecondsDisplayed":127,"hp":255,"hunger":103,"warmth":255,"energy":255,"radiation":0,"inventory":"two stones"},
-  "publication": "GitHub credential renewed; upload pending"
+  "publication": "Published v0.2.0; all three anonymous downloads return HTTP 200 with expected sizes and digests. See publication.json."
 }
