@@ -1,0 +1,287 @@
+[
+  {
+    "id": "orange",
+    "hunger": 40,
+    "energy": 10,
+    "health_delta": 0,
+    "shelf_life_seconds": null,
+    "consume_seconds": null,
+    "source": {
+      "title": "Food",
+      "url": "https://devastio.fandom.com/wiki/Food",
+      "revision": 4539,
+      "permalink": "https://devastio.fandom.com/wiki/Food?oldid=4539"
+    },
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "tomato",
+    "hunger": 50,
+    "energy": 10,
+    "health_delta": 0,
+    "shelf_life_seconds": null,
+    "consume_seconds": null,
+    "source": {
+      "title": "Food",
+      "url": "https://devastio.fandom.com/wiki/Food",
+      "revision": 4539,
+      "permalink": "https://devastio.fandom.com/wiki/Food?oldid=4539"
+    },
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "tomato_soup",
+    "hunger": 160,
+    "energy": 40,
+    "health_delta": 0,
+    "shelf_life_seconds": null,
+    "consume_seconds": null,
+    "source": {
+      "title": "Food",
+      "url": "https://devastio.fandom.com/wiki/Food",
+      "revision": 4539,
+      "permalink": "https://devastio.fandom.com/wiki/Food?oldid=4539"
+    },
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "soda",
+    "hunger": 30,
+    "energy": 155,
+    "health_delta": 0,
+    "shelf_life_seconds": null,
+    "consume_seconds": null,
+    "source": {
+      "title": "Food",
+      "url": "https://devastio.fandom.com/wiki/Food",
+      "revision": 4539,
+      "permalink": "https://devastio.fandom.com/wiki/Food?oldid=4539"
+    },
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "raw_steak",
+    "hunger": 30,
+    "energy": 20,
+    "health_delta": -10,
+    "shelf_life_seconds": null,
+    "consume_seconds": null,
+    "source": {
+      "title": "Food",
+      "url": "https://devastio.fandom.com/wiki/Food",
+      "revision": 4539,
+      "permalink": "https://devastio.fandom.com/wiki/Food?oldid=4539"
+    },
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "cooked_steak",
+    "hunger": 127,
+    "energy": 80,
+    "health_delta": 0,
+    "shelf_life_seconds": null,
+    "consume_seconds": null,
+    "source": {
+      "title": "Food",
+      "url": "https://devastio.fandom.com/wiki/Food",
+      "revision": 4539,
+      "permalink": "https://devastio.fandom.com/wiki/Food?oldid=4539"
+    },
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "boletus",
+    "hunger": 40,
+    "energy": 10,
+    "health_delta": 0,
+    "shelf_life_seconds": null,
+    "consume_seconds": null,
+    "source": {
+      "title": "Food",
+      "url": "https://devastio.fandom.com/wiki/Food",
+      "revision": 4539,
+      "permalink": "https://devastio.fandom.com/wiki/Food?oldid=4539"
+    },
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "russula",
+    "hunger": 40,
+    "energy": 10,
+    "health_delta": 0,
+    "shelf_life_seconds": null,
+    "consume_seconds": null,
+    "source": {
+      "title": "Food",
+      "url": "https://devastio.fandom.com/wiki/Food",
+      "revision": 4539,
+      "permalink": "https://devastio.fandom.com/wiki/Food?oldid=4539"
+    },
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "amanita",
+    "hunger": 0,
+    "energy": 10,
+    "health_delta": -20,
+    "shelf_life_seconds": null,
+    "consume_seconds": null,
+    "source": {
+      "title": "Food",
+      "url": "https://devastio.fandom.com/wiki/Food",
+      "revision": 4539,
+      "permalink": "https://devastio.fandom.com/wiki/Food?oldid=4539"
+    },
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "acorn",
+    "hunger": 15,
+    "energy": null,
+    "health_delta": 0,
+    "shelf_life_seconds": null,
+    "consume_seconds": null,
+    "source": {
+      "title": "Food",
+      "url": "https://devastio.fandom.com/wiki/Food",
+      "revision": 4539,
+      "permalink": "https://devastio.fandom.com/wiki/Food?oldid=4539"
+    },
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "crisps",
+    "hunger": 90,
+    "energy": 50,
+    "health_delta": 0,
+    "shelf_life_seconds": null,
+    "consume_seconds": null,
+    "source": {
+      "title": "Food",
+      "url": "https://devastio.fandom.com/wiki/Food",
+      "revision": 4539,
+      "permalink": "https://devastio.fandom.com/wiki/Food?oldid=4539"
+    },
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "rotten_orange",
+    "hunger": 5,
+    "energy": null,
+    "health_delta": -40,
+    "shelf_life_seconds": null,
+    "consume_seconds": null,
+    "source": {
+      "title": "Food",
+      "url": "https://devastio.fandom.com/wiki/Food",
+      "revision": 4539,
+      "permalink": "https://devastio.fandom.com/wiki/Food?oldid=4539"
+    },
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "rotten_tomato",
+    "hunger": 5,
+    "energy": null,
+    "health_delta": -40,
+    "shelf_life_seconds": null,
+    "consume_seconds": null,
+    "source": {
+      "title": "Food",
+      "url": "https://devastio.fandom.com/wiki/Food",
+      "revision": 4539,
+      "permalink": "https://devastio.fandom.com/wiki/Food?oldid=4539"
+    },
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "rotten_steak",
+    "hunger": 15,
+    "energy": null,
+    "health_delta": -40,
+    "shelf_life_seconds": null,
+    "consume_seconds": null,
+    "source": {
+      "title": "Food",
+      "url": "https://devastio.fandom.com/wiki/Food",
+      "revision": 4539,
+      "permalink": "https://devastio.fandom.com/wiki/Food?oldid=4539"
+    },
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "expired_crisps",
+    "hunger": 5,
+    "energy": null,
+    "health_delta": -40,
+    "shelf_life_seconds": null,
+    "consume_seconds": null,
+    "source": {
+      "title": "Food",
+      "url": "https://devastio.fandom.com/wiki/Food",
+      "revision": 4539,
+      "permalink": "https://devastio.fandom.com/wiki/Food?oldid=4539"
+    },
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "rotten_acorn",
+    "hunger": 2,
+    "energy": null,
+    "health_delta": -20,
+    "shelf_life_seconds": null,
+    "consume_seconds": null,
+    "source": {
+      "title": "Food",
+      "url": "https://devastio.fandom.com/wiki/Food",
+      "revision": 4539,
+      "permalink": "https://devastio.fandom.com/wiki/Food?oldid=4539"
+    },
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "rotten_boletus",
+    "hunger": 5,
+    "energy": null,
+    "health_delta": -40,
+    "shelf_life_seconds": null,
+    "consume_seconds": null,
+    "source": {
+      "title": "Food",
+      "url": "https://devastio.fandom.com/wiki/Food",
+      "revision": 4539,
+      "permalink": "https://devastio.fandom.com/wiki/Food?oldid=4539"
+    },
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "rotten_russula",
+    "hunger": 5,
+    "energy": null,
+    "health_delta": -40,
+    "shelf_life_seconds": null,
+    "consume_seconds": null,
+    "source": {
+      "title": "Food",
+      "url": "https://devastio.fandom.com/wiki/Food",
+      "revision": 4539,
+      "permalink": "https://devastio.fandom.com/wiki/Food?oldid=4539"
+    },
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "rotten_amanita",
+    "hunger": null,
+    "energy": null,
+    "health_delta": -40,
+    "shelf_life_seconds": null,
+    "consume_seconds": null,
+    "source": {
+      "title": "Food",
+      "url": "https://devastio.fandom.com/wiki/Food",
+      "revision": 4539,
+      "permalink": "https://devastio.fandom.com/wiki/Food?oldid=4539"
+    },
+    "confidence": "wiki_reported"
+  }
+]

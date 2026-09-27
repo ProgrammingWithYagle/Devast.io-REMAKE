@@ -1,0 +1,37 @@
+[
+  {
+    "id": "uranium_wall",
+    "required": true,
+    "verified": "Official v0.32 presence, Tesla crafting, radiation and lower HP than metal",
+    "unresolved": [
+      "recipe",
+      "unlock",
+      "health",
+      "radiation radius/rate",
+      "world sprite"
+    ]
+  },
+  {
+    "id": "uranium_door",
+    "required": true,
+    "verified": "Official v0.32 presence, Tesla crafting, owner irradiation and lower HP than metal",
+    "unresolved": [
+      "recipe",
+      "unlock",
+      "health",
+      "radiation radius/rate",
+      "open/closed world sprites"
+    ]
+  },
+  {
+    "id": "caves_bunkers",
+    "required": true,
+    "verified": "Official v0.30 survival presence and visibility interactions",
+    "unresolved": [
+      "exact footprint distribution",
+      "entrances",
+      "light/radiation occlusion details",
+      "current loot weights"
+    ]
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "values": {
+    "max_gauge": 255,
+    "day_seconds": 480,
+    "night_seconds": 480,
+    "hunger_loss_per_second": 1.2,
+    "cold_loss_per_second_unclothed_at_night": 3.5,
+    "warmth_gain_per_second_near_fire": 5,
+    "sprint_energy_per_second": 28,
+    "idle_energy_gain_per_second": 14,
+    "health_regen_delay_seconds": 10,
+    "health_regen_per_second": null,
+    "starvation_damage_per_second": null,
+    "freezing_damage_per_second": null,
+    "radiation_damage_threshold": null,
+    "radiation_gain_per_second": null,
+    "radiation_decay_per_second": null,
+    "walk_speed_world_units": null,
+    "sprint_multiplier": null
+  },
+  "confidence": "Selected wiki values; rates and units are not instrumentally verified",
+  "sources": [
+    {
+      "title": "Player",
+      "url": "https://devastio.fandom.com/wiki/Player",
+      "revision": 4387,
+      "permalink": "https://devastio.fandom.com/wiki/Player?oldid=4387"
+    },
+    {
+      "title": "Life",
+      "url": "https://devastio.fandom.com/wiki/Life",
+      "revision": 4660,
+      "permalink": "https://devastio.fandom.com/wiki/Life?oldid=4660"
+    },
+    {
+      "title": "Hunger",
+      "url": "https://devastio.fandom.com/wiki/Hunger",
+      "revision": 4062,
+      "permalink": "https://devastio.fandom.com/wiki/Hunger?oldid=4062"
+    },
+    {
+      "title": "Cold",
+      "url": "https://devastio.fandom.com/wiki/Cold",
+      "revision": 4662,
+      "permalink": "https://devastio.fandom.com/wiki/Cold?oldid=4662"
+    },
+    {
+      "title": "Energy",
+      "url": "https://devastio.fandom.com/wiki/Energy",
+      "revision": 3982,
+      "permalink": "https://devastio.fandom.com/wiki/Energy?oldid=3982"
+    },
+    {
+      "title": "Radiation",
+      "url": "https://devastio.fandom.com/wiki/Radiation",
+      "revision": 4217,
+      "permalink": "https://devastio.fandom.com/wiki/Radiation?oldid=4217"
+    },
+    {
+      "title": "Interface",
+      "url": "https://devastio.fandom.com/wiki/Interface",
+      "revision": 4659,
+      "permalink": "https://devastio.fandom.com/wiki/Interface?oldid=4659"
+    }
+  ],
+  "conflicts": "Hunger 1 vs 1.2; cold 4 vs 3.5; energy recovery 15 vs 14. Chosen values are tunable working decisions."
+}

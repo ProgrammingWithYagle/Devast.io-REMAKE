@@ -1,0 +1,37 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Save recovery review</title><style>
+body{font:16px system-ui;background:#1f3227;color:#eee8ce;margin:32px;max-width:900px}h1{font-size:26px}p{color:#bbc8b0;line-height:1.6}button{font:inherit;padding:12px 18px;border:2px solid #17261d;border-radius:5px;background:#c4ad58;color:#17271c;cursor:pointer}li{margin:12px 0;line-height:1.5}.pass{color:#bdd699}.fail{color:#f0a08b}code{overflow-wrap:anywhere}#status{font-weight:bold}
+</style></head><body><h1>Save recovery review</h1><p>This development page exercises the real browser IndexedDB implementation using a separate temporary QA database. It does not read or alter the game's saved worlds. The same save module is used by the packaged game.</p><button id="run">Run save checks</button><p id="status" role="status">Ready</p><ol id="results"></ol><script type="module">
+import {SaveStore,decode,envelope} from '/src/persistence/saves.ts';
+import {blankWorld} from '/src/world/generate.ts';
+const results=document.querySelector('#results'),status=document.querySelector('#status'),button=document.querySelector('button');
+function check(ok,message){if(!ok)throw Error(message);const li=document.createElement('li');li.className='pass';li.textContent='PASS — '+message;results.append(li);}
+async function rejects(fn){try{await fn();return false;}catch{return true;}}
+button.onclick=async()=>{
+ button.disabled=true;results.replaceChildren();status.textContent='Testing actual browser storage…';
+ const name='devast-save-review-'+crypto.randomUUID(),a=new SaveStore(name),b=new SaveStore(name),interrupted=new SaveStore(name,'abort');let db;
+ try{
+  const w=blankWorld('browser-recovery','Browser recovery fixture');
+  for(let i=1;i<=12;i++)await a.save('manual-'+i,w,'Manual '+i);
+  for(let i=0;i<3;i++)await a.save('auto-'+i,w,'Auto '+i);
+  check((await a.list()).length===15,'Twelve manual slots and three autosaves coexist.');
+  w.player.hp=121;await a.save('manual-1',w,'Second generation');
+  const slot=(await a.list()).find(s=>s.key==='manual-1');
+  check((await decode(slot.previous)).player.hp===255,'Overwriting retains the previous complete snapshot.');
+  db=await new Promise((resolve,reject)=>{const r=indexedDB.open(name);r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error);});
+  slot.current.checksum='deliberately-corrupted-by-qa';
+  await new Promise((resolve,reject)=>{const t=db.transaction('slots','readwrite');t.objectStore('slots').put(slot);t.oncomplete=resolve;t.onerror=()=>reject(t.error);});
+  const recovered=await a.load('manual-1');check(recovered.recovered&&recovered.world.player.hp===255,'An actually corrupted stored generation recovers its previous world.');
+  check(await rejects(()=>interrupted.save('manual-2',w,'Interrupted'))&&(await a.load('manual-2')).world.player.hp===255,'An aborted write preserves the existing save.');
+  const before=structuredClone(w),after=structuredClone(w);before.player.hp=201;after.player.hp=102;
+  const writes=await Promise.all([a.save('manual-3',before,'Window A'),b.save('manual-3',after,'Window B')]);const latest=(await a.list()).find(s=>s.key==='manual-3');
+  check(latest.previous.snapshot===writes.find(s=>s.current.snapshot!==latest.current.snapshot).current.snapshot,'Concurrent windows retain the immediately preceding committed generation.');
+  const exported=await a.export('manual-3');await a.import(exported,'manual-4','Imported copy');
+  check((await a.load('manual-4')).world.player.hp===(await a.load('manual-3')).world.player.hp,'Export and import preserve the exact saved player state.');
+  const future={...await envelope(w),schema:99};check(await rejects(()=>a.import(JSON.stringify(future),'manual-4'))&&(await a.load('manual-4')).slot.name==='Imported copy','A future-version import is rejected without replacing the destination.');
+  await a.trash('manual-5');check(!(await a.list()).some(s=>s.key==='manual-5')&&(await a.list(true)).some(s=>s.key==='trash-manual-5'),'Deleting moves the save into recoverable local storage.');
+  await a.restore('manual-5');check((await a.load('manual-5')).slot.name==='Manual 5','Restoring recovers the deleted slot and its name.');
+  status.textContent='All 9 browser save checks passed.';
+ }catch(e){const li=document.createElement('li');li.className='fail';li.textContent='FAIL — '+e.message;results.append(li);status.textContent='Save review failed.';}
+ finally{db?.close();await a.close();await b.close();await interrupted.close();const request=indexedDB.deleteDatabase(name);request.onsuccess=()=>{button.disabled=false;};request.onerror=()=>{button.disabled=false;};}
+};
+</script></body></html>

@@ -1,0 +1,281 @@
+[
+  {
+    "id": "U01",
+    "priority": "P0",
+    "system": "movement",
+    "question": "Walk speed, sprint multiplier, diagonal behavior, collision radii",
+    "measurement": "Measure traversal against tile span; compare eight directions",
+    "working_policy": "Named configuration values; normalized diagonals initially",
+    "status": "open"
+  },
+  {
+    "id": "U02",
+    "priority": "P0",
+    "system": "survival",
+    "question": "HP regeneration, starvation/freezing damage, radiation curves",
+    "measurement": "Fixed conditions and gauge/time readings",
+    "working_policy": "Choose labeled rates; never null to zero",
+    "status": "open"
+  },
+  {
+    "id": "U03",
+    "priority": "P0",
+    "system": "inventory",
+    "question": "Initial slots, tier costs, stack limits, splitting and equip slots",
+    "measurement": "Clean session and one upgrade/item class at a time",
+    "working_policy": "One wearable slot; tier 3 cost 2 provisionally",
+    "status": "open"
+  },
+  {
+    "id": "U04",
+    "priority": "P0",
+    "system": "combat",
+    "question": "Range, attack intervals, energy, projectile speed/spread, reload",
+    "measurement": "Repeated controlled attacks at measured distance",
+    "working_policy": "Store per-weapon parameters separately",
+    "status": "open"
+  },
+  {
+    "id": "U05",
+    "priority": "P0",
+    "system": "armor",
+    "question": "Exact mitigation, slowdown, stacking and explosive rule",
+    "measurement": "Compare equal hits on fresh unarmored/armored targets",
+    "working_policy": "Use report 02 rounded initial mitigation only as provisional",
+    "status": "open"
+  },
+  {
+    "id": "U06",
+    "priority": "P0",
+    "system": "crafting",
+    "question": "Missing time, level and research requirements",
+    "measurement": "Read current recipe panel at appropriate station",
+    "working_policy": "Keep nulls in evidence; chosen implementation values need notes",
+    "status": "open"
+  },
+  {
+    "id": "U07",
+    "priority": "P0",
+    "system": "fuel",
+    "question": "Consumption cadence, idle burn and paused-job behavior",
+    "measurement": "Single job then batch at fixed fuel",
+    "working_policy": "Separate fuel budget from object lifespan",
+    "status": "open"
+  },
+  {
+    "id": "U08",
+    "priority": "P0",
+    "system": "xp",
+    "question": "Whether listed awards already include peaceful karma",
+    "measurement": "Compare known harvest and craft action to displayed XP",
+    "working_policy": "Use listed award without multiplying 1.25 again",
+    "status": "open"
+  },
+  {
+    "id": "U09",
+    "priority": "P0",
+    "system": "bootstrap",
+    "question": "Tesla bench cells and advanced loot reachability",
+    "measurement": "Complete ordinary industrial progression",
+    "working_policy": "Guaranteed plausible loot entry points in test worlds",
+    "status": "open"
+  },
+  {
+    "id": "U10",
+    "priority": "P1",
+    "system": "food",
+    "question": "Spoil times, finished-output preservation, interruption",
+    "measurement": "Matched fresh batches in four locations",
+    "working_policy": "Persist freshness; no refresh-by-merge",
+    "status": "open"
+  },
+  {
+    "id": "U11",
+    "priority": "P1",
+    "system": "radiation",
+    "question": "Source radius/falloff, stacking, occlusion and clothing curves",
+    "measurement": "Distance/exposure experiments",
+    "working_policy": "Explicit independent radiation fields",
+    "status": "open"
+  },
+  {
+    "id": "U12",
+    "priority": "P1",
+    "system": "ghouls",
+    "question": "HP conflicts, aggro range, spawn distribution, dodge and pathing",
+    "measurement": "Type-specific encounters at fixed player age",
+    "working_policy": "100 HP fast/explosive; no universal pixel speeds from wiki",
+    "status": "open"
+  },
+  {
+    "id": "U13",
+    "priority": "P1",
+    "system": "light",
+    "question": "Sun+lamp combination and wall occlusion",
+    "measurement": "Compare one/two lamps and sunlight indoors/outdoors",
+    "working_policy": "Strongest source initially; no overlapping lamp stacking",
+    "status": "open"
+  },
+  {
+    "id": "U14",
+    "priority": "P1",
+    "system": "death",
+    "question": "Ownership cleanup, level/XP/skills retained, bag choice",
+    "measurement": "Matched normal/bag deaths and repeatable inventory",
+    "working_policy": "Separate fields; use visual kits only as historical baseline",
+    "status": "open"
+  },
+  {
+    "id": "U15",
+    "priority": "P1",
+    "system": "robots",
+    "question": "Lapa HP, deployment, owner-death, friendly fire",
+    "measurement": "Individual type tests in obstacle fixture",
+    "working_policy": "Per-type loyalty; do not infer repairability",
+    "status": "open"
+  },
+  {
+    "id": "U16",
+    "priority": "P1",
+    "system": "building",
+    "question": "Grid scale, footprints, rotation, door swing and breakpoints",
+    "measurement": "Place beside known structures and damage sequentially",
+    "working_policy": "Preserve footprint across damage states",
+    "status": "open"
+  },
+  {
+    "id": "U17",
+    "priority": "P1",
+    "system": "uranium",
+    "question": "Wall/door ingredients, level, HP and emission",
+    "measurement": "Current Tesla crafting panel and exposure test",
+    "working_policy": "Required feature with unresolved content record",
+    "status": "open"
+  },
+  {
+    "id": "U18",
+    "priority": "P1",
+    "system": "circuits",
+    "question": "Unconnected AND ports, timer periods, pulse width and feedback",
+    "measurement": "Truth tables and timestamped indicator transitions",
+    "working_policy": "False unconnected ports and bounded ticks provisionally",
+    "status": "open"
+  },
+  {
+    "id": "U19",
+    "priority": "P1",
+    "system": "traps",
+    "question": "Spike activation/lifetime, lightweight chance, dropped-object triggers",
+    "measurement": "Repeat actor/item/projectile trials",
+    "working_policy": "Do not implement bullet trigger removed by changelog",
+    "status": "open"
+  },
+  {
+    "id": "U20",
+    "priority": "P1",
+    "system": "explosions",
+    "question": "Radius/falloff/occlusion, grenade actor damage, barrel values",
+    "measurement": "Fixed-distance actor and structure arrangements",
+    "working_policy": "Actor/building contexts independent",
+    "status": "open"
+  },
+  {
+    "id": "U21",
+    "priority": "P1",
+    "system": "fridge",
+    "question": "Food-only versus general contents",
+    "measurement": "Try food/resource transfers in current game",
+    "working_policy": "Food-only four stacks from official introduction",
+    "status": "open"
+  },
+  {
+    "id": "U22",
+    "priority": "P1",
+    "system": "maps",
+    "question": "City/house blueprint coordinates and cave entrances",
+    "measurement": "Transcribe supplied images and compare current structures",
+    "working_policy": "Authored data; no arbitrary substitute geometry",
+    "status": "open"
+  },
+  {
+    "id": "U23",
+    "priority": "P2",
+    "system": "world",
+    "question": "Bounds, density, regeneration, obstacle permanence",
+    "measurement": "Several world samples with coordinates/time",
+    "working_policy": "Seeded tunable world with saved deltas",
+    "status": "open"
+  },
+  {
+    "id": "U24",
+    "priority": "P2",
+    "system": "loot",
+    "question": "Weights, roll count, quantities and refill timers",
+    "measurement": "Record repeated container samples",
+    "working_policy": "Qualitative rarity categories are not exact percentages",
+    "status": "open"
+  },
+  {
+    "id": "U25",
+    "priority": "P2",
+    "system": "farming",
+    "question": "Fruit regrowth and lifespan; tree exceptions",
+    "measurement": "Timed planted plots through several harvests",
+    "working_policy": "Separate maturity, regrowth and total lifetime",
+    "status": "open"
+  },
+  {
+    "id": "U26",
+    "priority": "P2",
+    "system": "extractor",
+    "question": "Current output/fuel ranges after buffs",
+    "measurement": "Repeat each mineral setting",
+    "working_policy": "Wiki ranges approximate; save RNG outcome",
+    "status": "open"
+  },
+  {
+    "id": "U27",
+    "priority": "P2",
+    "system": "feeder",
+    "question": "Rate/radius and exact cell consumption",
+    "measurement": "Measure hunger gain and cells over time",
+    "working_policy": "Cannot substitute for warmth",
+    "status": "open"
+  },
+  {
+    "id": "U28",
+    "priority": "P2",
+    "system": "art",
+    "question": "Missing world/held/worn variants and pivots",
+    "measurement": "Review manifest against fixed scenes",
+    "working_policy": "Originals first, derivatives separately",
+    "status": "open"
+  },
+  {
+    "id": "U29",
+    "priority": "P2",
+    "system": "audio",
+    "question": "Track roles loops spatial gain and effects timing",
+    "measurement": "Listen to current game scenarios and compare files",
+    "working_policy": "No inferred phase mapping based only on filename",
+    "status": "open"
+  },
+  {
+    "id": "U30",
+    "priority": "P2",
+    "system": "rights",
+    "question": "Artwork/audio reuse and contradictory album notices",
+    "measurement": "Preserve evidence; owner resolves before distribution",
+    "working_policy": "Reference-only status; no unsolicited contact",
+    "status": "open"
+  },
+  {
+    "id": "U31",
+    "priority": "P2",
+    "system": "high_levels",
+    "question": "XP thresholds above 79 and kits above level 30",
+    "measurement": "Current progression/respawn observations",
+    "working_policy": "No invented confirmed XP curve; kit30 reuse provisional",
+    "status": "open"
+  }
+]

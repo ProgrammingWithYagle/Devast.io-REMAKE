@@ -1,0 +1,156 @@
+{
+  "source": "https://devastio.fandom.com/wiki/Furniture?oldid=4634",
+  "confidence": "wiki_table_row_order_with_image_association",
+  "note": "Image sequence matches table sequence; grouped pictures such as TVandPC and Chairs need per-object confirmation. Contents of containers drop separately from salvage.",
+  "records": [
+    {
+      "image": "assets/wiki/Bed.png",
+      "salvage": {
+        "leather": 5,
+        "wood": 50
+      }
+    },
+    {
+      "image": "assets/wiki/BunkerBed.png",
+      "salvage": {
+        "leather": 5,
+        "animal_fat": 3,
+        "shaped_metal": 3
+      }
+    },
+    {
+      "image": "assets/wiki/Sofa.png",
+      "salvage": {
+        "leather": 2,
+        "wood": 24,
+        "string": 1
+      }
+    },
+    {
+      "image": "assets/wiki/Fridge-1.png",
+      "salvage": {
+        "shaped_metal": 4,
+        "sulfur": 4
+      }
+    },
+    {
+      "image": "assets/wiki/Table.png",
+      "salvage": {
+        "shaped_metal": 2
+      }
+    },
+    {
+      "image": "assets/wiki/TVandPC.png",
+      "salvage": {
+        "shaped_metal": 4,
+        "junk": 3,
+        "electronic_parts": 1,
+        "small_wire": 1
+      }
+    },
+    {
+      "image": "assets/wiki/Chairs.png",
+      "salvage": {
+        "shaped_metal": 2,
+        "leather": 2
+      }
+    },
+    {
+      "image": "assets/wiki/Dush.png",
+      "salvage": {
+        "shaped_metal": 2,
+        "stone": 15
+      }
+    },
+    {
+      "image": "assets/wiki/SinkKitchen.png",
+      "salvage": {
+        "shaped_metal": 2,
+        "wood": 37
+      }
+    },
+    {
+      "image": "assets/wiki/WC.png",
+      "salvage": {
+        "shaped_metal": 1,
+        "stone": 25
+      }
+    },
+    {
+      "image": "assets/wiki/ChestElectro.png",
+      "salvage": {
+        "shaped_metal": 4,
+        "electronic_parts": 1
+      }
+    },
+    {
+      "image": "assets/wiki/ChestMetal.png",
+      "salvage": {
+        "shaped_metal": 4
+      }
+    },
+    {
+      "image": "assets/wiki/Safe-0.png",
+      "salvage": {
+        "shaped_metal": 8,
+        "sulfur": 3
+      }
+    },
+    {
+      "image": "assets/wiki/Safe.png",
+      "salvage": {
+        "shaped_metal": 8,
+        "sulfur": 8
+      }
+    },
+    {
+      "image": "assets/wiki/SmallComputer.png",
+      "salvage": {
+        "junk": 3,
+        "energy_cells": 2,
+        "shaped_metal": 1,
+        "electronic_parts": 1
+      }
+    },
+    {
+      "image": "assets/wiki/BigComputer.png",
+      "salvage": {
+        "shaped_metal": 4,
+        "electronic_parts": 4,
+        "energy_cells": 4,
+        "big_wires": 2
+      }
+    },
+    {
+      "image": "assets/wiki/SafeDoor.png",
+      "salvage": {
+        "shaped_metal": 10
+      }
+    },
+    {
+      "image": "assets/wiki/Wood furniture1.png",
+      "salvage": {
+        "wood": 50
+      }
+    },
+    {
+      "image": "assets/wiki/DrawerSmall.png",
+      "salvage": {
+        "wood": 25
+      }
+    },
+    {
+      "image": "assets/wiki/PlantTop.png",
+      "salvage": {
+        "wood": 10,
+        "stone": 10
+      }
+    },
+    {
+      "image": "assets/wiki/Wood chair.png",
+      "salvage": {
+        "wood": 10
+      }
+    }
+  ]
+}

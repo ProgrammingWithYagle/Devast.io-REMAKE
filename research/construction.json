@@ -1,0 +1,166 @@
+[
+  {
+    "id": "wood_wall",
+    "health": 3000,
+    "blocks_actor": true,
+    "blocks_projectiles": true,
+    "source": "https://devastio.fandom.com/wiki/Construction?oldid=4606",
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "wood_low_wall",
+    "health": 3000,
+    "blocks_actor": true,
+    "blocks_projectiles": false,
+    "source": "https://devastio.fandom.com/wiki/Construction?oldid=4606",
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "wood_door",
+    "health": 2500,
+    "blocks_actor": true,
+    "blocks_projectiles": true,
+    "source": "https://devastio.fandom.com/wiki/Construction?oldid=4606",
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "wood_low_door",
+    "health": 2000,
+    "blocks_actor": true,
+    "blocks_projectiles": false,
+    "source": "https://devastio.fandom.com/wiki/Construction?oldid=4606",
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "stone_wall",
+    "health": 7000,
+    "blocks_actor": true,
+    "blocks_projectiles": true,
+    "source": "https://devastio.fandom.com/wiki/Construction?oldid=4606",
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "stone_low_wall",
+    "health": 7000,
+    "blocks_actor": true,
+    "blocks_projectiles": false,
+    "source": "https://devastio.fandom.com/wiki/Construction?oldid=4606",
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "stone_door",
+    "health": 6000,
+    "blocks_actor": true,
+    "blocks_projectiles": true,
+    "source": "https://devastio.fandom.com/wiki/Construction?oldid=4606",
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "stone_low_door",
+    "health": 5000,
+    "blocks_actor": true,
+    "blocks_projectiles": false,
+    "source": "https://devastio.fandom.com/wiki/Construction?oldid=4606",
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "metal_wall",
+    "health": 15000,
+    "blocks_actor": true,
+    "blocks_projectiles": true,
+    "source": "https://devastio.fandom.com/wiki/Construction?oldid=4606",
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "metal_low_wall",
+    "health": 15000,
+    "blocks_actor": true,
+    "blocks_projectiles": false,
+    "source": "https://devastio.fandom.com/wiki/Construction?oldid=4606",
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "metal_door",
+    "health": 12500,
+    "blocks_actor": true,
+    "blocks_projectiles": true,
+    "source": "https://devastio.fandom.com/wiki/Construction?oldid=4606",
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "metal_low_door",
+    "health": 10000,
+    "blocks_actor": true,
+    "blocks_projectiles": false,
+    "source": "https://devastio.fandom.com/wiki/Construction?oldid=4606",
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "wood_floor",
+    "health": 4000,
+    "source": "https://devastio.fandom.com/wiki/Floor?oldid=4651",
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "light_wood_floor",
+    "health": 4000,
+    "source": "https://devastio.fandom.com/wiki/Floor?oldid=4651",
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "stone_floor",
+    "health": 8000,
+    "source": "https://devastio.fandom.com/wiki/Floor?oldid=4651",
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "tiling_floor",
+    "health": 8000,
+    "source": "https://devastio.fandom.com/wiki/Floor?oldid=4651",
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "red_floor",
+    "health": 3000,
+    "source": "https://devastio.fandom.com/wiki/Floor?oldid=4651",
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "golden_floor",
+    "health": 3000,
+    "source": "https://devastio.fandom.com/wiki/Floor?oldid=4651",
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "automatic_door",
+    "health": 15000,
+    "source": "https://devastio.fandom.com/wiki/Welding_Machine?oldid=4094",
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "cable_wall",
+    "health": 15000,
+    "source": "https://devastio.fandom.com/wiki/Welding_Machine?oldid=4094",
+    "confidence": "wiki_reported"
+  },
+  {
+    "id": "uranium_wall",
+    "health": null,
+    "ingredients": null,
+    "station": "tesla_bench",
+    "radiation_source": true,
+    "affects_owner": true,
+    "source": "https://devast.io/changelog/",
+    "confidence": "official_presence_unknown_numbers"
+  },
+  {
+    "id": "uranium_door",
+    "health": null,
+    "ingredients": null,
+    "station": "tesla_bench",
+    "radiation_source": true,
+    "affects_owner": true,
+    "source": "https://devast.io/changelog/",
+    "confidence": "official_presence_unknown_numbers"
+  }
+]

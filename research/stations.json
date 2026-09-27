@@ -1,0 +1,138 @@
+[
+  {
+    "id": "hand",
+    "fuel": null,
+    "health": null,
+    "footprint_tiles": null,
+    "queue_limit": null,
+    "active_jobs": 1,
+    "confidence": "mixed_wiki_and_working_policy",
+    "note": "Null numeric fields unresolved. Null fuel means no fuel requirement established, not proof. Shared four-job queue is selected from workbench evidence."
+  },
+  {
+    "id": "workbench",
+    "fuel": null,
+    "health": 250,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "queue_limit": 4,
+    "active_jobs": 1,
+    "confidence": "mixed_wiki_and_working_policy",
+    "note": "Null numeric fields unresolved. Null fuel means no fuel requirement established, not proof. Shared four-job queue is selected from workbench evidence."
+  },
+  {
+    "id": "campfire",
+    "fuel": "wood",
+    "health": null,
+    "footprint_tiles": null,
+    "queue_limit": 4,
+    "active_jobs": 1,
+    "confidence": "mixed_wiki_and_working_policy",
+    "note": "Null numeric fields unresolved. Null fuel means no fuel requirement established, not proof. Shared four-job queue is selected from workbench evidence."
+  },
+  {
+    "id": "firepit",
+    "fuel": "wood",
+    "health": null,
+    "footprint_tiles": null,
+    "queue_limit": 4,
+    "active_jobs": 1,
+    "confidence": "mixed_wiki_and_working_policy",
+    "note": "Null numeric fields unresolved. Null fuel means no fuel requirement established, not proof. Shared four-job queue is selected from workbench evidence."
+  },
+  {
+    "id": "weaving_machine",
+    "fuel": null,
+    "health": null,
+    "footprint_tiles": null,
+    "queue_limit": 4,
+    "active_jobs": 1,
+    "confidence": "mixed_wiki_and_working_policy",
+    "note": "Null numeric fields unresolved. Null fuel means no fuel requirement established, not proof. Shared four-job queue is selected from workbench evidence."
+  },
+  {
+    "id": "research_bench",
+    "fuel": null,
+    "health": 400,
+    "footprint_tiles": [
+      3,
+      1
+    ],
+    "queue_limit": 4,
+    "active_jobs": 1,
+    "confidence": "mixed_wiki_and_working_policy",
+    "note": "Null numeric fields unresolved. Null fuel means no fuel requirement established, not proof. Shared four-job queue is selected from workbench evidence."
+  },
+  {
+    "id": "smelter",
+    "fuel": "gasoline",
+    "health": 3000,
+    "footprint_tiles": null,
+    "queue_limit": 4,
+    "active_jobs": 1,
+    "confidence": "mixed_wiki_and_working_policy",
+    "note": "Null numeric fields unresolved. Null fuel means no fuel requirement established, not proof. Shared four-job queue is selected from workbench evidence."
+  },
+  {
+    "id": "tesla_bench",
+    "fuel": "energy_cells",
+    "health": 3000,
+    "footprint_tiles": null,
+    "queue_limit": 4,
+    "active_jobs": 1,
+    "confidence": "mixed_wiki_and_working_policy",
+    "note": "Null numeric fields unresolved. Null fuel means no fuel requirement established, not proof. Shared four-job queue is selected from workbench evidence."
+  },
+  {
+    "id": "welding_machine",
+    "fuel": null,
+    "health": null,
+    "footprint_tiles": null,
+    "queue_limit": 4,
+    "active_jobs": 1,
+    "confidence": "mixed_wiki_and_working_policy",
+    "note": "Null numeric fields unresolved. Null fuel means no fuel requirement established, not proof. Shared four-job queue is selected from workbench evidence."
+  },
+  {
+    "id": "compost",
+    "fuel": "wood",
+    "health": null,
+    "footprint_tiles": null,
+    "queue_limit": 4,
+    "active_jobs": 1,
+    "confidence": "mixed_wiki_and_working_policy",
+    "note": "Null numeric fields unresolved. Null fuel means no fuel requirement established, not proof. Shared four-job queue is selected from workbench evidence."
+  },
+  {
+    "id": "agitator",
+    "fuel": "gasoline",
+    "health": null,
+    "footprint_tiles": null,
+    "queue_limit": 4,
+    "active_jobs": 1,
+    "confidence": "mixed_wiki_and_working_policy",
+    "note": "Null numeric fields unresolved. Null fuel means no fuel requirement established, not proof. Shared four-job queue is selected from workbench evidence."
+  },
+  {
+    "id": "extractor",
+    "fuel": "gasoline",
+    "health": null,
+    "footprint_tiles": null,
+    "queue_limit": null,
+    "active_jobs": 1,
+    "confidence": "mixed_wiki_and_working_policy",
+    "note": "Null numeric fields unresolved. Null fuel means no fuel requirement established, not proof. Shared four-job queue is selected from workbench evidence."
+  },
+  {
+    "id": "feeder",
+    "fuel": "energy_cells",
+    "health": 250,
+    "footprint_tiles": null,
+    "queue_limit": null,
+    "active_jobs": null,
+    "confidence": "mixed_wiki_and_working_policy",
+    "note": "Null numeric fields unresolved. Null fuel means no fuel requirement established, not proof. Shared four-job queue is selected from workbench evidence."
+  }
+]

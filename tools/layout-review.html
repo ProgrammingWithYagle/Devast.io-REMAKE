@@ -1,0 +1,14 @@
+<!doctype html><html><head><meta charset="utf-8"><base href="/"><title>Authored layout review</title><style>body{background:#192e23;color:#e5dec0;font:15px system-ui;margin:14px}header{display:flex;gap:16px;align-items:center;margin-bottom:12px}select,button{font:inherit;padding:6px}main{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}figure{margin:0;background:#294533;border:1px solid #769171;border-radius:6px;overflow:hidden}figcaption{padding:5px 10px}canvas{display:block;width:100%;height:auto}</style></head><body><header><b>Authored layouts</b><select id="group" aria-label="Layout group"><option value="0">Houses 1–5</option><option value="1">Houses 6–10</option><option value="2">City 1–5</option><option value="3">City 6–9 and cave</option></select><span>Actual renderer · geometry review · occlusion disabled</span></header><main></main><script type="module">
+import {Renderer} from '/src/presentation/renderer.ts';
+import {defaultSettings} from '/src/presentation/audio.ts';
+import {Game} from '/src/core/game.ts';
+import {blankWorld,placeBlueprint} from '/src/world/generate.ts';
+import {HOUSES,CITY,CAVE} from '/src/world/blueprints.ts';
+const source=document.createElement('canvas'),renderer=new Renderer(source,{...defaultSettings,quality:1}),blueprints=[...HOUSES,...CITY,CAVE];
+renderer.resize(500,250);renderer.occlusion=false;await renderer.load();
+function draw(){document.querySelector('main').replaceChildren();for(const b of blueprints.slice(Number(document.querySelector('#group').value)*5,Number(document.querySelector('#group').value)*5+5)){
+ const width=Math.max(...b.rows.map(r=>r.length))*64,height=b.rows.length*64,w=blankWorld('layout-'+b.id);placeBlueprint(w,b,40,40,b.id.startsWith('city'));const g=new Game(w);g.player.x=40*64+width/2;g.player.y=40*64+height/2;g.world.time=100;renderer.settings.zoom=Math.min(1,440/(width+64),210/(height+64));renderer.draw(g,100);
+ const figure=document.createElement('figure'),caption=document.createElement('figcaption'),canvas=document.createElement('canvas');canvas.width=1000;canvas.height=500;canvas.setAttribute('aria-label',b.name);canvas.getContext('2d').drawImage(source,0,0,1000,500);caption.textContent=b.name+' · '+b.id;figure.append(caption,canvas);document.querySelector('main').append(figure);
+}}
+document.querySelector('#group').addEventListener('change',draw);draw();
+</script></body></html>

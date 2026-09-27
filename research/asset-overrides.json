@@ -1,0 +1,315 @@
+{
+  "weaving_machine": {
+    "world": "assets/replacements/weaving-machine-v1.png",
+    "worldFrame": [
+      414,
+      230,
+      714,
+      598
+    ],
+    "review": "Reviewed transparent loom derivative; wooden tabletop preserved, inventory border removed."
+  },
+  "string": {
+    "world": "assets/replacements/string-ground-v1.png",
+    "worldFrame": [
+      283,
+      253,
+      802,
+      700
+    ],
+    "review": "Reviewed transparent spool derivative for dropped items."
+  },
+  "leather": {
+    "world": "assets/replacements/leather-ground-v1.png",
+    "worldFrame": [
+      265,
+      218,
+      721,
+      822
+    ],
+    "review": "Reviewed transparent hide derivative for dropped items."
+  },
+  "animal_tendon": {
+    "world": "assets/replacements/tendon-ground-v1.png",
+    "worldFrame": [
+      173,
+      200,
+      915,
+      853
+    ],
+    "review": "Reviewed transparent tendon derivative for dropped items."
+  },
+  "animal_fat": {
+    "world": "assets/replacements/fat-ground-v1.png",
+    "worldFrame": [
+      236,
+      258,
+      802,
+      766
+    ],
+    "review": "Reviewed transparent fat derivative for dropped items."
+  },
+  "wood_floor": {
+    "worldFrame": [
+      8,
+      8,
+      184,
+      184
+    ],
+    "review": "Interior texture region of original 200px placed-floor sprite, tiled without duplicating its inventory-like outer border."
+  },
+  "iron_node": {
+    "world": "assets/replacements/iron-node-v1.png",
+    "worldFrame": [
+      182,
+      212,
+      936,
+      883
+    ],
+    "review": "Original silhouette with generated transparent extraction; standalone output reviewed, runtime scale reviewed; see docs/DIFFERENCES.md."
+  },
+  "metal_axe": {
+    "icon": "assets/replacements/metal-axe-v1.png",
+    "world": "assets/replacements/metal-axe-v1.png",
+    "worldFrame": [
+      282,
+      118,
+      695,
+      1020
+    ],
+    "review": "Generated replacement using reference hatchet style; no recovered metal-axe sprite."
+  },
+  "television": {
+    "world": "assets/replacements/computers-v1.png",
+    "worldFrame": [
+      94,
+      76,
+      731,
+      711
+    ],
+    "review": "First frame of reviewed TVandPC transparent derivative."
+  },
+  "office_computer": {
+    "world": "assets/replacements/computers-v1.png",
+    "worldFrame": [
+      972,
+      68,
+      708,
+      709
+    ],
+    "review": "Second frame of reviewed TVandPC transparent derivative."
+  },
+  "sofa": {
+    "world": "assets/replacements/sofas-v1.png",
+    "worldFrames": [
+      [
+        27,
+        169,
+        392,
+        373
+      ],
+      [
+        455,
+        169,
+        395,
+        373
+      ],
+      [
+        884,
+        169,
+        399,
+        373
+      ],
+      [
+        1315,
+        167,
+        401,
+        375
+      ],
+      [
+        1751,
+        167,
+        395,
+        375
+      ]
+    ],
+    "review": "Five separate frames of reviewed Sofa transparent derivative."
+  },
+  "bed": {
+    "world": "assets/replacements/beds-v1.png",
+    "worldFrames": [
+      [
+        117,
+        98,
+        581,
+        519
+      ],
+      [
+        817,
+        97,
+        537,
+        518
+      ]
+    ],
+    "review": "Two separate bed frames, transparent reference derivative."
+  },
+  "bunker_bed": {
+    "world": "assets/replacements/beds-v1.png",
+    "worldFrame": [
+      1492,
+      97,
+      565,
+      519
+    ],
+    "review": "Third frame, bunker bed reference derivative."
+  },
+  "table": {
+    "world": "assets/replacements/tables-v1.png",
+    "worldFrames": [
+      [
+        358,
+        270,
+        405,
+        396
+      ],
+      [
+        871,
+        195,
+        545,
+        517
+      ]
+    ],
+    "review": "Separate cluttered and plain tabletop frames; original strip is not stretched."
+  },
+  "computer": {
+    "world": "assets/replacements/electronics-v1.png",
+    "worldFrame": [
+      119,
+      209,
+      449,
+      344
+    ],
+    "review": "Small panel computer, transparent reference derivative."
+  },
+  "big_computer": {
+    "world": "assets/replacements/electronics-v1.png",
+    "worldFrame": [
+      771,
+      61,
+      613,
+      600
+    ],
+    "review": "Big computer including external cabling, transparent reference derivative."
+  },
+  "safe": {
+    "world": "assets/replacements/electronics-v1.png",
+    "worldFrame": [
+      1632,
+      110,
+      404,
+      501
+    ],
+    "review": "Steel safe, transparent reference derivative."
+  },
+  "sink": {
+    "world": "assets/replacements/plumbing-v1.png",
+    "worldFrame": [
+      242,
+      165,
+      571,
+      553
+    ],
+    "review": "Sink including lower wood edge, transparent reference derivative."
+  },
+  "toilet": {
+    "world": "assets/replacements/plumbing-v1.png",
+    "worldFrame": [
+      1031,
+      174,
+      499,
+      550
+    ],
+    "review": "Toilet, transparent reference derivative."
+  },
+  "sulfur": {
+    "world": "assets/replacements/sulfur-ground-v1.png",
+    "worldFrame": [
+      211,
+      297,
+      818,
+      643
+    ],
+    "review": "Transparent derivative inspected standalone; original inventory backdrop removed. Runtime scale reviewed; see docs/DIFFERENCES.md."
+  },
+  "uranium": {
+    "world": "assets/replacements/uranium-ground-v1.png",
+    "worldFrame": [
+      252,
+      331,
+      771,
+      624
+    ],
+    "review": "Transparent derivative inspected standalone; original inventory backdrop removed. Runtime scale reviewed; see docs/DIFFERENCES.md."
+  },
+  "shaped_uranium": {
+    "world": "assets/replacements/shaped-uranium-ground-v1.png",
+    "worldFrame": [
+      352,
+      248,
+      858,
+      524
+    ],
+    "review": "Transparent derivative inspected standalone; original inventory backdrop removed. Runtime scale reviewed; see docs/DIFFERENCES.md."
+  },
+  "bandage": {
+    "world": "assets/replacements/bandage-ground-v1.png",
+    "worldFrame": [
+      168,
+      127,
+      919,
+      1011
+    ],
+    "review": "Transparent derivative inspected standalone; original inventory backdrop removed. Runtime scale reviewed; see docs/DIFFERENCES.md."
+  },
+  "bullet": {
+    "world": "assets/replacements/bullet-ground-v1.png",
+    "worldFrame": [
+      227,
+      269,
+      801,
+      722
+    ],
+    "review": "Transparent derivative inspected standalone; original inventory backdrop removed. Runtime scale reviewed; see docs/DIFFERENCES.md."
+  },
+  "cartridge": {
+    "world": "assets/replacements/cartridge-ground-v1.png",
+    "worldFrame": [
+      260,
+      311,
+      755,
+      643
+    ],
+    "review": "Transparent derivative inspected standalone; original inventory backdrop removed. Runtime scale reviewed; see docs/DIFFERENCES.md."
+  },
+  "heavy_bullet": {
+    "world": "assets/replacements/heavy-bullet-ground-v1.png",
+    "worldFrame": [
+      216,
+      261,
+      848,
+      716
+    ],
+    "review": "Transparent derivative inspected standalone; original inventory backdrop removed. Runtime scale reviewed; see docs/DIFFERENCES.md."
+  },
+  "iron": {
+    "world": "assets/replacements/iron-node-v1.png",
+    "worldFrame": [
+      182,
+      212,
+      936,
+      883
+    ],
+    "review": "Smaller ore fragment reuses the reviewed transparent iron-rock silhouette; original inventory role missing.",
+    "icon": "assets/replacements/iron-node-v1.png"
+  }
+}

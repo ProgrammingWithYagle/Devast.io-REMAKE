@@ -1,0 +1,58 @@
+[
+  {
+    "id": "sulfur-ground-v1",
+    "item": "sulfur",
+    "source": "Inv-sulfur-in.png",
+    "subject": "the three bright yellow sulfur crystal chunks, keeping their angular silhouette and flat yellow facets",
+    "path": "stage1/assets/wiki/Inv-sulfur-in.png",
+    "prompt": "Use case: background-extraction. Asset type: one transparent dropped-item sprite for a local Devast.io remake. Image 1 is the edit target. Extract only the three bright yellow sulfur crystal chunks, keeping their angular silhouette and flat yellow facets. Remove the entire rounded square interface card, its gray or green background, and any background border. Preserve the original simple cartoon game style, thick near-black outline, palette, proportions and orientation. Center one item group with ample genuinely alpha-transparent empty margins. No background, no floor, no checkerboard pixels, no text, no interface frame, no photorealism, no extra objects. Keep the dark outline around the item itself."
+  },
+  {
+    "id": "uranium-ground-v1",
+    "item": "uranium",
+    "source": "Inv-uranium-in.png",
+    "subject": "the two stacked green raw uranium ore pieces, keeping their green flat facets and irregular elongated silhouette",
+    "path": "stage1/assets/wiki/Inv-uranium-in.png",
+    "prompt": "Use case: background-extraction. Asset type: one transparent dropped-item sprite for a local Devast.io remake. Image 1 is the edit target. Extract only the two stacked green raw uranium ore pieces, keeping their green flat facets and irregular elongated silhouette. Remove the entire rounded square interface card, its gray or green background, and any background border. Preserve the original simple cartoon game style, thick near-black outline, palette, proportions and orientation. Center one item group with ample genuinely alpha-transparent empty margins. No background, no floor, no checkerboard pixels, no text, no interface frame, no photorealism, no extra objects. Keep the dark outline around the item itself."
+  },
+  {
+    "id": "shaped-uranium-ground-v1",
+    "item": "shaped_uranium",
+    "source": "Shaped-uranium.png",
+    "subject": "the shaped green uranium ingot and its little yellow-green sparkle, keeping the flat polygonal shape",
+    "path": "stage1/assets/wiki/Shaped-uranium.png",
+    "prompt": "Use case: background-extraction. Asset type: one transparent dropped-item sprite for a local Devast.io remake. Image 1 is the edit target. Extract only the shaped green uranium ingot and its little yellow-green sparkle, keeping the flat polygonal shape. Remove the entire rounded square interface card, its gray or green background, and any background border. Preserve the original simple cartoon game style, thick near-black outline, palette, proportions and orientation. Center one item group with ample genuinely alpha-transparent empty margins. No background, no floor, no checkerboard pixels, no text, no interface frame, no photorealism, no extra objects. Keep the dark outline around the item itself."
+  },
+  {
+    "id": "bandage-ground-v1",
+    "item": "bandage",
+    "source": "Inv-bandage-in.png",
+    "subject": "the two crossed cream bandages, keeping their diagonal angles, rounded ends and pale flat shading",
+    "path": "stage1/assets/wiki/Inv-bandage-in.png",
+    "prompt": "Use case: background-extraction. Asset type: one transparent dropped-item sprite for a local Devast.io remake. Image 1 is the edit target. Extract only the two crossed cream bandages, keeping their diagonal angles, rounded ends and pale flat shading. Remove the entire rounded square interface card, its gray or green background, and any background border. Preserve the original simple cartoon game style, thick near-black outline, palette, proportions and orientation. Center one item group with ample genuinely alpha-transparent empty margins. No background, no floor, no checkerboard pixels, no text, no interface frame, no photorealism, no extra objects. Keep the dark outline around the item itself."
+  },
+  {
+    "id": "bullet-ground-v1",
+    "item": "bullet",
+    "source": "Bullet-9mm.png",
+    "subject": "the four gold pistol bullets, three upright and one lying diagonally, preserving the arrangement and simple flat brass coloring",
+    "path": "stage1/assets/wiki/Bullet-9mm.png",
+    "prompt": "Use case: background-extraction. Asset type: one transparent dropped-item sprite for a local Devast.io remake. Image 1 is the edit target. Extract only the four gold pistol bullets, three upright and one lying diagonally, preserving the arrangement and simple flat brass coloring. Remove the entire rounded square interface card, its gray or green background, and any background border. Preserve the original simple cartoon game style, thick near-black outline, palette, proportions and orientation. Center one item group with ample genuinely alpha-transparent empty margins. No background, no floor, no checkerboard pixels, no text, no interface frame, no photorealism, no extra objects. Keep the dark outline around the item itself."
+  },
+  {
+    "id": "cartridge-ground-v1",
+    "item": "cartridge",
+    "source": "Bullet-shotgun.png",
+    "subject": "the three shotgun shells with red bodies and yellow brass caps, two upright and one lying sideways, preserving their arrangement",
+    "path": "stage1/assets/wiki/Bullet-shotgun.png",
+    "prompt": "Use case: background-extraction. Asset type: one transparent dropped-item sprite for a local Devast.io remake. Image 1 is the edit target. Extract only the three shotgun shells with red bodies and yellow brass caps, two upright and one lying sideways, preserving their arrangement. Remove the entire rounded square interface card, its gray or green background, and any background border. Preserve the original simple cartoon game style, thick near-black outline, palette, proportions and orientation. Center one item group with ample genuinely alpha-transparent empty margins. No background, no floor, no checkerboard pixels, no text, no interface frame, no photorealism, no extra objects. Keep the dark outline around the item itself."
+  },
+  {
+    "id": "heavy-bullet-ground-v1",
+    "item": "heavy_bullet",
+    "source": "Bullet-sniper.png",
+    "subject": "the four long rifle bullets with golden tips and dark green lower cases, three upright and one sideways, preserving their arrangement",
+    "path": "stage1/assets/wiki/Bullet-sniper.png",
+    "prompt": "Use case: background-extraction. Asset type: one transparent dropped-item sprite for a local Devast.io remake. Image 1 is the edit target. Extract only the four long rifle bullets with golden tips and dark green lower cases, three upright and one sideways, preserving their arrangement. Remove the entire rounded square interface card, its gray or green background, and any background border. Preserve the original simple cartoon game style, thick near-black outline, palette, proportions and orientation. Center one item group with ample genuinely alpha-transparent empty margins. No background, no floor, no checkerboard pixels, no text, no interface frame, no photorealism, no extra objects. Keep the dark outline around the item itself."
+  }
+]

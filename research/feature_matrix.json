@@ -1,0 +1,357 @@
+[
+  {
+    "id": "opening",
+    "feature": "New game and controls",
+    "required": true,
+    "report": "docs/02_Survival_Combat_and_AI.md",
+    "stage1_status": "Observed spawn; partial live input review",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "movement",
+    "feature": "Walking sprinting aiming and collision",
+    "required": true,
+    "report": "docs/02_Survival_Combat_and_AI.md",
+    "stage1_status": "Behavior documented; exact motion unmeasured",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "survival",
+    "feature": "Health hunger warmth energy radiation",
+    "required": true,
+    "report": "docs/02_Survival_Combat_and_AI.md",
+    "stage1_status": "Numeric working baseline; missing curves explicit",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "time",
+    "feature": "Day night and independent clocks",
+    "required": true,
+    "report": "docs/02_Survival_Combat_and_AI.md",
+    "stage1_status": "Selected cycle; clock separation specified",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "heat_light",
+    "feature": "Fire sunlight lamps darkness",
+    "required": true,
+    "report": "docs/02_Survival_Combat_and_AI.md",
+    "stage1_status": "Official light rates; heat geometry uncertain",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "gather",
+    "feature": "Harvest tools resources critical yield",
+    "required": true,
+    "report": "docs/03_Progression_Crafting_and_Construction.md",
+    "stage1_status": "Rules documented; distributions need calibration",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "animals",
+    "feature": "Dead boar and deer harvest",
+    "required": true,
+    "report": "docs/03_Progression_Crafting_and_Construction.md",
+    "stage1_status": "Active carcasses; living wildlife excluded",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "food",
+    "feature": "Food effects spoilage refrigeration",
+    "required": true,
+    "report": "docs/02_Survival_Combat_and_AI.md",
+    "stage1_status": "19 food records; lifetime unknown",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "medicine",
+    "feature": "Bandage medkit and four drugs",
+    "required": true,
+    "report": "docs/02_Survival_Combat_and_AI.md",
+    "stage1_status": "Recipes/effects documented; interrupts uncertain",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "xp",
+    "feature": "XP levels karma and research",
+    "required": true,
+    "report": "docs/03_Progression_Crafting_and_Construction.md",
+    "stage1_status": "80 thresholds; karma normalization unresolved",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "upgrades",
+    "feature": "Inventory builder lightweight zoom",
+    "required": true,
+    "report": "docs/03_Progression_Crafting_and_Construction.md",
+    "stage1_status": "Later overrides plus tier-3 cost choice",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "inventory",
+    "feature": "Slots equipment stacks transfers",
+    "required": true,
+    "report": "docs/03_Progression_Crafting_and_Construction.md",
+    "stage1_status": "Rules documented; base count/split gesture unmeasured",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "craft",
+    "feature": "Recipe availability and sequential queues",
+    "required": true,
+    "report": "docs/03_Progression_Crafting_and_Construction.md",
+    "stage1_status": "119 recipes; null unlock/time fields remain",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "stations",
+    "feature": "13 station/action contexts and fuels",
+    "required": true,
+    "report": "docs/03_Progression_Crafting_and_Construction.md",
+    "stage1_status": "Roles/fuel listed; most burn rates unknown",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "farming",
+    "feature": "Fruit trees acorns regrowth",
+    "required": true,
+    "report": "docs/03_Progression_Crafting_and_Construction.md",
+    "stage1_status": "Yield/growth references; lifespan unknown",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "extractor",
+    "feature": "Mineral extraction",
+    "required": true,
+    "report": "docs/03_Progression_Crafting_and_Construction.md",
+    "stage1_status": "Approximate ranges and times",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "feeder",
+    "feature": "Automatic endgame feeding",
+    "required": true,
+    "report": "docs/03_Progression_Crafting_and_Construction.md",
+    "stage1_status": "Official presence; rate/radius unmeasured",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "construction",
+    "feature": "Full/low walls doors floors ownership",
+    "required": true,
+    "report": "docs/03_Progression_Crafting_and_Construction.md",
+    "stage1_status": "Durability baseline; geometry calibration needed",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "uranium",
+    "feature": "Uranium wall and door",
+    "required": true,
+    "report": "docs/04_World_Presentation_and_Asset_Library.md",
+    "stage1_status": "Official required content; recipe/stats missing",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "storage",
+    "feature": "Chests fridges ground loot",
+    "required": true,
+    "report": "docs/03_Progression_Crafting_and_Construction.md",
+    "stage1_status": "Four-slot baseline; fridge-content conflict",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "repair",
+    "feature": "Hammer repair hammer nail gun",
+    "required": true,
+    "report": "docs/02_Survival_Combat_and_AI.md",
+    "stage1_status": "Roles; multipliers/calibration incomplete",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "weapons",
+    "feature": "Melee thrown bow ballistic energy",
+    "required": true,
+    "report": "docs/02_Survival_Combat_and_AI.md",
+    "stage1_status": "23 combat records; timing/range gaps",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "armor",
+    "feature": "16 wearable recipes and protection families",
+    "required": true,
+    "report": "docs/02_Survival_Combat_and_AI.md",
+    "stage1_status": "Roles documented; mitigation estimates provisional",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "explosives",
+    "feature": "Mine dynamite C4 trigger grenade barrels",
+    "required": true,
+    "report": "docs/02_Survival_Combat_and_AI.md",
+    "stage1_status": "Split actor/structure values; blast curves missing",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "traps",
+    "feature": "Spikes trigger state and lightweight",
+    "required": true,
+    "report": "docs/02_Survival_Combat_and_AI.md",
+    "stage1_status": "Behavior documented; probability/fuse gaps",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "ghouls",
+    "feature": "Five survival types",
+    "required": true,
+    "report": "docs/02_Survival_Combat_and_AI.md",
+    "stage1_status": "Selected stats; spawn/path details unmeasured",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "robots",
+    "feature": "LapaBot HAL Bot Tesla Bot",
+    "required": true,
+    "report": "docs/02_Survival_Combat_and_AI.md",
+    "stage1_status": "Roles and selected values; some death conflicts",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "death",
+    "feature": "Ordinary death and sleeping bag",
+    "required": true,
+    "report": "docs/02_Survival_Combat_and_AI.md",
+    "stage1_status": "31 visual kit records; ownership/XP split uncertain",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "circuits",
+    "feature": "Cables bridge ports gates timer switch",
+    "required": true,
+    "report": "docs/03_Progression_Crafting_and_Construction.md",
+    "stage1_status": "Official topology/truth; timing gaps",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "city",
+    "feature": "Nine-building city and puzzles",
+    "required": true,
+    "report": "docs/04_World_Presentation_and_Asset_Library.md",
+    "stage1_status": "Image references; blueprint transcription next",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "houses",
+    "feature": "Distinct abandoned houses",
+    "required": true,
+    "report": "docs/04_World_Presentation_and_Asset_Library.md",
+    "stage1_status": "Ten numbered layouts plus official named variants",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "caves",
+    "feature": "Caves bunker and occlusion",
+    "required": true,
+    "report": "docs/04_World_Presentation_and_Asset_Library.md",
+    "stage1_status": "Official active feature; geometry/rules partial",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "loot",
+    "feature": "Pools refill salvage",
+    "required": true,
+    "report": "docs/04_World_Presentation_and_Asset_Library.md",
+    "stage1_status": "Qualitative pools and 21 salvage groups",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "world",
+    "feature": "Map seed resources regeneration",
+    "required": true,
+    "report": "docs/04_World_Presentation_and_Asset_Library.md",
+    "stage1_status": "Design approach; original coordinates unknown",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "art",
+    "feature": "Sprite roles damage states animation",
+    "required": true,
+    "report": "docs/04_World_Presentation_and_Asset_Library.md",
+    "stage1_status": "843 files; semantic mapping/replacements remain",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "ui",
+    "feature": "HUD crafting inventory menu feedback",
+    "required": true,
+    "report": "docs/04_World_Presentation_and_Asset_Library.md",
+    "stage1_status": "Live/footage observations; no external links",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "audio",
+    "feature": "Music actions ambience Geiger",
+    "required": true,
+    "report": "docs/04_World_Presentation_and_Asset_Library.md",
+    "stage1_status": "51 audio files; playback mapping/licensing gaps",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "save",
+    "feature": "12 slots autosaves import export migrations",
+    "required": true,
+    "report": "docs/05_Implementation_Plan_and_Verification.md",
+    "stage1_status": "Intentional addition with full specification",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "offline",
+    "feature": "Pause focus loss offline launch",
+    "required": true,
+    "report": "docs/05_Implementation_Plan_and_Verification.md",
+    "stage1_status": "Intentional local adaptation with tests",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "validation",
+    "feature": "Parity scenarios recovery performance",
+    "required": true,
+    "report": "docs/05_Implementation_Plan_and_Verification.md",
+    "stage1_status": "Concrete gates; no Stage 2 tests run yet",
+    "stage2_status": "not_started"
+  },
+  {
+    "id": "multiplayer",
+    "feature": "Networking accounts chat teams leaderboards",
+    "required": false,
+    "stage1_status": "Intentional exclusion documented",
+    "stage2_status": "excluded"
+  },
+  {
+    "id": "excluded_modes",
+    "feature": "Ghoul Mode Battle Royale server administration",
+    "required": false,
+    "stage1_status": "Intentional exclusion documented",
+    "stage2_status": "excluded"
+  },
+  {
+    "id": "events",
+    "feature": "Removed Halloween and Christmas content",
+    "required": false,
+    "stage1_status": "Intentional exclusion documented",
+    "stage2_status": "excluded"
+  },
+  {
+    "id": "planned",
+    "feature": "Living wildlife and turret",
+    "required": false,
+    "stage1_status": "Intentional exclusion documented",
+    "stage2_status": "excluded"
+  },
+  {
+    "id": "external",
+    "feature": "External promotional navigation and ads",
+    "required": false,
+    "stage1_status": "Intentional exclusion documented",
+    "stage2_status": "excluded"
+  }
+]

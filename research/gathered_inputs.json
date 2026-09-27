@@ -1,0 +1,28 @@
+{
+  "inputs": [
+    "acorn",
+    "amanita",
+    "animal_fat",
+    "animal_tendon",
+    "big_wires",
+    "boletus",
+    "can",
+    "chemical_component",
+    "electronic_parts",
+    "ghoul_blood",
+    "iron",
+    "junk",
+    "leather",
+    "orange",
+    "rare_flower",
+    "raw_steak",
+    "russula",
+    "small_wire",
+    "stone",
+    "sulfur",
+    "tomato",
+    "uranium",
+    "wood"
+  ],
+  "note": "Several inputs, including cans, can also be crafted. These are allowed loot or harvest entry points."
+}

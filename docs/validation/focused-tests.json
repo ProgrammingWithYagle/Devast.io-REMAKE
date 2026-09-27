@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-27",
+  "startLocal": "10:07:37 America/New_York",
+  "command": "node node_modules/vitest/vitest.mjs run tests/simulation.test.ts tests/saves.test.ts tests/regressions.test.ts tests/puzzles.test.ts tests/features.test.ts tests/combat-matrix.test.ts",
+  "exitCode": 0,
+  "files": 6,
+  "passed": 226,
+  "durationSeconds": 7.03,
+  "cases": {
+    "simulation": 19,
+    "saves": 8,
+    "regressions": 23,
+    "puzzles": 10,
+    "features": 143,
+    "combatMatrix": 23
+  },
+  "typecheck": {
+    "command": "node node_modules/typescript/bin/tsc --noEmit",
+    "exitCode": 0
+  },
+  "productionBuild": {
+    "command": "node node_modules/vite/bin/vite.js build",
+    "exitCode": 0,
+    "javascript": "index-CKeGVOFk.js",
+    "css": "index-C70Vm9Oy.css"
+  }
+}

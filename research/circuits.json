@@ -1,0 +1,129 @@
+{
+  "source": "https://devast.io/changelog/",
+  "gates": [
+    {
+      "id": "or",
+      "inputs": 3,
+      "outputs": 1,
+      "rule": "active_input_count >= 1"
+    },
+    {
+      "id": "and",
+      "inputs": 3,
+      "outputs": 1,
+      "rule": "active_input_count == 3"
+    },
+    {
+      "id": "not",
+      "inputs": 1,
+      "outputs": 3,
+      "rule": "not input_0"
+    },
+    {
+      "id": "xor",
+      "inputs": 3,
+      "outputs": 1,
+      "rule": "active_input_count == 1"
+    }
+  ],
+  "truth_table": [
+    {
+      "input": [
+        false,
+        false,
+        false
+      ],
+      "or": false,
+      "and": false,
+      "xor": false
+    },
+    {
+      "input": [
+        false,
+        false,
+        true
+      ],
+      "or": true,
+      "and": false,
+      "xor": true
+    },
+    {
+      "input": [
+        false,
+        true,
+        false
+      ],
+      "or": true,
+      "and": false,
+      "xor": true
+    },
+    {
+      "input": [
+        false,
+        true,
+        true
+      ],
+      "or": true,
+      "and": false,
+      "xor": false
+    },
+    {
+      "input": [
+        true,
+        false,
+        false
+      ],
+      "or": true,
+      "and": false,
+      "xor": true
+    },
+    {
+      "input": [
+        true,
+        false,
+        true
+      ],
+      "or": true,
+      "and": false,
+      "xor": false
+    },
+    {
+      "input": [
+        true,
+        true,
+        false
+      ],
+      "or": true,
+      "and": false,
+      "xor": false
+    },
+    {
+      "input": [
+        true,
+        true,
+        true
+      ],
+      "or": true,
+      "and": true,
+      "xor": false
+    }
+  ],
+  "timer": {
+    "ordered_speeds": [
+      "red",
+      "orange",
+      "yellow",
+      "green"
+    ],
+    "period_seconds": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "pulse_seconds": null
+  },
+  "bridge": "Crossing channels remain isolated",
+  "unconnected_port_policy": "False is a provisional rule; verify AND behavior",
+  "feedback_policy": "Bounded tick evaluation; do not recurse infinitely"
+}

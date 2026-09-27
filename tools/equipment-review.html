@@ -1,0 +1,13 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Equipment visual review</title><style>
+body{font:15px system-ui;background:#1e3025;color:#ece8d1;margin:24px}h1{font-size:24px;margin-bottom:8px}p{max-width:700px;color:#b9c4ae}select{font:inherit;background:#ddd7b8;color:#1e3025;padding:8px;margin:12px}canvas{display:block;max-width:100%;height:auto;border:1px solid #101c14}label{font-weight:bold}
+</style></head><body><h1>Equipment visual review</h1><p>Controlled artwork fixture using the actual game player renderer. Check silhouette, grip, outline, and the distinction between equipment tiers. Shown at 1.35× gameplay scale. This review page is excluded from the packaged game.</p><label>Equipment group <select id="group"><option value="clothing">Clothing</option><option value="tools">Tools and bows</option><option value="guns">Firearms</option></select></label><canvas id="review" aria-label="Equipment silhouettes"></canvas><script type="module">
+import {Renderer} from '/src/presentation/renderer.ts';
+import {defaultSettings} from '/src/presentation/audio.ts';
+import {DATA,WEAPONS} from '/src/content/index.ts';
+import {Game} from '/src/core/game.ts';
+import {blankWorld} from '/src/world/generate.ts';
+import {stack} from '/src/core/inventory.ts';
+const canvas=document.querySelector('canvas'),renderer=new Renderer(canvas,{...defaultSettings}),g=new Game(blankWorld());
+function render(){const type=document.querySelector('select').value;const projectiles=['bow','crossbow','spear'];const items=DATA.items.filter(i=>{if(type==='clothing')return !!i.armor;if(type==='tools'&&i.id==='grenade')return true;const weapon=WEAPONS[i.id];return weapon&&i.id!=='fists'&&(type==='tools'?!weapon.magazine||projectiles.includes(i.id):weapon.magazine&&!projectiles.includes(i.id));});canvas.width=720;canvas.height=Math.ceil(items.length/3)*142;canvas.style.width='720px';canvas.style.height='auto';const c=renderer.ctx;c.fillStyle='#46674e';c.fillRect(0,0,canvas.width,canvas.height);items.forEach((item,i)=>{const x=(i%3)*240,y=Math.floor(i/3)*142;c.save();c.translate(x+85,y+60);c.scale(1.35,1.35);g.player.x=g.player.y=0;g.player.aim=-.15;g.player.equipped=item.armor?stack(g.world,item.id,1):null;g.player.inventory=[item.armor?null:stack(g.world,item.id,1),...Array(5).fill(null)];g.player.selected=item.armor?-1:0;renderer.player(g);c.restore();c.fillStyle='#f0e9cc';c.textAlign='center';c.font='13px system-ui';c.fillText(item.name,x+120,y+122);c.strokeStyle='#294834';c.strokeRect(x+.5,y+.5,239,141);});}
+document.querySelector('select').addEventListener('change',render);render();
+</script></body></html>
