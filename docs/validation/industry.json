@@ -1,0 +1,604 @@
+{
+  "mode": "Automated ordinary game commands, accelerated wall-clock execution, unchanged 60 Hz simulation and balance. No debug grants.",
+  "seed": "stage2-acceptance",
+  "time": 7153.333333313386,
+  "player": {
+    "id": "player",
+    "owner": "owner-1",
+    "name": "Survivor",
+    "x": 956.695208180683,
+    "y": 3706.8238239930856,
+    "aim": 0.5495432946708335,
+    "hp": 255,
+    "hunger": 150.99999999562561,
+    "warmth": 255,
+    "energy": 255,
+    "radiation": 0,
+    "inventory": [
+      {
+        "uid": "i8010",
+        "item": "sulfur_pickaxe",
+        "quantity": 1,
+        "freshness": -1,
+        "loaded": 0
+      },
+      {
+        "uid": "i8164",
+        "item": "9mm",
+        "quantity": 1,
+        "freshness": -1,
+        "loaded": 0
+      },
+      {
+        "uid": "i9306",
+        "item": "orange",
+        "quantity": 1,
+        "freshness": 663,
+        "loaded": 0
+      },
+      {
+        "uid": "i7108",
+        "item": "metal_axe",
+        "quantity": 1,
+        "freshness": -1,
+        "loaded": 0
+      },
+      {
+        "uid": "i8099",
+        "item": "hammer",
+        "quantity": 1,
+        "freshness": -1,
+        "loaded": 0
+      },
+      {
+        "uid": "i8708",
+        "item": "radiation_suit",
+        "quantity": 1,
+        "freshness": -1,
+        "loaded": 0
+      },
+      null,
+      {
+        "uid": "i9290",
+        "item": "big_wires",
+        "quantity": 1,
+        "freshness": -1,
+        "loaded": 0
+      },
+      {
+        "uid": "i7900",
+        "item": "winter_coat",
+        "quantity": 1,
+        "freshness": -1,
+        "loaded": 0
+      },
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "equipped": {
+      "uid": "i9315",
+      "item": "tesla_armor",
+      "quantity": 1,
+      "freshness": -1,
+      "loaded": 0
+    },
+    "selected": 5,
+    "xp": 106918,
+    "level": 32,
+    "points": 5,
+    "unlocked": [
+      "hatchet",
+      "workbench",
+      "campfire",
+      "stone_pickaxe",
+      "weaving_machine",
+      "string",
+      "shaped_metal",
+      "shaped_uranium",
+      "alloys",
+      "gasoline",
+      "rotten_orange",
+      "nails",
+      "wood_wall",
+      "wood_door",
+      "wood_low_wall",
+      "wood_low_door",
+      "wood_floor",
+      "light_wood_floor",
+      "red_floor",
+      "golden_floor",
+      "wooden_spike",
+      "spear",
+      "bow",
+      "wooden_arrow",
+      "crossbow_arrow",
+      "bullet",
+      "heavy_bullet",
+      "cartridge",
+      "headscarf",
+      "radiation_mask",
+      "leather_jacket",
+      "camouflage_gear",
+      "metal_helmet",
+      "bandage",
+      "syringe",
+      "radaway",
+      "cooked_steak",
+      "can",
+      "tomato_soup",
+      "orange_seed",
+      "tomato_seed",
+      "tree_seed",
+      "firepit",
+      "research_bench",
+      "metal_pickaxe",
+      "metal_axe",
+      "winter_coat",
+      "chapka",
+      "compost",
+      "smelter",
+      "sulfur_pickaxe",
+      "hammer",
+      "9mm",
+      "radiation_suit",
+      "min_radiation_suit",
+      "tesla_bench",
+      "power_armor",
+      "tesla_armor"
+    ],
+    "upgrades": [
+      "inventory_1",
+      "inventory_2",
+      "inventory_3",
+      "inventory_4",
+      "inventory_5"
+    ],
+    "age": 7153.333333313386,
+    "lastDamage": 6720.83333331968,
+    "energyDelay": 0,
+    "exhausted": false,
+    "cooldown": 0,
+    "action": null,
+    "jobs": [],
+    "effects": {
+      "ghoul": 0,
+      "boost": 0,
+      "withdrawal": 0,
+      "poison": 0
+    },
+    "provoked": [
+      "normal_ghoul",
+      "fast_ghoul",
+      "explosive_ghoul",
+      "radioactive_ghoul",
+      "armored_ghoul"
+    ],
+    "dead": false,
+    "deathCause": "armored ghoul",
+    "kills": 97,
+    "distance": 485473.98101905244,
+    "milestones": [
+      "craft:hatchet",
+      "craft:workbench",
+      "workbench",
+      "craft:campfire",
+      "campfire",
+      "craft:stone_pickaxe",
+      "craft:firepit",
+      "firepit",
+      "craft:shaped_metal",
+      "craft:research_bench",
+      "research_bench",
+      "craft:metal_pickaxe",
+      "craft:metal_axe",
+      "craft:string",
+      "craft:weaving_machine",
+      "weaving_machine",
+      "craft:headscarf",
+      "craft:bandage",
+      "craft:chapka",
+      "craft:winter_coat",
+      "craft:compost",
+      "compost",
+      "craft:smelter",
+      "smelter",
+      "craft:sulfur_pickaxe",
+      "craft:radiation_mask",
+      "craft:hammer",
+      "craft:9mm",
+      "craft:bullet",
+      "craft:rotten_orange",
+      "craft:gasoline",
+      "craft:alloys",
+      "craft:min_radiation_suit",
+      "craft:radiation_suit",
+      "craft:shaped_uranium",
+      "craft:tesla_bench",
+      "tesla_bench",
+      "craft:power_armor",
+      "craft:tesla_armor"
+    ],
+    "spawn": {
+      "x": 1056,
+      "y": 4128
+    }
+  },
+  "trace": [
+    {
+      "time": 5985.3,
+      "message": "Loaded ordinary checkpoint at 5985 seconds"
+    },
+    {
+      "time": 5985.3,
+      "message": "Reached level 30 with 6 available points"
+    },
+    {
+      "time": 6005.2,
+      "message": "Ate tomato"
+    },
+    {
+      "time": 6016.6,
+      "message": "Crafted shaped_uranium"
+    },
+    {
+      "time": 6029.8,
+      "message": "Gathered 1 uranium"
+    },
+    {
+      "time": 6042.3,
+      "message": "Defended against pursuing ghouls; health 255"
+    },
+    {
+      "time": 6046.8,
+      "message": "Ate tomato"
+    },
+    {
+      "time": 6051.6,
+      "message": "Crafted shaped_uranium"
+    },
+    {
+      "time": 6064,
+      "message": "Gathered 1 uranium"
+    },
+    {
+      "time": 6083.9,
+      "message": "Crafted shaped_uranium"
+    },
+    {
+      "time": 6089.3,
+      "message": "Ate tomato"
+    },
+    {
+      "time": 6094.6,
+      "message": "Defended against pursuing ghouls; health 255"
+    },
+    {
+      "time": 6104.1,
+      "message": "Gathered 1 uranium"
+    },
+    {
+      "time": 6124,
+      "message": "Crafted shaped_uranium"
+    },
+    {
+      "time": 6130.6,
+      "message": "Ate tomato"
+    },
+    {
+      "time": 6137.4,
+      "message": "Gathered 1 uranium"
+    },
+    {
+      "time": 6157.3,
+      "message": "Crafted shaped_uranium"
+    },
+    {
+      "time": 6169.7,
+      "message": "Gathered 1 uranium"
+    },
+    {
+      "time": 6175.5,
+      "message": "Ate tomato"
+    },
+    {
+      "time": 6193,
+      "message": "Crafted shaped_uranium"
+    },
+    {
+      "time": 6205.4,
+      "message": "Gathered 1 uranium"
+    },
+    {
+      "time": 6213.6,
+      "message": "Ate tomato"
+    },
+    {
+      "time": 6226.3,
+      "message": "Crafted shaped_uranium"
+    },
+    {
+      "time": 6249,
+      "message": "Crafted shaped_uranium"
+    },
+    {
+      "time": 6255.6,
+      "message": "Ate tomato"
+    },
+    {
+      "time": 6259.8,
+      "message": "Defended against pursuing ghouls; health 255"
+    },
+    {
+      "time": 6265.7,
+      "message": "Gathered 1 uranium"
+    },
+    {
+      "time": 6286.1,
+      "message": "Defended against pursuing ghouls; health 195"
+    },
+    {
+      "time": 6287.7,
+      "message": "Crafted shaped_uranium"
+    },
+    {
+      "time": 6297.1,
+      "message": "Ate tomato"
+    },
+    {
+      "time": 6300.7,
+      "message": "Gathered 1 uranium"
+    },
+    {
+      "time": 6320.6,
+      "message": "Crafted shaped_uranium"
+    },
+    {
+      "time": 6339.1,
+      "message": "Ate tomato"
+    },
+    {
+      "time": 6401.3,
+      "message": "Defended against pursuing ghouls; health 255"
+    },
+    {
+      "time": 6401.3,
+      "message": "Ate tomato"
+    },
+    {
+      "time": 6408.4,
+      "message": "Defended against pursuing ghouls; health 255"
+    },
+    {
+      "time": 6410.7,
+      "message": "Gathered 30 wood"
+    },
+    {
+      "time": 6423.6,
+      "message": "Ate tomato"
+    },
+    {
+      "time": 6437.2,
+      "message": "Warmed up at camp"
+    },
+    {
+      "time": 6462.5,
+      "message": "Defended against pursuing ghouls; health 255"
+    },
+    {
+      "time": 6464.5,
+      "message": "Ate tomato"
+    },
+    {
+      "time": 6476.2,
+      "message": "Defended against pursuing ghouls; health 255"
+    },
+    {
+      "time": 6499.3,
+      "message": "Defended against pursuing ghouls; health 255"
+    },
+    {
+      "time": 6508.3,
+      "message": "Defended against pursuing ghouls; health 255"
+    },
+    {
+      "time": 6509.3,
+      "message": "Ate tomato"
+    },
+    {
+      "time": 6541.1,
+      "message": "Defended against pursuing ghouls; health 195"
+    },
+    {
+      "time": 6555.7,
+      "message": "Ate tomato"
+    },
+    {
+      "time": 6572.9,
+      "message": "Warmed up at camp"
+    },
+    {
+      "time": 6588.8,
+      "message": "Ate tomato"
+    },
+    {
+      "time": 6597.1,
+      "message": "Defended against pursuing ghouls; health 255"
+    },
+    {
+      "time": 6629.3,
+      "message": "Defended against pursuing ghouls; health 255"
+    },
+    {
+      "time": 6630.8,
+      "message": "Ate tomato"
+    },
+    {
+      "time": 6645.9,
+      "message": "Defended against pursuing ghouls; health 255"
+    },
+    {
+      "time": 6682.1,
+      "message": "Ate tomato"
+    },
+    {
+      "time": 6697.8,
+      "message": "Warmed up at camp"
+    },
+    {
+      "time": 6731,
+      "message": "Defended against pursuing ghouls; health 95"
+    },
+    {
+      "time": 6733,
+      "message": "Ate tomato"
+    },
+    {
+      "time": 6741.2,
+      "message": "Defended against pursuing ghouls; health 111"
+    },
+    {
+      "time": 6753,
+      "message": "Defended against pursuing ghouls; health 128"
+    },
+    {
+      "time": 6759.7,
+      "message": "Defended against pursuing ghouls; health 138"
+    },
+    {
+      "time": 6760.7,
+      "message": "Ate tomato"
+    },
+    {
+      "time": 6810.8,
+      "message": "Ate orange"
+    },
+    {
+      "time": 6830.7,
+      "message": "Ate orange"
+    },
+    {
+      "time": 6848.3,
+      "message": "Walking to big_computer for big_wires at 4512,1312"
+    },
+    {
+      "time": 6850.4,
+      "message": "Salvaged big_computer for big_wires"
+    },
+    {
+      "time": 6850.4,
+      "message": "Walking to big_computer for big_wires at 5024,1312"
+    },
+    {
+      "time": 6854.6,
+      "message": "Salvaged big_computer for big_wires"
+    },
+    {
+      "time": 6854.6,
+      "message": "Walking to big_computer for big_wires at 5024,1504"
+    },
+    {
+      "time": 6856.4,
+      "message": "Salvaged big_computer for big_wires"
+    },
+    {
+      "time": 6863.7,
+      "message": "Ate orange"
+    },
+    {
+      "time": 6899.3,
+      "message": "Ate orange"
+    },
+    {
+      "time": 6930.7,
+      "message": "Ate orange"
+    },
+    {
+      "time": 6945.8,
+      "message": "Gathered 1 iron"
+    },
+    {
+      "time": 6945.8,
+      "message": "Walking to office_computer for junk at 544,7456"
+    },
+    {
+      "time": 6956.6,
+      "message": "Salvaged office_computer for junk"
+    },
+    {
+      "time": 6963.7,
+      "message": "Ate orange"
+    },
+    {
+      "time": 6967.3,
+      "message": "Gathered 1 sulfur"
+    },
+    {
+      "time": 6997.4,
+      "message": "Ate orange"
+    },
+    {
+      "time": 6997.6,
+      "message": "Crafted alloys"
+    },
+    {
+      "time": 7005.6,
+      "message": "Crafted alloys"
+    },
+    {
+      "time": 7020,
+      "message": "Crafted alloys"
+    },
+    {
+      "time": 7029.7,
+      "message": "Cached big_wires on the ground to make room for rotten_orange"
+    },
+    {
+      "time": 7030.7,
+      "message": "Ate orange"
+    },
+    {
+      "time": 7063.5,
+      "message": "Ate orange"
+    },
+    {
+      "time": 7067.7,
+      "message": "Crafted gasoline"
+    },
+    {
+      "time": 7083.7,
+      "message": "Crafted alloys"
+    },
+    {
+      "time": 7097.1,
+      "message": "Ate orange"
+    },
+    {
+      "time": 7097.1,
+      "message": "Crafted alloys"
+    },
+    {
+      "time": 7100.3,
+      "message": "Gathered 1 iron"
+    },
+    {
+      "time": 7118.7,
+      "message": "Crafted alloys"
+    },
+    {
+      "time": 7130.2,
+      "message": "Ate orange"
+    },
+    {
+      "time": 7153.3,
+      "message": "Crafted tesla_armor"
+    },
+    {
+      "time": 7153.3,
+      "message": "Crafted and equipped Tesla armor through ordinary play"
+    }
+  ],
+  "error": null
+}

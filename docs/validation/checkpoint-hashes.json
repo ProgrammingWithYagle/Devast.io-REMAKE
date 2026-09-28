@@ -1,0 +1,37 @@
+[
+  {
+    "path": "artifacts/validation/research-playthrough.devastsave",
+    "bytes": 4278151,
+    "sha256": "3b60640a5f44b2e43fbb7a8ce478c13079abf892c921d7c28006d1856d4ea497"
+  },
+  {
+    "path": "artifacts/validation/milestones/industry-pre-city-3210.devastsave",
+    "bytes": 4507878,
+    "sha256": "7fb56e6e434e4be8b73ba16bfa6a42f9c98905281ab9fa7fb0258dd4655f5dca"
+  },
+  {
+    "path": "artifacts/validation/milestones/radiation-suit-4531.devastsave",
+    "bytes": 4628058,
+    "sha256": "f56d672f56204f05b672fad7f116f839b9d7c19a51c5afbe7f601bb19e7cb6de"
+  },
+  {
+    "path": "artifacts/validation/milestones/first-city-salvage-4889.devastsave",
+    "bytes": 4659111,
+    "sha256": "291a2a8f5ac3ae93e1d606ca8e45825d67028435fd73016274997df5c77afc92"
+  },
+  {
+    "path": "artifacts/validation/milestones/tesla-bench-5205.devastsave",
+    "bytes": 4676241,
+    "sha256": "2a9b61e97d84899b40adf56f2a4c28868e3ec8a38cf18f4acfd45782ba43c2e2"
+  },
+  {
+    "path": "artifacts/validation/milestones/power-armor-5985.devastsave",
+    "bytes": 4745133,
+    "sha256": "02bdf4442fab3f15ee544b8a96fe5dcb3eabcf4e347e7efd28a7c2d9f67f71a3"
+  },
+  {
+    "path": "artifacts/validation/industry-playthrough.devastsave",
+    "bytes": 4833564,
+    "sha256": "6077a429188453181b96a2a8aaae26678c06598287867a5b0a3b6546df4dcb59"
+  }
+]

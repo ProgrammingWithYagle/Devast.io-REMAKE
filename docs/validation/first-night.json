@@ -1,0 +1,387 @@
+{
+  "mode": "Automated ordinary game commands, accelerated wall-clock execution, unchanged 60 Hz simulation and balance. No debug grants.",
+  "seed": "stage2-acceptance",
+  "time": 965.0166666661177,
+  "player": {
+    "id": "player",
+    "owner": "owner-1",
+    "name": "Survivor",
+    "x": 1087.3631740581814,
+    "y": 3797.0748115587207,
+    "aim": 0.8737534609157682,
+    "hp": 255,
+    "hunger": 156.97999999940757,
+    "warmth": 255,
+    "energy": 255,
+    "radiation": 0,
+    "inventory": [
+      {
+        "uid": "i6582",
+        "item": "hatchet",
+        "quantity": 1,
+        "freshness": -1,
+        "loaded": 0
+      },
+      {
+        "uid": "i6932",
+        "item": "tomato",
+        "quantity": 1,
+        "freshness": 651,
+        "loaded": 0
+      },
+      null,
+      {
+        "uid": "i6687",
+        "item": "stone_pickaxe",
+        "quantity": 1,
+        "freshness": -1,
+        "loaded": 0
+      },
+      null,
+      null,
+      null,
+      null
+    ],
+    "equipped": null,
+    "selected": 1,
+    "xp": 3894,
+    "level": 6,
+    "points": 2,
+    "unlocked": [
+      "hatchet",
+      "workbench",
+      "campfire",
+      "stone_pickaxe",
+      "weaving_machine",
+      "string",
+      "shaped_metal",
+      "shaped_uranium",
+      "alloys",
+      "gasoline",
+      "rotten_orange",
+      "nails",
+      "wood_wall",
+      "wood_door",
+      "wood_low_wall",
+      "wood_low_door",
+      "wood_floor",
+      "light_wood_floor",
+      "red_floor",
+      "golden_floor",
+      "wooden_spike",
+      "spear",
+      "bow",
+      "wooden_arrow",
+      "crossbow_arrow",
+      "bullet",
+      "heavy_bullet",
+      "cartridge",
+      "headscarf",
+      "radiation_mask",
+      "leather_jacket",
+      "camouflage_gear",
+      "metal_helmet",
+      "bandage",
+      "syringe",
+      "radaway",
+      "cooked_steak",
+      "can",
+      "tomato_soup",
+      "orange_seed",
+      "tomato_seed",
+      "tree_seed",
+      "firepit",
+      "research_bench"
+    ],
+    "upgrades": [
+      "inventory_1",
+      "inventory_2"
+    ],
+    "age": 965.0166666661177,
+    "lastDamage": -100,
+    "energyDelay": 0,
+    "exhausted": false,
+    "cooldown": 0,
+    "action": null,
+    "jobs": [],
+    "effects": {
+      "ghoul": 0,
+      "boost": 0,
+      "withdrawal": 0,
+      "poison": 0
+    },
+    "provoked": [],
+    "dead": false,
+    "deathCause": "",
+    "kills": 0,
+    "distance": 13871.325371659646,
+    "milestones": [
+      "craft:hatchet",
+      "craft:workbench",
+      "workbench",
+      "craft:campfire",
+      "campfire",
+      "craft:stone_pickaxe",
+      "craft:firepit",
+      "firepit",
+      "craft:shaped_metal",
+      "craft:research_bench",
+      "research_bench"
+    ],
+    "spawn": {
+      "x": 1056,
+      "y": 4128
+    }
+  },
+  "trace": [
+    {
+      "time": 2.9,
+      "message": "Gathered 10 wood"
+    },
+    {
+      "time": 4.9,
+      "message": "Crafted hatchet"
+    },
+    {
+      "time": 10.1,
+      "message": "Gathered 40 wood"
+    },
+    {
+      "time": 15.1,
+      "message": "Gathered 20 stone"
+    },
+    {
+      "time": 30,
+      "message": "Crafted workbench"
+    },
+    {
+      "time": 30,
+      "message": "Placed workbench at 992,3936"
+    },
+    {
+      "time": 52,
+      "message": "Researched inventory_1"
+    },
+    {
+      "time": 52.9,
+      "message": "Gathered 150 wood"
+    },
+    {
+      "time": 54.6,
+      "message": "Gathered 5 stone"
+    },
+    {
+      "time": 59.6,
+      "message": "Crafted campfire"
+    },
+    {
+      "time": 59.6,
+      "message": "Placed campfire at 992,4064"
+    },
+    {
+      "time": 60.4,
+      "message": "Camp is fueled for the first night"
+    },
+    {
+      "time": 75.1,
+      "message": "Gathered 100 wood"
+    },
+    {
+      "time": 87.2,
+      "message": "Gathered 30 stone"
+    },
+    {
+      "time": 98,
+      "message": "Ate orange"
+    },
+    {
+      "time": 105.1,
+      "message": "Crafted stone_pickaxe"
+    },
+    {
+      "time": 121.4,
+      "message": "Gathered 20 iron"
+    },
+    {
+      "time": 131,
+      "message": "Ate orange"
+    },
+    {
+      "time": 138.2,
+      "message": "Gathered 20 iron"
+    },
+    {
+      "time": 138.2,
+      "message": "Reached level 3 with 2 available points"
+    },
+    {
+      "time": 159.1,
+      "message": "Gathered 120 wood"
+    },
+    {
+      "time": 164,
+      "message": "Ate orange"
+    },
+    {
+      "time": 169.7,
+      "message": "Gathered 20 stone"
+    },
+    {
+      "time": 190.3,
+      "message": "Crafted firepit"
+    },
+    {
+      "time": 190.3,
+      "message": "Placed firepit at 1120,3872"
+    },
+    {
+      "time": 197.3,
+      "message": "Ate orange"
+    },
+    {
+      "time": 211.3,
+      "message": "Gathered 100 wood"
+    },
+    {
+      "time": 228,
+      "message": "Researched inventory_2"
+    },
+    {
+      "time": 231,
+      "message": "Ate orange"
+    },
+    {
+      "time": 235.8,
+      "message": "Gathered 20 iron"
+    },
+    {
+      "time": 254.9,
+      "message": "Gathered 20 iron"
+    },
+    {
+      "time": 254.9,
+      "message": "Reached level 6 with 3 available points"
+    },
+    {
+      "time": 263.5,
+      "message": "Ate orange"
+    },
+    {
+      "time": 268.2,
+      "message": "Crafted shaped_metal"
+    },
+    {
+      "time": 276.3,
+      "message": "Crafted shaped_metal"
+    },
+    {
+      "time": 284.3,
+      "message": "Crafted shaped_metal"
+    },
+    {
+      "time": 292.3,
+      "message": "Crafted shaped_metal"
+    },
+    {
+      "time": 297.7,
+      "message": "Ate tomato"
+    },
+    {
+      "time": 300.4,
+      "message": "Crafted shaped_metal"
+    },
+    {
+      "time": 308.5,
+      "message": "Crafted shaped_metal"
+    },
+    {
+      "time": 308.5,
+      "message": "Walking to computer for electronic_parts at 1632,4064"
+    },
+    {
+      "time": 324.2,
+      "message": "Salvaged computer for electronic_parts"
+    },
+    {
+      "time": 338.5,
+      "message": "Ate tomato"
+    },
+    {
+      "time": 350.2,
+      "message": "Crafted research_bench"
+    },
+    {
+      "time": 350.2,
+      "message": "Placed research_bench at 928,3808"
+    },
+    {
+      "time": 350.2,
+      "message": "Ordinary research-bench milestone complete"
+    },
+    {
+      "time": 380.2,
+      "message": "Ate tomato"
+    },
+    {
+      "time": 423.4,
+      "message": "Ate orange"
+    },
+    {
+      "time": 455.2,
+      "message": "Ate orange"
+    },
+    {
+      "time": 488.5,
+      "message": "Ate orange"
+    },
+    {
+      "time": 523.4,
+      "message": "Ate tomato"
+    },
+    {
+      "time": 563.5,
+      "message": "Ate tomato"
+    },
+    {
+      "time": 605.2,
+      "message": "Ate tomato"
+    },
+    {
+      "time": 647.4,
+      "message": "Ate tomato"
+    },
+    {
+      "time": 688.5,
+      "message": "Ate tomato"
+    },
+    {
+      "time": 730.2,
+      "message": "Ate tomato"
+    },
+    {
+      "time": 771.9,
+      "message": "Ate tomato"
+    },
+    {
+      "time": 813.5,
+      "message": "Ate tomato"
+    },
+    {
+      "time": 855.2,
+      "message": "Ate tomato"
+    },
+    {
+      "time": 897.4,
+      "message": "Ate tomato"
+    },
+    {
+      "time": 938.5,
+      "message": "Ate tomato"
+    },
+    {
+      "time": 965,
+      "message": "Survived first night with 255 health"
+    }
+  ],
+  "error": null
+}

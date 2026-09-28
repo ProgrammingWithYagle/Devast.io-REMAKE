@@ -1,0 +1,2015 @@
+{
+  "hatchet": {
+    "icon": "assets/wiki/Hachet.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "wood": {
+    "icon": "assets/wiki/Wood.png",
+    "world": "assets/wiki/Wood-ground.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "stone": {
+    "icon": "assets/wiki/Stone.png",
+    "world": "assets/wiki/Stone-ground.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "workbench": {
+    "icon": "assets/wiki/Inv-workbench-in.png",
+    "world": "assets/wiki/Workbench.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "campfire": {
+    "icon": "assets/wiki/Inv-campfire-in.png",
+    "world": "assets/wiki/Campfire.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "stone_pickaxe": {
+    "icon": "assets/wiki/Inv-stone-pickaxe-out.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "firepit": {
+    "icon": "assets/wiki/Firepit.png",
+    "world": "assets/wiki/Firepit.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "iron": {
+    "icon": "assets/replacements/iron-node-v1.png",
+    "world": "assets/replacements/iron-node-v1.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Smaller ore fragment reuses the reviewed transparent iron-rock silhouette; original inventory role missing.",
+    "worldFrame": [
+      182,
+      212,
+      936,
+      883
+    ]
+  },
+  "weaving_machine": {
+    "icon": "assets/wiki/Weaving-machine.png",
+    "world": "assets/replacements/weaving-machine-v1.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Reviewed transparent loom derivative; wooden tabletop preserved, inventory border removed.",
+    "worldFrame": [
+      414,
+      230,
+      714,
+      598
+    ]
+  },
+  "string": {
+    "icon": "assets/wiki/Inv-string-in.png",
+    "world": "assets/replacements/string-ground-v1.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Reviewed transparent spool derivative for dropped items.",
+    "worldFrame": [
+      283,
+      253,
+      802,
+      700
+    ]
+  },
+  "research_bench": {
+    "icon": "assets/wiki/Research-Bench.png",
+    "world": "assets/wiki/Research-Bench.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "shaped_metal": {
+    "icon": "assets/wiki/Shaped Metal.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "electronic_parts": {
+    "icon": "assets/wiki/Electronic-Parts.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "smelter": {
+    "icon": "assets/wiki/Inv-smelter-in.png",
+    "world": "assets/wiki/Smelter day is of - Copy.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "tesla_bench": {
+    "icon": "assets/wiki/Day-workbench3.png",
+    "world": "assets/wiki/Day-workbench3.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "alloys": {
+    "icon": "assets/wiki/Alloys.png",
+    "world": "assets/official_changelog/day-ground-alloys.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "big_wires": {
+    "icon": "assets/official_changelog/day-ground-wires.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "shaped_uranium": {
+    "icon": "assets/wiki/Shaped-uranium.png",
+    "world": "assets/replacements/shaped-uranium-ground-v1.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Transparent derivative inspected standalone; original inventory backdrop removed. Runtime scale reviewed; see docs/DIFFERENCES.md.",
+    "worldFrame": [
+      352,
+      248,
+      858,
+      524
+    ]
+  },
+  "welding_machine": {
+    "icon": "assets/wiki/Inv-welding-machine-in.png",
+    "world": "assets/official_changelog/day-ground-welding-machine.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "junk": {
+    "icon": "assets/wiki/Inv-junk-in.png",
+    "world": "assets/official_changelog/day-ground-junk.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "compost": {
+    "icon": "assets/official_changelog/day-ground-composter.png",
+    "world": "assets/wiki/Day-composter.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "agitator": {
+    "icon": "assets/wiki/Day-agitator1-off.png",
+    "world": "assets/wiki/Day-agitator1-off.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "extractor": {
+    "icon": "assets/wiki/Inv-extractor-in.png",
+    "world": "assets/wiki/Day-extractor-off.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "small_wire": {
+    "icon": "assets/wiki/Inv-small-wire-in.png",
+    "world": "assets/official_changelog/day-ground-small-wire.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "feeder": {
+    "icon": "assets/wiki/Day-feeder-off.png",
+    "world": "assets/wiki/Day-feeder-off.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "animal_tendon": {
+    "icon": "assets/wiki/Animal-tendon.png",
+    "world": "assets/replacements/tendon-ground-v1.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Reviewed transparent tendon derivative for dropped items.",
+    "worldFrame": [
+      173,
+      200,
+      915,
+      853
+    ]
+  },
+  "uranium": {
+    "icon": "assets/wiki/Inv-uranium-in.png",
+    "world": "assets/replacements/uranium-ground-v1.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Transparent derivative inspected standalone; original inventory backdrop removed. Runtime scale reviewed; see docs/DIFFERENCES.md.",
+    "worldFrame": [
+      252,
+      331,
+      771,
+      624
+    ]
+  },
+  "sulfur": {
+    "icon": "assets/wiki/Inv-sulfur-in.png",
+    "world": "assets/replacements/sulfur-ground-v1.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Transparent derivative inspected standalone; original inventory backdrop removed. Runtime scale reviewed; see docs/DIFFERENCES.md.",
+    "worldFrame": [
+      211,
+      297,
+      818,
+      643
+    ]
+  },
+  "gasoline": {
+    "icon": "assets/wiki/Inv-gasoline-in.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "rotten_orange": {
+    "icon": "assets/wiki/Inv-rotten-orange-in.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "orange": {
+    "icon": "assets/wiki/Inv-orange-in.png",
+    "world": "assets/wiki/Orange.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "nails": {
+    "icon": "assets/wiki/Nails.png",
+    "world": "assets/official_changelog/day-ground-nails.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "energy_cells": {
+    "icon": "assets/wiki/Small-energy-cells-0.png",
+    "world": "assets/official_changelog/day-ground-small-energy-cells.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "metal_axe": {
+    "icon": "assets/replacements/metal-axe-v1.png",
+    "world": "assets/replacements/metal-axe-v1.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Generated replacement using reference hatchet style; no recovered metal-axe sprite.",
+    "worldFrame": [
+      282,
+      118,
+      695,
+      1020
+    ]
+  },
+  "metal_pickaxe": {
+    "icon": "assets/wiki/Inv-steel-pickaxe-out.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "sulfur_axe": {
+    "icon": "assets/wiki/Inv-sulfur-axe-out.png",
+    "world": "assets/official_changelog/day-ground-sulfur-axe.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "sulfur_pickaxe": {
+    "icon": "assets/wiki/Inv-sulfur-pickaxe-out.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "hammer": {
+    "icon": "assets/wiki/Inv-hammer-out.png",
+    "world": "assets/official_changelog/day-ground-hammer.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "repair_hammer": {
+    "icon": "assets/wiki/Inv-repair-hammer-out.png",
+    "world": "assets/official_changelog/day-ground-repair-hammer.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "nail_gun": {
+    "icon": "assets/wiki/Inv-nail-gun-out.png",
+    "world": "assets/official_changelog/day-ground-nail-gun.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "wood_chest": {
+    "icon": "assets/wiki/Chest.png",
+    "world": "assets/official_changelog/day-ground-chest.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "fridge": {
+    "icon": "assets/wiki/Fridge.png",
+    "world": "assets/official_changelog/day-ground-fridge.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "sleeping_bag": {
+    "icon": "assets/wiki/Inv-sleeping-bag-in.png",
+    "world": "assets/official_changelog/day-ground-sleeping-bag.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "animal_fat": {
+    "icon": "assets/wiki/Inv-animal-fat-in.png",
+    "world": "assets/replacements/fat-ground-v1.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Reviewed transparent fat derivative for dropped items.",
+    "worldFrame": [
+      236,
+      258,
+      802,
+      766
+    ]
+  },
+  "leather": {
+    "icon": "assets/wiki/Leather-boar.png",
+    "world": "assets/replacements/leather-ground-v1.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Reviewed transparent hide derivative for dropped items.",
+    "worldFrame": [
+      265,
+      218,
+      721,
+      822
+    ]
+  },
+  "wood_wall": {
+    "icon": "assets/wiki/Wood-wall.png",
+    "world": "assets/official_changelog/day-wood-wall0.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md",
+    "damageStates": [
+      "assets/official_changelog/day-wood-wall-broken0.png",
+      "assets/official_changelog/day-wood-wall-broken1.png",
+      "assets/official_changelog/day-wood-wall-broken2.png"
+    ]
+  },
+  "wood_door": {
+    "icon": "assets/wiki/Wood-door.png",
+    "world": "assets/official_changelog/day-wood-door.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md",
+    "damageStates": [
+      "assets/official_changelog/day-wood-door-broken0.png",
+      "assets/official_changelog/day-wood-door-broken1.png",
+      "assets/official_changelog/day-wood-door-broken2.png"
+    ]
+  },
+  "wood_low_wall": {
+    "icon": "assets/official_changelog/day-wood-smallwalls-0.png",
+    "world": "assets/official_changelog/day-wood-smallwalls-0.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "wood_low_door": {
+    "icon": "assets/official_changelog/day-wood-door.png",
+    "world": "assets/official_changelog/day-wood-door.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "stone_wall": {
+    "icon": "assets/wiki/Stone-wall.png",
+    "world": "assets/official_changelog/day-stone-wall0.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md",
+    "damageStates": [
+      "assets/official_changelog/day-stone-wall-broken0.png",
+      "assets/official_changelog/day-stone-wall-broken1.png",
+      "assets/official_changelog/day-stone-wall-broken2.png"
+    ]
+  },
+  "stone_door": {
+    "icon": "assets/wiki/Stone-door.png",
+    "world": "assets/official_changelog/day-stone-door.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md",
+    "damageStates": [
+      "assets/official_changelog/day-stone-door-broken0.png",
+      "assets/official_changelog/day-stone-door-broken1.png",
+      "assets/official_changelog/day-stone-door-broken2.png"
+    ]
+  },
+  "stone_low_wall": {
+    "icon": "assets/official_changelog/day-stone-smallwalls-0.png",
+    "world": "assets/official_changelog/day-stone-smallwalls-0.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "stone_low_door": {
+    "icon": "assets/official_changelog/day-stone-door.png",
+    "world": "assets/official_changelog/day-stone-door.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "metal_wall": {
+    "icon": "assets/official_changelog/day-steel-wall0.png",
+    "world": "assets/official_changelog/day-steel-wall0.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md",
+    "damageStates": [
+      "assets/official_changelog/day-steel-wall-broken0.png",
+      "assets/official_changelog/day-steel-wall-broken1.png",
+      "assets/official_changelog/day-steel-wall-broken2.png"
+    ]
+  },
+  "metal_door": {
+    "icon": "assets/official_changelog/day-steel-door.png",
+    "world": "assets/official_changelog/day-steel-door.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md",
+    "damageStates": [
+      "assets/official_changelog/day-steel-door-broken0.png",
+      "assets/official_changelog/day-steel-door-broken1.png",
+      "assets/official_changelog/day-steel-door-broken2.png"
+    ]
+  },
+  "metal_low_wall": {
+    "icon": "assets/official_changelog/day-steel-smallwalls-0.png",
+    "world": "assets/official_changelog/day-steel-smallwalls-0.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "metal_low_door": {
+    "icon": "assets/official_changelog/day-steel-door.png",
+    "world": "assets/official_changelog/day-steel-door.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "wood_floor": {
+    "icon": "assets/wiki/Wood-floor.png",
+    "world": "assets/official_changelog/day-wood-floor-0.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Interior texture region of original 200px placed-floor sprite, tiled without duplicating its inventory-like outer border.",
+    "damageStates": [
+      "assets/official_changelog/day-wood-floor-broken0.png",
+      "assets/official_changelog/day-wood-floor-broken1.png",
+      "assets/official_changelog/day-wood-floor-broken2.png"
+    ],
+    "worldFrame": [
+      8,
+      8,
+      184,
+      184
+    ]
+  },
+  "light_wood_floor": {
+    "icon": "assets/wiki/Light-wood-floor.png",
+    "world": "assets/official_changelog/day-ground-wood-floor-light.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "stone_floor": {
+    "icon": "assets/wiki/Stone-floor.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "tiling_floor": {
+    "icon": "assets/wiki/Tiling-floor.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "red_floor": {
+    "icon": "assets/wiki/Inv-red-floor-in.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "golden_floor": {
+    "icon": "assets/wiki/Inv-mustard-floor-in.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "wooden_spike": {
+    "icon": "assets/wiki/Wood-spike.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "cable": {
+    "icon": "assets/official_changelog/day-ground-wire0.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "cable_bridge": {
+    "icon": "assets/wiki/Day-ground-wire4.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "switch": {
+    "icon": "assets/wiki/Day-ground-switch.png",
+    "world": "assets/official_changelog/day-ground-switch.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "gate_or": {
+    "icon": "assets/wiki/Day-ground-switch-or.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "gate_and": {
+    "icon": "assets/wiki/Day-ground-switch-and.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "gate_not": {
+    "icon": "assets/wiki/Day-ground-switch-reverse.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "gate_xor": {
+    "icon": "assets/wiki/Day-ground-xor.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "gate_timer": {
+    "icon": "assets/wiki/Day-ground-timer.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "lamp": {
+    "icon": "assets/wiki/Day-ground-lamp-white.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "platform": {
+    "icon": "assets/wiki/Day-ground-platform.png",
+    "world": "assets/official_changelog/day-ground-platform.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "cable_wall": {
+    "icon": "assets/official_changelog/day-ground-cable_wall.png",
+    "world": "assets/official_changelog/day-ground-cable_wall.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "automatic_door": {
+    "icon": "assets/wiki/Day-ground-automatic-door.png",
+    "world": "assets/wiki/Day-ground-automatic-door.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "spear": {
+    "icon": "assets/wiki/Spear.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "bow": {
+    "icon": "assets/wiki/Bow.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "crossbow": {
+    "icon": "assets/wiki/Crossbow.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "wooden_arrow": {
+    "icon": "assets/wiki/Arrow.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "crossbow_arrow": {
+    "icon": "assets/wiki/Wood-crossarrow.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "bullet": {
+    "icon": "assets/wiki/Bullet-9mm.png",
+    "world": "assets/replacements/bullet-ground-v1.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Transparent derivative inspected standalone; original inventory backdrop removed. Runtime scale reviewed; see docs/DIFFERENCES.md.",
+    "worldFrame": [
+      227,
+      269,
+      801,
+      722
+    ]
+  },
+  "heavy_bullet": {
+    "icon": "assets/wiki/Bullet-sniper.png",
+    "world": "assets/replacements/heavy-bullet-ground-v1.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Transparent derivative inspected standalone; original inventory backdrop removed. Runtime scale reviewed; see docs/DIFFERENCES.md.",
+    "worldFrame": [
+      216,
+      261,
+      848,
+      716
+    ]
+  },
+  "cartridge": {
+    "icon": "assets/wiki/Bullet-shotgun.png",
+    "world": "assets/replacements/cartridge-ground-v1.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Transparent derivative inspected standalone; original inventory backdrop removed. Runtime scale reviewed; see docs/DIFFERENCES.md.",
+    "worldFrame": [
+      260,
+      311,
+      755,
+      643
+    ]
+  },
+  "9mm": {
+    "icon": "assets/wiki/9mm.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "mp5": {
+    "icon": "assets/wiki/MP5.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "desert_eagle": {
+    "icon": "assets/wiki/Desert-eagle.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "ak47": {
+    "icon": "assets/wiki/Ak47.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "sniper": {
+    "icon": "assets/wiki/Sniper.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "shotgun": {
+    "icon": "assets/wiki/Shotgun.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "sawed_off": {
+    "icon": "assets/wiki/Inv-sawed-off-shotgun-in.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "laser_pistol": {
+    "icon": "assets/wiki/Inv-laser-pistol-in.png",
+    "world": "assets/official_changelog/day-ground-laser-pistol.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "laser_submachine": {
+    "icon": "assets/wiki/Inv-laser-submachine-in.png",
+    "world": "assets/official_changelog/day-ground-laser-submachine.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "laser_sniper": {
+    "icon": "assets/wiki/Inv-laser-sniper-in.png",
+    "world": "assets/official_changelog/day-ground-laser-sniper.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "landmine": {
+    "icon": "assets/wiki/Inv-landmine-in.png",
+    "world": "assets/official_changelog/day-ground-landmine.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "dynamite": {
+    "icon": "assets/wiki/Inv-dynamite-in.png",
+    "world": "assets/official_changelog/day-ground-dynamite.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "c4": {
+    "icon": "assets/wiki/Inv-C4-in.png",
+    "world": "assets/official_changelog/day-ground-C4.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "c4_trigger": {
+    "icon": "assets/wiki/Inv-joystick-in.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "grenade": {
+    "icon": "assets/wiki/Inv-grenade-in.png",
+    "world": "assets/official_changelog/day-ground-grenade.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "headscarf": {
+    "icon": "assets/wiki/Headscarf.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "chapka": {
+    "icon": "assets/wiki/Chapka.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "winter_coat": {
+    "icon": "assets/wiki/Coat.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "radiation_mask": {
+    "icon": "assets/wiki/Gaz-mask.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "min_radiation_suit": {
+    "icon": "assets/wiki/Gaz-protection.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "radiation_suit": {
+    "icon": "assets/wiki/Radiation-suit.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "leather_jacket": {
+    "icon": "assets/wiki/Leather-jacket.png",
+    "world": "assets/official_changelog/day-ground-leather-jacket.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "kevlar_suit": {
+    "icon": "assets/wiki/Kevlar-suit.png",
+    "world": "assets/official_changelog/day-ground-kevlar-suit.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "swat_suit": {
+    "icon": "assets/wiki/SWAT-suit.png",
+    "world": "assets/official_changelog/day-ground-SWAT-suit.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "protective_suit": {
+    "icon": "assets/wiki/Protective-suit.png",
+    "world": "assets/official_changelog/day-ground-protective-suit.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "camouflage_gear": {
+    "icon": "assets/official_changelog/day-camouflage-gear.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "metal_helmet": {
+    "icon": "assets/wiki/Metal-helmet.png",
+    "world": "assets/official_changelog/day-ground-metal-helmet.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "welding_helmet": {
+    "icon": "assets/wiki/Welding-helmet.png",
+    "world": "assets/official_changelog/day-ground-welding-helmet.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "gladiator_helmet": {
+    "icon": "assets/wiki/Gladiator-helmet.png",
+    "world": "assets/official_changelog/day-ground-gladiator-helmet.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "power_armor": {
+    "icon": "assets/wiki/Tesla.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "tesla_armor": {
+    "icon": "assets/wiki/Tesla-armor.png",
+    "world": "assets/official_changelog/day-ground-tesla-armor.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "bandage": {
+    "icon": "assets/wiki/Inv-bandage-in.png",
+    "world": "assets/replacements/bandage-ground-v1.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Transparent derivative inspected standalone; original inventory backdrop removed. Runtime scale reviewed; see docs/DIFFERENCES.md.",
+    "worldFrame": [
+      168,
+      127,
+      919,
+      1011
+    ]
+  },
+  "medkit": {
+    "icon": "assets/wiki/Inv-medikit-in.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "syringe": {
+    "icon": "assets/wiki/Inv-syringe-in.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "radaway": {
+    "icon": "assets/official_changelog/day-ground-radaway.png",
+    "world": "assets/official_changelog/day-ground-radaway.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "chemical_component": {
+    "icon": "assets/wiki/Inv-chemical-component-in.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "boletus": {
+    "icon": "assets/wiki/Boletus.png",
+    "world": "assets/wiki/Day-ground-Boletus.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "ghoul_drug": {
+    "icon": "assets/wiki/Inv-ghoul-drug-in.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "russula": {
+    "icon": "assets/wiki/Russula.png",
+    "world": "assets/wiki/Day-ground-Russula.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "ghoul_blood": {
+    "icon": "assets/wiki/Ghoul-blood.png",
+    "world": "assets/official_changelog/day-ground-ghoul-blood.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "lapadone": {
+    "icon": "assets/wiki/Inv-lapadoine-in.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "amanita": {
+    "icon": "assets/wiki/Amanita.png",
+    "world": "assets/wiki/Day-ground-Amanita.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "antidote": {
+    "icon": "assets/wiki/Inv-antidote-in.png",
+    "world": "assets/official_changelog/day-ground-antidote.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "rare_flower": {
+    "icon": "assets/wiki/Day-ground-antidote-flower.png",
+    "world": "assets/wiki/Day-ground-antidote-flower.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "cooked_steak": {
+    "icon": "assets/wiki/Inv-cooked-steak-in.png",
+    "world": "assets/wiki/Cooked Steak.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "raw_steak": {
+    "icon": "assets/wiki/Inv-raw-steak-in.png",
+    "world": "assets/wiki/Nav food.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "can": {
+    "icon": "assets/wiki/Can.png",
+    "world": "assets/official_changelog/day-ground-can.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "soda": {
+    "icon": "assets/wiki/Inv-soda-in.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "tomato_soup": {
+    "icon": "assets/wiki/Tomato-soup.png",
+    "world": "assets/official_changelog/day-ground-tomato-soup.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "tomato": {
+    "icon": "assets/wiki/Tomato.png",
+    "world": "assets/wiki/Tomato.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "orange_seed": {
+    "icon": "assets/wiki/Orange Seed.png",
+    "world": "assets/wiki/Day-Orange Seed.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "tomato_seed": {
+    "icon": "assets/wiki/Day-ground-seed-tomato.png",
+    "world": "assets/wiki/Day-ground-seed-tomato.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "tree_seed": {
+    "icon": "assets/wiki/Tree seed.png",
+    "world": "assets/wiki/Day-ground-seed-tree.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "acorn": {
+    "icon": "assets/official_changelog/day-ground-acorn.png",
+    "world": "assets/official_changelog/day-ground-acorn.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "lapabot": {
+    "icon": "assets/wiki/Inv-lapabot-in.png",
+    "world": "assets/official_changelog/day-lapabot.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "hal_bot": {
+    "icon": "assets/wiki/Inv-hal-bot-in.png",
+    "world": "assets/official_changelog/day-ground-hal-bot.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "tesla_bot": {
+    "icon": "assets/official_changelog/day-ground-tesla-bot.png",
+    "world": "assets/official_changelog/day-ground-tesla-bot.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "uranium_wall": {
+    "icon": "assets/official_changelog/day-ground-uranium-wall.png",
+    "world": "assets/official_changelog/day-ground-uranium-wall.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "uranium_door": {
+    "icon": "assets/official_changelog/day-ground-uranium-door.png",
+    "world": "assets/official_changelog/day-ground-uranium-door.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "crisps": {
+    "icon": "assets/wiki/Day-ground-chips.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "rotten_tomato": {
+    "icon": "assets/wiki/Rotten-tomato.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "rotten_steak": {
+    "icon": "assets/wiki/Inv-rotten-steak-in.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "expired_crisps": {
+    "icon": "assets/wiki/Rotten-crisps.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "rotten_acorn": {
+    "icon": "assets/official_changelog/day-ground-rotten-acorn.png",
+    "world": "assets/official_changelog/day-ground-rotten-acorn.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "rotten_boletus": {
+    "icon": "assets/wiki/Rotten-Boletus.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "rotten_russula": {
+    "icon": "assets/wiki/Rotten-russula.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "rotten_amanita": {
+    "icon": "assets/wiki/Rotten-amanita.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "tree": {
+    "icon": "assets/wiki/Tree1.png",
+    "world": "assets/wiki/Tree1.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "stone_node": {
+    "icon": "assets/wiki/Rock1.png",
+    "world": "assets/wiki/Rock1.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "iron_node": {
+    "icon": "assets/wiki/Iron Stone.png",
+    "world": "assets/replacements/iron-node-v1.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Original silhouette with generated transparent extraction; standalone output reviewed, runtime scale reviewed; see docs/DIFFERENCES.md.",
+    "worldFrame": [
+      182,
+      212,
+      936,
+      883
+    ]
+  },
+  "uranium_node": {
+    "icon": "assets/wiki/Uarium Rock.png",
+    "world": "assets/wiki/Uarium Rock.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "boar": {
+    "icon": "assets/wiki/Boar.png",
+    "world": "assets/wiki/Boar.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "deer": {
+    "icon": "assets/wiki/Deer.png",
+    "world": "assets/wiki/Deer.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "normal_ghoul": {
+    "icon": "assets/wiki/Normal Ghoul.png",
+    "world": "assets/official_changelog/day-ghoul.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "fast_ghoul": {
+    "icon": "assets/wiki/Fast Ghoul.png",
+    "world": "assets/official_changelog/day-ghoul3.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "explosive_ghoul": {
+    "icon": "assets/official_changelog/day-ghoul4.png",
+    "world": "assets/official_changelog/day-ghoul4.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "radioactive_ghoul": {
+    "icon": "assets/wiki/Radioactive Ghoul.png",
+    "world": "assets/official_changelog/day-ghoul2.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "armored_ghoul": {
+    "icon": "assets/wiki/Armored Ghoul.png",
+    "world": "assets/official_changelog/day-ghoul1.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "red_barrel": {
+    "icon": "assets/wiki/Day-barel0.png",
+    "world": "assets/wiki/Day-barel0.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "green_barrel": {
+    "icon": "assets/wiki/Day-barel1.png",
+    "world": "assets/wiki/Day-barel1.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "bed": {
+    "icon": "assets/wiki/Bed.png",
+    "world": "assets/replacements/beds-v1.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Two separate bed frames, transparent reference derivative.",
+    "worldFrames": [
+      [
+        117,
+        98,
+        581,
+        519
+      ],
+      [
+        817,
+        97,
+        537,
+        518
+      ]
+    ]
+  },
+  "bunker_bed": {
+    "icon": "assets/wiki/BunkerBed.png",
+    "world": "assets/replacements/beds-v1.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Third frame, bunker bed reference derivative.",
+    "worldFrame": [
+      1492,
+      97,
+      565,
+      519
+    ]
+  },
+  "sofa": {
+    "icon": "assets/wiki/Sofa.png",
+    "world": "assets/replacements/sofas-v1.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Five separate frames of reviewed Sofa transparent derivative.",
+    "worldFrames": [
+      [
+        27,
+        169,
+        392,
+        373
+      ],
+      [
+        455,
+        169,
+        395,
+        373
+      ],
+      [
+        884,
+        169,
+        399,
+        373
+      ],
+      [
+        1315,
+        167,
+        401,
+        375
+      ],
+      [
+        1751,
+        167,
+        395,
+        375
+      ]
+    ]
+  },
+  "table": {
+    "icon": "assets/wiki/Table.png",
+    "world": "assets/replacements/tables-v1.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Separate cluttered and plain tabletop frames; original strip is not stretched.",
+    "worldFrames": [
+      [
+        358,
+        270,
+        405,
+        396
+      ],
+      [
+        871,
+        195,
+        545,
+        517
+      ]
+    ]
+  },
+  "computer": {
+    "icon": "assets/wiki/SmallComputer.png",
+    "world": "assets/replacements/electronics-v1.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Small panel computer, transparent reference derivative.",
+    "worldFrame": [
+      119,
+      209,
+      449,
+      344
+    ]
+  },
+  "office_computer": {
+    "icon": "assets/wiki/TVandPC.png",
+    "world": "assets/replacements/computers-v1.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Second frame of reviewed TVandPC transparent derivative.",
+    "worldFrame": [
+      972,
+      68,
+      708,
+      709
+    ]
+  },
+  "television": {
+    "icon": "assets/wiki/TVandPC.png",
+    "world": "assets/replacements/computers-v1.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "First frame of reviewed TVandPC transparent derivative.",
+    "worldFrame": [
+      94,
+      76,
+      731,
+      711
+    ]
+  },
+  "big_computer": {
+    "icon": "assets/wiki/BigComputer.png",
+    "world": "assets/replacements/electronics-v1.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Big computer including external cabling, transparent reference derivative.",
+    "worldFrame": [
+      771,
+      61,
+      613,
+      600
+    ]
+  },
+  "safe": {
+    "icon": "assets/wiki/Safe.png",
+    "world": "assets/replacements/electronics-v1.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Steel safe, transparent reference derivative.",
+    "worldFrame": [
+      1632,
+      110,
+      404,
+      501
+    ]
+  },
+  "sink": {
+    "icon": "assets/wiki/SinkKitchen.png",
+    "world": "assets/replacements/plumbing-v1.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Sink including lower wood edge, transparent reference derivative.",
+    "worldFrame": [
+      242,
+      165,
+      571,
+      553
+    ]
+  },
+  "toilet": {
+    "icon": "assets/wiki/WC.png",
+    "world": "assets/replacements/plumbing-v1.png",
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Toilet, transparent reference derivative.",
+    "worldFrame": [
+      1031,
+      174,
+      499,
+      550
+    ]
+  },
+  "fists": {
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "sulfur_node": {
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "orange_bush": {
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "tomato_bush": {
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "crate": {
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "cupboard": {
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "vending_machine": {
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "garbage": {
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "cave_wall": {
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  },
+  "cave_floor": {
+    "pivot": [
+      0.5,
+      0.5
+    ],
+    "rotationOffset": 0,
+    "review": "Import-time role mapping; dated runtime review and limitations in docs/DIFFERENCES.md"
+  }
+}

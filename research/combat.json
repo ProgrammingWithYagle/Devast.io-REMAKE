@@ -1,0 +1,393 @@
+[
+  {
+    "id": "fists",
+    "damage_per_projectile_or_hit": 3,
+    "pellets_per_shot": 1,
+    "ammo": null,
+    "magazine": null,
+    "shots_or_hits_per_second": null,
+    "ideal_dps_no_reload": null,
+    "confidence": "wiki_reported",
+    "source": {
+      "title": "Weapons",
+      "url": "https://devastio.fandom.com/wiki/Weapons",
+      "revision": 4665,
+      "permalink": "https://devastio.fandom.com/wiki/Weapons?oldid=4665"
+    },
+    "notes": "Rates not live calibrated."
+  },
+  {
+    "id": "hatchet",
+    "damage_per_projectile_or_hit": 7,
+    "pellets_per_shot": 1,
+    "ammo": null,
+    "magazine": null,
+    "shots_or_hits_per_second": 2,
+    "ideal_dps_no_reload": 14,
+    "confidence": "wiki_reported",
+    "source": {
+      "title": "Hatchet",
+      "url": "https://devastio.fandom.com/wiki/Hatchet",
+      "revision": 4167,
+      "permalink": "https://devastio.fandom.com/wiki/Hatchet?oldid=4167"
+    },
+    "notes": "Rates not live calibrated."
+  },
+  {
+    "id": "stone_pickaxe",
+    "damage_per_projectile_or_hit": 16,
+    "pellets_per_shot": 1,
+    "ammo": null,
+    "magazine": null,
+    "shots_or_hits_per_second": null,
+    "ideal_dps_no_reload": null,
+    "confidence": "wiki_reported",
+    "source": {
+      "title": "Stone Pickaxe",
+      "url": "https://devastio.fandom.com/wiki/Stone_Pickaxe",
+      "revision": 4168,
+      "permalink": "https://devastio.fandom.com/wiki/Stone_Pickaxe?oldid=4168"
+    },
+    "notes": "Rates not live calibrated."
+  },
+  {
+    "id": "metal_axe",
+    "damage_per_projectile_or_hit": 26,
+    "pellets_per_shot": 1,
+    "ammo": null,
+    "magazine": null,
+    "shots_or_hits_per_second": 1.3333333333333333,
+    "ideal_dps_no_reload": 34.667,
+    "confidence": "wiki_reported",
+    "source": {
+      "title": "Metal Axe",
+      "url": "https://devastio.fandom.com/wiki/Metal_Axe",
+      "revision": 3668,
+      "permalink": "https://devastio.fandom.com/wiki/Metal_Axe?oldid=3668"
+    },
+    "notes": "Rates not live calibrated."
+  },
+  {
+    "id": "metal_pickaxe",
+    "damage_per_projectile_or_hit": 22,
+    "pellets_per_shot": 1,
+    "ammo": null,
+    "magazine": null,
+    "shots_or_hits_per_second": null,
+    "ideal_dps_no_reload": null,
+    "confidence": "wiki_reported",
+    "source": {
+      "title": "Metal Pickaxe",
+      "url": "https://devastio.fandom.com/wiki/Metal_Pickaxe",
+      "revision": 4641,
+      "permalink": "https://devastio.fandom.com/wiki/Metal_Pickaxe?oldid=4641"
+    },
+    "notes": "Rates not live calibrated."
+  },
+  {
+    "id": "sulfur_axe",
+    "damage_per_projectile_or_hit": 30,
+    "pellets_per_shot": 1,
+    "ammo": null,
+    "magazine": null,
+    "shots_or_hits_per_second": null,
+    "ideal_dps_no_reload": null,
+    "confidence": "wiki_reported",
+    "source": {
+      "title": "Sulfur Axe",
+      "url": "https://devastio.fandom.com/wiki/Sulfur_Axe",
+      "revision": 3463,
+      "permalink": "https://devastio.fandom.com/wiki/Sulfur_Axe?oldid=3463"
+    },
+    "notes": "Rates not live calibrated."
+  },
+  {
+    "id": "sulfur_pickaxe",
+    "damage_per_projectile_or_hit": 30,
+    "pellets_per_shot": 1,
+    "ammo": null,
+    "magazine": null,
+    "shots_or_hits_per_second": null,
+    "ideal_dps_no_reload": null,
+    "confidence": "wiki_reported",
+    "source": {
+      "title": "Sulfur Pickaxe",
+      "url": "https://devastio.fandom.com/wiki/Sulfur_Pickaxe",
+      "revision": 4644,
+      "permalink": "https://devastio.fandom.com/wiki/Sulfur_Pickaxe?oldid=4644"
+    },
+    "notes": "Rates not live calibrated."
+  },
+  {
+    "id": "hammer",
+    "damage_per_projectile_or_hit": 30,
+    "pellets_per_shot": 1,
+    "ammo": null,
+    "magazine": null,
+    "shots_or_hits_per_second": null,
+    "ideal_dps_no_reload": null,
+    "confidence": "wiki_reported",
+    "source": {
+      "title": "Hammer",
+      "url": "https://devastio.fandom.com/wiki/Hammer",
+      "revision": 4653,
+      "permalink": "https://devastio.fandom.com/wiki/Hammer?oldid=4653"
+    },
+    "notes": "Rates not live calibrated."
+  },
+  {
+    "id": "repair_hammer",
+    "damage_per_projectile_or_hit": 15,
+    "pellets_per_shot": 1,
+    "ammo": "nails",
+    "magazine": null,
+    "shots_or_hits_per_second": null,
+    "ideal_dps_no_reload": null,
+    "confidence": "wiki_reported",
+    "source": {
+      "title": "Repair Hammer",
+      "url": "https://devastio.fandom.com/wiki/Repair_Hammer",
+      "revision": 3194,
+      "permalink": "https://devastio.fandom.com/wiki/Repair_Hammer?oldid=3194"
+    },
+    "notes": "Rates not live calibrated."
+  },
+  {
+    "id": "nail_gun",
+    "damage_per_projectile_or_hit": 6,
+    "pellets_per_shot": 1,
+    "ammo": "nails",
+    "magazine": 100,
+    "shots_or_hits_per_second": 2.5,
+    "ideal_dps_no_reload": 15.0,
+    "confidence": "wiki_reported",
+    "source": {
+      "title": "Nail Gun",
+      "url": "https://devastio.fandom.com/wiki/Nail_Gun",
+      "revision": 4647,
+      "permalink": "https://devastio.fandom.com/wiki/Nail_Gun?oldid=4647"
+    },
+    "notes": "Rates not live calibrated. Capacity conflicts 80 vs 100; use 100 provisionally."
+  },
+  {
+    "id": "spear",
+    "damage_per_projectile_or_hit": 80,
+    "pellets_per_shot": 1,
+    "ammo": null,
+    "magazine": 1,
+    "shots_or_hits_per_second": null,
+    "ideal_dps_no_reload": null,
+    "confidence": "wiki_reported",
+    "source": {
+      "title": "Spear",
+      "url": "https://devastio.fandom.com/wiki/Spear",
+      "revision": 4088,
+      "permalink": "https://devastio.fandom.com/wiki/Spear?oldid=4088"
+    },
+    "notes": "Rates not live calibrated."
+  },
+  {
+    "id": "bow",
+    "damage_per_projectile_or_hit": 40,
+    "pellets_per_shot": 1,
+    "ammo": "wooden_arrow",
+    "magazine": 1,
+    "shots_or_hits_per_second": 0.8,
+    "ideal_dps_no_reload": 32.0,
+    "confidence": "wiki_reported",
+    "source": {
+      "title": "Bow",
+      "url": "https://devastio.fandom.com/wiki/Bow",
+      "revision": 4174,
+      "permalink": "https://devastio.fandom.com/wiki/Bow?oldid=4174"
+    },
+    "notes": "Rates not live calibrated. Table DPS corrected arithmetically to 32."
+  },
+  {
+    "id": "crossbow",
+    "damage_per_projectile_or_hit": 50,
+    "pellets_per_shot": 1,
+    "ammo": "crossbow_arrow",
+    "magazine": 1,
+    "shots_or_hits_per_second": null,
+    "ideal_dps_no_reload": null,
+    "confidence": "wiki_reported",
+    "source": {
+      "title": "Crossbow",
+      "url": "https://devastio.fandom.com/wiki/Crossbow",
+      "revision": 4622,
+      "permalink": "https://devastio.fandom.com/wiki/Crossbow?oldid=4622"
+    },
+    "notes": "Rates not live calibrated."
+  },
+  {
+    "id": "9mm",
+    "damage_per_projectile_or_hit": 28,
+    "pellets_per_shot": 1,
+    "ammo": "bullet",
+    "magazine": 20,
+    "shots_or_hits_per_second": 2,
+    "ideal_dps_no_reload": 56,
+    "confidence": "wiki_reported",
+    "source": {
+      "title": "9MM",
+      "url": "https://devastio.fandom.com/wiki/9MM",
+      "revision": 4623,
+      "permalink": "https://devastio.fandom.com/wiki/9MM?oldid=4623"
+    },
+    "notes": "Rates not live calibrated."
+  },
+  {
+    "id": "desert_eagle",
+    "damage_per_projectile_or_hit": 40,
+    "pellets_per_shot": 1,
+    "ammo": "bullet",
+    "magazine": 7,
+    "shots_or_hits_per_second": 2,
+    "ideal_dps_no_reload": 80,
+    "confidence": "wiki_reported",
+    "source": {
+      "title": "Desert Eagle",
+      "url": "https://devastio.fandom.com/wiki/Desert_Eagle",
+      "revision": 4664,
+      "permalink": "https://devastio.fandom.com/wiki/Desert_Eagle?oldid=4664"
+    },
+    "notes": "Rates not live calibrated."
+  },
+  {
+    "id": "mp5",
+    "damage_per_projectile_or_hit": 18,
+    "pellets_per_shot": 1,
+    "ammo": "bullet",
+    "magazine": 30,
+    "shots_or_hits_per_second": 5.6,
+    "ideal_dps_no_reload": 100.8,
+    "confidence": "wiki_reported",
+    "source": {
+      "title": "MP5",
+      "url": "https://devastio.fandom.com/wiki/MP5",
+      "revision": 4621,
+      "permalink": "https://devastio.fandom.com/wiki/MP5?oldid=4621"
+    },
+    "notes": "Rates not live calibrated."
+  },
+  {
+    "id": "ak47",
+    "damage_per_projectile_or_hit": 30,
+    "pellets_per_shot": 1,
+    "ammo": "heavy_bullet",
+    "magazine": 30,
+    "shots_or_hits_per_second": 5.1,
+    "ideal_dps_no_reload": 153.0,
+    "confidence": "wiki_reported",
+    "source": {
+      "title": "AK47",
+      "url": "https://devastio.fandom.com/wiki/AK47",
+      "revision": 4630,
+      "permalink": "https://devastio.fandom.com/wiki/AK47?oldid=4630"
+    },
+    "notes": "Rates not live calibrated."
+  },
+  {
+    "id": "sniper",
+    "damage_per_projectile_or_hit": 90,
+    "pellets_per_shot": 1,
+    "ammo": "heavy_bullet",
+    "magazine": 10,
+    "shots_or_hits_per_second": 1,
+    "ideal_dps_no_reload": 90,
+    "confidence": "wiki_reported",
+    "source": {
+      "title": "Sniper",
+      "url": "https://devastio.fandom.com/wiki/Sniper",
+      "revision": 4179,
+      "permalink": "https://devastio.fandom.com/wiki/Sniper?oldid=4179"
+    },
+    "notes": "Rates not live calibrated."
+  },
+  {
+    "id": "shotgun",
+    "damage_per_projectile_or_hit": 21,
+    "pellets_per_shot": 5,
+    "ammo": "cartridge",
+    "magazine": 8,
+    "shots_or_hits_per_second": 1,
+    "ideal_dps_no_reload": 105,
+    "confidence": "wiki_reported",
+    "source": {
+      "title": "Shotgun",
+      "url": "https://devastio.fandom.com/wiki/Shotgun",
+      "revision": 4628,
+      "permalink": "https://devastio.fandom.com/wiki/Shotgun?oldid=4628"
+    },
+    "notes": "Rates not live calibrated."
+  },
+  {
+    "id": "sawed_off",
+    "damage_per_projectile_or_hit": 28,
+    "pellets_per_shot": 5,
+    "ammo": "cartridge",
+    "magazine": 8,
+    "shots_or_hits_per_second": 1,
+    "ideal_dps_no_reload": 140,
+    "confidence": "wiki_reported",
+    "source": {
+      "title": "Sawed Off",
+      "url": "https://devastio.fandom.com/wiki/Sawed_Off",
+      "revision": 4629,
+      "permalink": "https://devastio.fandom.com/wiki/Sawed_Off?oldid=4629"
+    },
+    "notes": "Rates not live calibrated."
+  },
+  {
+    "id": "laser_pistol",
+    "damage_per_projectile_or_hit": 55,
+    "pellets_per_shot": 1,
+    "ammo": "energy_cells",
+    "magazine": 12,
+    "shots_or_hits_per_second": 2,
+    "ideal_dps_no_reload": 110,
+    "confidence": "wiki_reported",
+    "source": {
+      "title": "Laser Pistol",
+      "url": "https://devastio.fandom.com/wiki/Laser_Pistol",
+      "revision": 4705,
+      "permalink": "https://devastio.fandom.com/wiki/Laser_Pistol?oldid=4705"
+    },
+    "notes": "Rates not live calibrated."
+  },
+  {
+    "id": "laser_submachine",
+    "damage_per_projectile_or_hit": 45,
+    "pellets_per_shot": 1,
+    "ammo": "energy_cells",
+    "magazine": 30,
+    "shots_or_hits_per_second": 3.75,
+    "ideal_dps_no_reload": 168.75,
+    "confidence": "wiki_reported",
+    "source": {
+      "title": "Laser Submachine",
+      "url": "https://devastio.fandom.com/wiki/Laser_Submachine",
+      "revision": 3185,
+      "permalink": "https://devastio.fandom.com/wiki/Laser_Submachine?oldid=3185"
+    },
+    "notes": "Rates not live calibrated."
+  },
+  {
+    "id": "laser_sniper",
+    "damage_per_projectile_or_hit": 100,
+    "pellets_per_shot": 1,
+    "ammo": "energy_cells",
+    "magazine": 10,
+    "shots_or_hits_per_second": 1,
+    "ideal_dps_no_reload": 100,
+    "confidence": "wiki_reported",
+    "source": {
+      "title": "Laser Sniper",
+      "url": "https://devastio.fandom.com/wiki/Laser_Sniper",
+      "revision": 4627,
+      "permalink": "https://devastio.fandom.com/wiki/Laser_Sniper?oldid=4627"
+    },
+    "notes": "Rates not live calibrated."
+  }
+]

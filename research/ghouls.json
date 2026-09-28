@@ -1,0 +1,105 @@
+[
+  {
+    "id": "normal_ghoul",
+    "health": 160,
+    "day_damage": 8,
+    "night_damage": 20,
+    "hostility_after_player_minutes": 16,
+    "drop": {
+      "animal_fat": 1
+    },
+    "listed_xp": 750,
+    "lifespan_seconds": 960,
+    "source": {
+      "title": "Ghouls",
+      "url": "https://devastio.fandom.com/wiki/Ghouls",
+      "revision": 4603,
+      "permalink": "https://devastio.fandom.com/wiki/Ghouls?oldid=4603"
+    },
+    "confidence": "selected_from_conflicting_sources",
+    "notes": "Speed units, attack period, spawn rates and building multipliers are unverified. Armored lifespan selected from official changelog (2 cycles) over wiki table (1). Fast HP also reported 120, explosive HP 80."
+  },
+  {
+    "id": "fast_ghoul",
+    "health": 100,
+    "day_damage": 3,
+    "night_damage": 7,
+    "hostility_after_player_minutes": 32,
+    "drop": {
+      "ghoul_blood": 1
+    },
+    "listed_xp": 625,
+    "lifespan_seconds": 960,
+    "source": {
+      "title": "Ghouls",
+      "url": "https://devastio.fandom.com/wiki/Ghouls",
+      "revision": 4603,
+      "permalink": "https://devastio.fandom.com/wiki/Ghouls?oldid=4603"
+    },
+    "confidence": "selected_from_conflicting_sources",
+    "notes": "Speed units, attack period, spawn rates and building multipliers are unverified. Armored lifespan selected from official changelog (2 cycles) over wiki table (1). Fast HP also reported 120, explosive HP 80."
+  },
+  {
+    "id": "explosive_ghoul",
+    "health": 100,
+    "day_damage": 6,
+    "night_damage": 20,
+    "hostility_after_player_minutes": 48,
+    "drop": {
+      "sulfur": null,
+      "junk": null,
+      "animal_fat": null
+    },
+    "listed_xp": 312,
+    "lifespan_seconds": 960,
+    "source": {
+      "title": "Ghouls",
+      "url": "https://devastio.fandom.com/wiki/Ghouls",
+      "revision": 4603,
+      "permalink": "https://devastio.fandom.com/wiki/Ghouls?oldid=4603"
+    },
+    "confidence": "selected_from_conflicting_sources",
+    "notes": "Speed units, attack period, spawn rates and building multipliers are unverified. Armored lifespan selected from official changelog (2 cycles) over wiki table (1). Fast HP also reported 120, explosive HP 80."
+  },
+  {
+    "id": "radioactive_ghoul",
+    "health": 160,
+    "day_damage": 5,
+    "night_damage": 15,
+    "hostility_after_player_minutes": 64,
+    "drop": {
+      "uranium": 1
+    },
+    "listed_xp": 937,
+    "lifespan_seconds": 960,
+    "source": {
+      "title": "Ghouls",
+      "url": "https://devastio.fandom.com/wiki/Ghouls",
+      "revision": 4603,
+      "permalink": "https://devastio.fandom.com/wiki/Ghouls?oldid=4603"
+    },
+    "confidence": "selected_from_conflicting_sources",
+    "notes": "Speed units, attack period, spawn rates and building multipliers are unverified. Armored lifespan selected from official changelog (2 cycles) over wiki table (1). Fast HP also reported 120, explosive HP 80."
+  },
+  {
+    "id": "armored_ghoul",
+    "health": 800,
+    "day_damage": 20,
+    "night_damage": 50,
+    "hostility_after_player_minutes": 80,
+    "drop": {
+      "alloys": 1,
+      "shaped_metal": 3
+    },
+    "listed_xp": 3125,
+    "lifespan_seconds": 1920,
+    "source": {
+      "title": "Ghouls",
+      "url": "https://devastio.fandom.com/wiki/Ghouls",
+      "revision": 4603,
+      "permalink": "https://devastio.fandom.com/wiki/Ghouls?oldid=4603"
+    },
+    "confidence": "selected_from_conflicting_sources",
+    "notes": "Speed units, attack period, spawn rates and building multipliers are unverified. Armored lifespan selected from official changelog (2 cycles) over wiki table (1). Fast HP also reported 120, explosive HP 80."
+  }
+]

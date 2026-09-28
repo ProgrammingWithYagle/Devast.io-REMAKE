@@ -1,0 +1,47 @@
+[
+  {
+    "id": "weaving-machine-v1",
+    "target": "public/assets/replacements/weaving-machine-v1.png",
+    "source": "assets/wiki/Weaving-machine.png",
+    "method": "Built-in image generation, background extraction; model version not exposed",
+    "prompt": "Use case: background-extraction. Asset type: a single transparent world sprite for the local Devast.io remake. Input image 1 is the edit target. Extract the wooden weaving loom and its wooden work surface, including its thread, crossbars, crank and rollers from the supplied inventory icon. Keep the complete rectangular wooden tabletop beneath the loom as part of the machine. Remove the surrounding blue and gray interface frames; do not retain the inventory card. Preserve the object's original overhead perspective, silhouette, palette, near-black outline and simple flat cartoon shading. Improve edge clarity only as needed for a clean game sprite. Remove all gray or colored rounded-square backgrounds and every interface border. Place one isolated object centered with generous fully transparent margins. The output must have a real alpha-transparent background. No lettering, labels, checkerboard pixels, floor scenery, extra objects, photorealism or added lighting. Do not redesign the object.",
+    "review": "Standalone output inspected; source silhouette, palette and outline preserved; in-game scale reviewed; see docs/DIFFERENCES.md",
+    "rights": "Derived from original game artwork; original reuse rights unresolved"
+  },
+  {
+    "id": "string-ground-v1",
+    "target": "public/assets/replacements/string-ground-v1.png",
+    "source": "assets/wiki/Inv-string-in.png",
+    "method": "Built-in image generation, background extraction; model version not exposed",
+    "prompt": "Use case: background-extraction. Asset type: a single transparent world sprite for the local Devast.io remake. Input image 1 is the edit target. Extract the brown wooden spool wound with pale gray string and its loose curved thread from the supplied inventory icon. Keep the diagonal orientation and small curved thread. Preserve the object's original overhead perspective, silhouette, palette, near-black outline and simple flat cartoon shading. Improve edge clarity only as needed for a clean game sprite. Remove all gray or colored rounded-square backgrounds and every interface border. Place one isolated object centered with generous fully transparent margins. The output must have a real alpha-transparent background. No lettering, labels, checkerboard pixels, floor scenery, extra objects, photorealism or added lighting. Do not redesign the object.",
+    "review": "Standalone output inspected; source silhouette, palette and outline preserved; in-game scale reviewed; see docs/DIFFERENCES.md",
+    "rights": "Derived from original game artwork; original reuse rights unresolved"
+  },
+  {
+    "id": "leather-ground-v1",
+    "target": "public/assets/replacements/leather-ground-v1.png",
+    "source": "assets/wiki/Leather-boar.png",
+    "method": "Built-in image generation, background extraction; model version not exposed",
+    "prompt": "Use case: background-extraction. Asset type: a single transparent world sprite for the local Devast.io remake. Input image 1 is the edit target. Extract the irregular brown animal-hide piece from the supplied inventory icon. Keep its asymmetric cut, dark brown edge, subdued brown fill and pointed upper corner. Preserve the object's original overhead perspective, silhouette, palette, near-black outline and simple flat cartoon shading. Improve edge clarity only as needed for a clean game sprite. Remove all gray or colored rounded-square backgrounds and every interface border. Place one isolated object centered with generous fully transparent margins. The output must have a real alpha-transparent background. No lettering, labels, checkerboard pixels, floor scenery, extra objects, photorealism or added lighting. Do not redesign the object.",
+    "review": "Standalone output inspected; source silhouette, palette and outline preserved; in-game scale reviewed; see docs/DIFFERENCES.md",
+    "rights": "Derived from original game artwork; original reuse rights unresolved"
+  },
+  {
+    "id": "tendon-ground-v1",
+    "target": "public/assets/replacements/tendon-ground-v1.png",
+    "source": "assets/wiki/Animal-tendon.png",
+    "method": "Built-in image generation, background extraction; model version not exposed",
+    "prompt": "Use case: background-extraction. Asset type: a single transparent world sprite for the local Devast.io remake. Input image 1 is the edit target. Extract the single tan bone-shaped tendon from the supplied inventory icon. Keep the diagonal lower-left to upper-right orientation and the uneven ends. Preserve the object's original overhead perspective, silhouette, palette, near-black outline and simple flat cartoon shading. Improve edge clarity only as needed for a clean game sprite. Remove all gray or colored rounded-square backgrounds and every interface border. Place one isolated object centered with generous fully transparent margins. The output must have a real alpha-transparent background. No lettering, labels, checkerboard pixels, floor scenery, extra objects, photorealism or added lighting. Do not redesign the object.",
+    "review": "Standalone output inspected; source silhouette, palette and outline preserved; in-game scale reviewed; see docs/DIFFERENCES.md",
+    "rights": "Derived from original game artwork; original reuse rights unresolved"
+  },
+  {
+    "id": "fat-ground-v1",
+    "target": "public/assets/replacements/fat-ground-v1.png",
+    "source": "assets/wiki/Inv-animal-fat-in.png",
+    "method": "Built-in image generation, background extraction; model version not exposed",
+    "prompt": "Use case: background-extraction. Asset type: a single transparent world sprite for the local Devast.io remake. Input image 1 is the edit target. Extract the single pale cream, softly lobed piece of animal fat from the supplied inventory icon. Keep the irregular rounded silhouette and simple pale-yellow shading. Preserve the object's original overhead perspective, silhouette, palette, near-black outline and simple flat cartoon shading. Improve edge clarity only as needed for a clean game sprite. Remove all gray or colored rounded-square backgrounds and every interface border. Place one isolated object centered with generous fully transparent margins. The output must have a real alpha-transparent background. No lettering, labels, checkerboard pixels, floor scenery, extra objects, photorealism or added lighting. Do not redesign the object.",
+    "review": "Standalone output inspected; source silhouette, palette and outline preserved; in-game scale reviewed; see docs/DIFFERENCES.md",
+    "rights": "Derived from original game artwork; original reuse rights unresolved"
+  }
+]

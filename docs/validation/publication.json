@@ -1,0 +1,32 @@
+{
+  "verifiedAt": "2026-09-27T19:54:47.707Z",
+  "release": "https://github.com/ProgrammingWithYagle/Devast.io-REMAKE/releases/tag/v0.2.0",
+  "tag": "v0.2.0",
+  "builtSourceCommit": "64e47cadc5f753a070d9f3563a42c29bc8b63001",
+  "publishedAt": "2026-09-27T19:52:00Z",
+  "publicDownloads": [
+    {
+      "name": "Devast-Remake-0.2.0-Portable.exe",
+      "url": "https://github.com/ProgrammingWithYagle/Devast.io-REMAKE/releases/download/v0.2.0/Devast-Remake-0.2.0-Portable.exe",
+      "status": 200,
+      "bytes": 231340287,
+      "digest": "sha256:42b4f1ae004f09ed3946f77c1e51f5ea69ea61baf3f4b7e11499d1638c73647c"
+    },
+    {
+      "name": "Devast-Remake-0.2.0-Setup.exe",
+      "url": "https://github.com/ProgrammingWithYagle/Devast.io-REMAKE/releases/download/v0.2.0/Devast-Remake-0.2.0-Setup.exe",
+      "status": 200,
+      "bytes": 231593572,
+      "digest": "sha256:f3319dd02580d7acaeb143689840bc1e7e61e746de9c48ab41b2fa57715f1394"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "url": "https://github.com/ProgrammingWithYagle/Devast.io-REMAKE/releases/download/v0.2.0/SHA256SUMS.txt",
+      "status": 200,
+      "bytes": 197,
+      "digest": "sha256:d4181678bc132bbd60e498da86e3039706032c0296c8b8d618f6e912142f6821"
+    }
+  ],
+  "pullRequest": "https://github.com/ProgrammingWithYagle/Devast.io-REMAKE/pull/1",
+  "pullRequestState": "open"
+}

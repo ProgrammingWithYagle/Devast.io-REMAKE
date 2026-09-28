@@ -1,0 +1,2 @@
+# Preserve original media and its notices byte for byte across checkouts.
+public/assets/** -text

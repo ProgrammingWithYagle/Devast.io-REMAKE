@@ -1,0 +1,493 @@
+{
+  "source": "https://devastio.fandom.com/wiki/Respawn_level?oldid=4543",
+  "confidence": "visual_transcription_of_historical_wiki_images",
+  "note": "No current live verification. Yellow weapon numerals treated as loaded rounds, not weapon quantities. Unnumbered icons treated as one. Base-kit source image is .png, not 1.png. Level 31+ reuses level 30 items provisionally per wiki Same row. Ordinary respawn only; new game starts with two stone. Food freshness and carried ammo outside magazine remain unverified.",
+  "kits": [
+    {
+      "death_level": 0,
+      "returned_level": 0,
+      "items": {
+        "hatchet": 1,
+        "stone": 20,
+        "wood": 40,
+        "orange": 1
+      },
+      "loaded_rounds": {},
+      "image": "assets/wiki/.png"
+    },
+    {
+      "death_level": 1,
+      "returned_level": 0,
+      "items": {
+        "hatchet": 1,
+        "stone": 20,
+        "wood": 40,
+        "orange": 3
+      },
+      "loaded_rounds": {},
+      "image": "assets/wiki/1-1.png"
+    },
+    {
+      "death_level": 2,
+      "returned_level": 1,
+      "items": {
+        "hatchet": 1,
+        "stone": 30,
+        "wood": 50,
+        "campfire": 1,
+        "orange": 4
+      },
+      "loaded_rounds": {},
+      "image": "assets/wiki/2-0.png"
+    },
+    {
+      "death_level": 3,
+      "returned_level": 1,
+      "items": {
+        "hatchet": 1,
+        "stone": 30,
+        "wood": 60,
+        "campfire": 1,
+        "workbench": 1,
+        "orange": 5
+      },
+      "loaded_rounds": {},
+      "image": "assets/wiki/3.png"
+    },
+    {
+      "death_level": 4,
+      "returned_level": 2,
+      "items": {
+        "hatchet": 1,
+        "stone": 40,
+        "wood": 90,
+        "campfire": 1,
+        "workbench": 1,
+        "raw_steak": 1
+      },
+      "loaded_rounds": {},
+      "image": "assets/wiki/4.png"
+    },
+    {
+      "death_level": 5,
+      "returned_level": 2,
+      "items": {
+        "hatchet": 1,
+        "stone": 40,
+        "wood": 150,
+        "campfire": 1,
+        "workbench": 1,
+        "raw_steak": 1
+      },
+      "loaded_rounds": {},
+      "image": "assets/wiki/5.png"
+    },
+    {
+      "death_level": 6,
+      "returned_level": 3,
+      "items": {
+        "hatchet": 1,
+        "stone_pickaxe": 1,
+        "campfire": 1,
+        "workbench": 1,
+        "raw_steak": 2
+      },
+      "loaded_rounds": {},
+      "image": "assets/wiki/6.png"
+    },
+    {
+      "death_level": 7,
+      "returned_level": 3,
+      "items": {
+        "hatchet": 1,
+        "stone_pickaxe": 1,
+        "campfire": 1,
+        "iron": 6,
+        "workbench": 1,
+        "raw_steak": 2
+      },
+      "loaded_rounds": {},
+      "image": "assets/wiki/7.png"
+    },
+    {
+      "death_level": 8,
+      "returned_level": 4,
+      "items": {
+        "hatchet": 1,
+        "stone_pickaxe": 1,
+        "firepit": 1,
+        "spear": 1,
+        "workbench": 1,
+        "raw_steak": 3
+      },
+      "loaded_rounds": {},
+      "image": "assets/wiki/8.png"
+    },
+    {
+      "death_level": 9,
+      "returned_level": 4,
+      "items": {
+        "hatchet": 1,
+        "stone_pickaxe": 1,
+        "firepit": 1,
+        "bow": 1,
+        "wooden_arrow": 20,
+        "workbench": 1,
+        "raw_steak": 4
+      },
+      "loaded_rounds": {},
+      "image": "assets/wiki/9.png"
+    },
+    {
+      "death_level": 10,
+      "returned_level": 5,
+      "items": {
+        "hatchet": 1,
+        "stone_pickaxe": 1,
+        "firepit": 1,
+        "wood_wall": 10,
+        "wood_door": 2,
+        "workbench": 1,
+        "raw_steak": 4
+      },
+      "loaded_rounds": {},
+      "image": "assets/wiki/10.png"
+    },
+    {
+      "death_level": 11,
+      "returned_level": 5,
+      "items": {
+        "hatchet": 1,
+        "stone_pickaxe": 1,
+        "firepit": 1,
+        "wood_wall": 16,
+        "wood_door": 2,
+        "workbench": 2,
+        "raw_steak": 4
+      },
+      "loaded_rounds": {},
+      "image": "assets/wiki/11.png"
+    },
+    {
+      "death_level": 12,
+      "returned_level": 6,
+      "items": {
+        "hatchet": 1,
+        "stone_pickaxe": 1,
+        "firepit": 1,
+        "stone_wall": 14,
+        "stone_door": 2,
+        "workbench": 2,
+        "raw_steak": 4
+      },
+      "loaded_rounds": {},
+      "image": "assets/wiki/12.png"
+    },
+    {
+      "death_level": 13,
+      "returned_level": 6,
+      "items": {
+        "hatchet": 1,
+        "stone_pickaxe": 1,
+        "firepit": 1,
+        "landmine": 1,
+        "stone_wall": 14,
+        "stone_door": 2,
+        "workbench": 2,
+        "raw_steak": 4
+      },
+      "loaded_rounds": {},
+      "image": "assets/wiki/13.png"
+    },
+    {
+      "death_level": 14,
+      "returned_level": 7,
+      "items": {
+        "hatchet": 1,
+        "stone_pickaxe": 1,
+        "firepit": 1,
+        "metal_helmet": 1,
+        "stone_wall": 14,
+        "stone_door": 2,
+        "workbench": 2,
+        "raw_steak": 4
+      },
+      "loaded_rounds": {},
+      "image": "assets/wiki/14.png"
+    },
+    {
+      "death_level": 15,
+      "returned_level": 7,
+      "items": {
+        "hatchet": 1,
+        "stone_pickaxe": 1,
+        "firepit": 1,
+        "stone_wall": 16,
+        "stone_door": 2,
+        "wood_chest": 1,
+        "workbench": 2,
+        "raw_steak": 4
+      },
+      "loaded_rounds": {},
+      "image": "assets/wiki/15.png"
+    },
+    {
+      "death_level": 16,
+      "returned_level": 8,
+      "items": {
+        "hatchet": 1,
+        "metal_pickaxe": 1,
+        "firepit": 1,
+        "stone_wall": 16,
+        "stone_door": 2,
+        "wood_chest": 1,
+        "workbench": 2,
+        "raw_steak": 4
+      },
+      "loaded_rounds": {},
+      "image": "assets/wiki/16.png"
+    },
+    {
+      "death_level": 17,
+      "returned_level": 8,
+      "items": {
+        "hatchet": 1,
+        "metal_pickaxe": 1,
+        "firepit": 1,
+        "stone_wall": 16,
+        "stone_door": 2,
+        "wood_chest": 1,
+        "research_bench": 1,
+        "raw_steak": 4
+      },
+      "loaded_rounds": {},
+      "image": "assets/wiki/17.png"
+    },
+    {
+      "death_level": 18,
+      "returned_level": 9,
+      "items": {
+        "metal_axe": 1,
+        "metal_pickaxe": 1,
+        "firepit": 1,
+        "stone_wall": 16,
+        "stone_door": 2,
+        "wood_chest": 1,
+        "research_bench": 1,
+        "raw_steak": 4
+      },
+      "loaded_rounds": {},
+      "image": "assets/wiki/18.png"
+    },
+    {
+      "death_level": 19,
+      "returned_level": 9,
+      "items": {
+        "metal_axe": 1,
+        "metal_pickaxe": 1,
+        "firepit": 2,
+        "stone_wall": 20,
+        "stone_door": 4,
+        "wood_chest": 2,
+        "research_bench": 1,
+        "raw_steak": 4
+      },
+      "loaded_rounds": {},
+      "image": "assets/wiki/19.png"
+    },
+    {
+      "death_level": 20,
+      "returned_level": 10,
+      "items": {
+        "metal_axe": 1,
+        "metal_pickaxe": 1,
+        "firepit": 2,
+        "stone_wall": 26,
+        "stone_door": 6,
+        "wood_chest": 3,
+        "research_bench": 1,
+        "orange_seed": 8
+      },
+      "loaded_rounds": {},
+      "image": "assets/wiki/20.png"
+    },
+    {
+      "death_level": 21,
+      "returned_level": 10,
+      "items": {
+        "metal_axe": 1,
+        "metal_pickaxe": 1,
+        "headscarf": 1,
+        "stone_wall": 26,
+        "stone_door": 6,
+        "wood_chest": 3,
+        "research_bench": 1,
+        "orange_seed": 8
+      },
+      "loaded_rounds": {},
+      "image": "assets/wiki/21.png"
+    },
+    {
+      "death_level": 22,
+      "returned_level": 11,
+      "items": {
+        "metal_axe": 1,
+        "metal_pickaxe": 1,
+        "headscarf": 1,
+        "stone_wall": 26,
+        "stone_door": 6,
+        "wood_chest": 3,
+        "research_bench": 1,
+        "9mm": 1
+      },
+      "loaded_rounds": {
+        "9mm": 20
+      },
+      "image": "assets/wiki/22.png"
+    },
+    {
+      "death_level": 23,
+      "returned_level": 11,
+      "items": {
+        "sulfur_pickaxe": 1,
+        "metal_axe": 1,
+        "headscarf": 1,
+        "stone_wall": 26,
+        "stone_door": 6,
+        "wood_chest": 3,
+        "research_bench": 1,
+        "9mm": 1
+      },
+      "loaded_rounds": {
+        "9mm": 20
+      },
+      "image": "assets/wiki/23.png"
+    },
+    {
+      "death_level": 24,
+      "returned_level": 12,
+      "items": {
+        "sulfur_pickaxe": 1,
+        "metal_axe": 1,
+        "headscarf": 1,
+        "stone_wall": 26,
+        "smelter": 1,
+        "wood_chest": 3,
+        "research_bench": 1,
+        "9mm": 1
+      },
+      "loaded_rounds": {
+        "9mm": 20
+      },
+      "image": "assets/wiki/24.png"
+    },
+    {
+      "death_level": 25,
+      "returned_level": 12,
+      "items": {
+        "sulfur_pickaxe": 1,
+        "sulfur_axe": 1,
+        "headscarf": 1,
+        "stone_wall": 26,
+        "smelter": 1,
+        "wood_chest": 3,
+        "research_bench": 1,
+        "9mm": 1
+      },
+      "loaded_rounds": {
+        "9mm": 20
+      },
+      "image": "assets/wiki/25.png"
+    },
+    {
+      "death_level": 26,
+      "returned_level": 13,
+      "items": {
+        "sulfur_pickaxe": 1,
+        "sulfur_axe": 1,
+        "chapka": 1,
+        "stone_wall": 26,
+        "smelter": 1,
+        "wood_chest": 3,
+        "research_bench": 1,
+        "9mm": 1
+      },
+      "loaded_rounds": {
+        "9mm": 20
+      },
+      "image": "assets/wiki/26.png"
+    },
+    {
+      "death_level": 27,
+      "returned_level": 13,
+      "items": {
+        "sulfur_pickaxe": 1,
+        "sulfur_axe": 1,
+        "chapka": 1,
+        "metal_wall": 14,
+        "smelter": 1,
+        "wood_chest": 3,
+        "research_bench": 1,
+        "9mm": 1
+      },
+      "loaded_rounds": {
+        "9mm": 20
+      },
+      "image": "assets/wiki/27.png"
+    },
+    {
+      "death_level": 28,
+      "returned_level": 14,
+      "items": {
+        "sulfur_pickaxe": 1,
+        "sulfur_axe": 1,
+        "chapka": 1,
+        "metal_wall": 14,
+        "smelter": 1,
+        "wood_chest": 3,
+        "research_bench": 1,
+        "desert_eagle": 1
+      },
+      "loaded_rounds": {
+        "desert_eagle": 7
+      },
+      "image": "assets/wiki/28.png"
+    },
+    {
+      "death_level": 29,
+      "returned_level": 14,
+      "items": {
+        "sulfur_pickaxe": 1,
+        "sulfur_axe": 1,
+        "chapka": 1,
+        "metal_wall": 14,
+        "smelter": 1,
+        "gasoline": 6,
+        "research_bench": 1,
+        "desert_eagle": 1
+      },
+      "loaded_rounds": {
+        "desert_eagle": 7
+      },
+      "image": "assets/wiki/29.png"
+    },
+    {
+      "death_level": 30,
+      "returned_level": 15,
+      "items": {
+        "sulfur_pickaxe": 1,
+        "sulfur_axe": 1,
+        "chapka": 1,
+        "metal_wall": 20,
+        "smelter": 1,
+        "landmine": 6,
+        "research_bench": 1,
+        "desert_eagle": 1
+      },
+      "loaded_rounds": {
+        "desert_eagle": 7
+      },
+      "image": "assets/wiki/30.png"
+    }
+  ]
+}

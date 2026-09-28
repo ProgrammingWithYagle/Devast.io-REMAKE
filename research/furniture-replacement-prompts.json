@@ -1,0 +1,22 @@
+[
+  {
+    "name": "beds-v1.png",
+    "prompt": "Create a clean transparent sprite strip for a top-down 2D survival game. Faithfully extract and reconstruct only the THREE separate bed objects from these two tiny reference images, preserving the simple hand-drawn Devast.io shape and color, black outlines, and flat shading. First image contains two square beds side by side: left brown frame, white pillow/blanket, charcoal bottom; right grey frame, white pillow/blanket, blue bottom. Second image contains one bunker bed with a dark grey frame, white pillow/blanket and grey bottom. Output those three bed sprites in that exact left-to-right order, equal visual size, facing up, in ONE evenly spaced horizontal row, with generous clear separation and fully transparent background. Each bed is nearly square like the reference, NOT a long realistic bed. No green surroundings, no floor, no slot background, no text, no decoration, no glow, no cast shadow beyond the original thin dark edge. Use crisp thick black outlines, restrained angular soft-grey shading, simple white cloth folds; do not add detail absent from the reference. Total image aspect ratio 3:1. This is reference restoration, keep the original graphic design at game-sprite scale.",
+    "generatedFilename": "exec-64052a52-a382-4e05-b9f8-5a257cabcfd4.png"
+  },
+  {
+    "name": "electronics-v1.png",
+    "prompt": "Restore these three low resolution top-down Devast.io furniture sprites as a clean transparent sprite strip, in the exact provided order left to right: small blue-grey electronics computer panel, tall blue-grey big computer panel with the visible external cables and switches, dark steel safe with a side hinge/handle and rivets. Faithfully preserve each original object's simple flat shape, top-down projection, proportions, muted grey blue palette and very dark heavy outline. Remove ALL green rectangular scenery backgrounds; show only each object. Do not transform these top-down panel objects into perspective desktop monitors or front view appliances. Three equally sized sprite cells, one horizontal row, very generous clear separation, transparent background and transparent margins, no text, no labels, no floor, no new visual details or highlights. Crisp simple 2D game artwork at sprite scale, not realistic. Aspect ratio 3:1.",
+    "generatedFilename": "exec-a80657f1-a33a-4a4b-a86c-74056864d773.png"
+  },
+  {
+    "name": "plumbing-v1.png",
+    "prompt": "Restore the TWO provided tiny top-down Devast.io household sprites faithfully, in a transparent horizontal two-sprite strip. Left: the square kitchen sink with brown wooden border, grey basin, tiny curved faucet visible from above, and black outline. Right: the off-white toilet, rectangular cistern above oval bowl, visible black outlines and very simple grey interior shading, exactly as the reference. Keep original shapes, top-down angle and graphic simplicity. Remove all green background, leave fully transparent background, evenly spaced separate objects with ample clear margins. No floor, no perspective change, no new decoration, no text, no labels, no drop shadows, no realistic details. Restrained flat grey/brown/off-white colors and dark heavy outlines. Aspect ratio 2:1.",
+    "generatedFilename": "exec-2b4d24c3-86b9-4963-9e61-3b9310ab9960.png"
+  },
+  {
+    "name": "tables-v1.png",
+    "prompt": "Restore the TWO table sprites in this reference as two separate transparent sprites in one horizontal row, exactly the original order. Left is the small square dark-grey table with an off-white round cup at upper left, an off-white paper with dark scribbled markings at upper right, and a crumpled off-white scrap at lower right. Right is a plain larger square flat grey table with a thick black outline and subtly rounded corners. Preserve top-down projection, flat simple Devast.io artwork, muted grey palette and thick black outlines. Remove ALL green scenery background, no floor, no realistic grain or lighting, no new objects, no leg perspective, no extra text. Each sprite in its own square cell, generous fully transparent spacing and outer margins. The plain table should be about 1.3 times the visual width of the cluttered table, as in the reference. Aspect ratio 2:1.",
+    "generatedFilename": "exec-25c752bc-b959-4c7e-a562-c82a067fb2e9.png"
+  }
+]

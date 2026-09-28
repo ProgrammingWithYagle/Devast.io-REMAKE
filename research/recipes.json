@@ -1,0 +1,3578 @@
+{
+  "status": "Selected working baseline, not an extracted live database",
+  "null_policy": "null means unverified; do not treat as zero or free",
+  "recipes": [
+    {
+      "id": "hatchet",
+      "name": "Hatchet",
+      "station": "hand",
+      "ingredients": [
+        {
+          "item_id": "wood",
+          "quantity": 10
+        },
+        {
+          "item_id": "stone",
+          "quantity": 2
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 0,
+      "skill_points": 0,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Hatchet",
+        "url": "https://devastio.fandom.com/wiki/Hatchet",
+        "revision": 4167,
+        "permalink": "https://devastio.fandom.com/wiki/Hatchet?oldid=4167"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "workbench",
+      "name": "Workbench",
+      "station": "hand",
+      "ingredients": [
+        {
+          "item_id": "wood",
+          "quantity": 40
+        },
+        {
+          "item_id": "stone",
+          "quantity": 20
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 0,
+      "skill_points": 0,
+      "craft_seconds": 15,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Workbench",
+        "url": "https://devastio.fandom.com/wiki/Workbench",
+        "revision": 4671,
+        "permalink": "https://devastio.fandom.com/wiki/Workbench?oldid=4671"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "campfire",
+      "name": "Campfire",
+      "station": "hand",
+      "ingredients": [
+        {
+          "item_id": "wood",
+          "quantity": 30
+        },
+        {
+          "item_id": "stone",
+          "quantity": 5
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 0,
+      "skill_points": 0,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Campfire",
+        "url": "https://devastio.fandom.com/wiki/Campfire",
+        "revision": 4326,
+        "permalink": "https://devastio.fandom.com/wiki/Campfire?oldid=4326"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "stone_pickaxe",
+      "name": "Stone Pickaxe",
+      "station": "workbench",
+      "ingredients": [
+        {
+          "item_id": "wood",
+          "quantity": 100
+        },
+        {
+          "item_id": "stone",
+          "quantity": 30
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 1,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Stone Pickaxe",
+        "url": "https://devastio.fandom.com/wiki/Stone_Pickaxe",
+        "revision": 4168,
+        "permalink": "https://devastio.fandom.com/wiki/Stone_Pickaxe?oldid=4168"
+      },
+      "notes": "Prefer dedicated article over obsolete All items recipe of 150 wood. Level and unlock cost remain provisional.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "firepit",
+      "name": "Firepit",
+      "station": "workbench",
+      "ingredients": [
+        {
+          "item_id": "wood",
+          "quantity": 120
+        },
+        {
+          "item_id": "stone",
+          "quantity": 20
+        },
+        {
+          "item_id": "iron",
+          "quantity": 4
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 3,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Firepit",
+        "url": "https://devastio.fandom.com/wiki/Firepit",
+        "revision": 4152,
+        "permalink": "https://devastio.fandom.com/wiki/Firepit?oldid=4152"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "weaving_machine",
+      "name": "Weaving Machine",
+      "station": "workbench",
+      "ingredients": [
+        {
+          "item_id": "wood",
+          "quantity": 80
+        },
+        {
+          "item_id": "stone",
+          "quantity": 20
+        },
+        {
+          "item_id": "string",
+          "quantity": 2
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 0,
+      "skill_points": 0,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Weaving Machine",
+        "url": "https://devastio.fandom.com/wiki/Weaving_Machine",
+        "revision": 4156,
+        "permalink": "https://devastio.fandom.com/wiki/Weaving_Machine?oldid=4156"
+      },
+      "notes": "Default unlock confirmed by official v0.23 changelog.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "research_bench",
+      "name": "Research Bench",
+      "station": "workbench",
+      "ingredients": [
+        {
+          "item_id": "shaped_metal",
+          "quantity": 6
+        },
+        {
+          "item_id": "electronic_parts",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 6,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Research Bench",
+        "url": "https://devastio.fandom.com/wiki/Research_Bench",
+        "revision": 4328,
+        "permalink": "https://devastio.fandom.com/wiki/Research_Bench?oldid=4328"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "smelter",
+      "name": "Smelter",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "shaped_metal",
+          "quantity": 6
+        },
+        {
+          "item_id": "electronic_parts",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 10,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Smelter",
+        "url": "https://devastio.fandom.com/wiki/Smelter",
+        "revision": 4607,
+        "permalink": "https://devastio.fandom.com/wiki/Smelter?oldid=4607"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "tesla_bench",
+      "name": "Tesla Bench",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "shaped_metal",
+          "quantity": 6
+        },
+        {
+          "item_id": "alloys",
+          "quantity": 4
+        },
+        {
+          "item_id": "electronic_parts",
+          "quantity": 3
+        },
+        {
+          "item_id": "big_wires",
+          "quantity": 4
+        },
+        {
+          "item_id": "shaped_uranium",
+          "quantity": 2
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Tesla Bench",
+        "url": "https://devastio.fandom.com/wiki/Tesla_Bench",
+        "revision": 4542,
+        "permalink": "https://devastio.fandom.com/wiki/Tesla_Bench?oldid=4542"
+      },
+      "notes": "Energy Cells must be looted to bootstrap this station.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "welding_machine",
+      "name": "Welding Machine",
+      "station": "workbench",
+      "ingredients": [
+        {
+          "item_id": "shaped_metal",
+          "quantity": 4
+        },
+        {
+          "item_id": "electronic_parts",
+          "quantity": 1
+        },
+        {
+          "item_id": "junk",
+          "quantity": 2
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Welding Machine",
+        "url": "https://devastio.fandom.com/wiki/Welding_Machine",
+        "revision": 4094,
+        "permalink": "https://devastio.fandom.com/wiki/Welding_Machine?oldid=4094"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "compost",
+      "name": "Compost",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "shaped_metal",
+          "quantity": 4
+        },
+        {
+          "item_id": "electronic_parts",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": null,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Compost",
+        "url": "https://devastio.fandom.com/wiki/Compost",
+        "revision": 4611,
+        "permalink": "https://devastio.fandom.com/wiki/Compost?oldid=4611"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "agitator",
+      "name": "Agitator",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "shaped_metal",
+          "quantity": 6
+        },
+        {
+          "item_id": "electronic_parts",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Agitator",
+        "url": "https://devastio.fandom.com/wiki/Agitator",
+        "revision": 4531,
+        "permalink": "https://devastio.fandom.com/wiki/Agitator?oldid=4531"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "extractor",
+      "name": "Extractor",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "shaped_metal",
+          "quantity": 10
+        },
+        {
+          "item_id": "alloys",
+          "quantity": 2
+        },
+        {
+          "item_id": "shaped_uranium",
+          "quantity": 2
+        },
+        {
+          "item_id": "small_wire",
+          "quantity": 2
+        },
+        {
+          "item_id": "electronic_parts",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Extractor",
+        "url": "https://devastio.fandom.com/wiki/Extractor",
+        "revision": 4511,
+        "permalink": "https://devastio.fandom.com/wiki/Extractor?oldid=4511"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "feeder",
+      "name": "Feeder",
+      "station": "tesla_bench",
+      "ingredients": [
+        {
+          "item_id": "alloys",
+          "quantity": 4
+        },
+        {
+          "item_id": "shaped_metal",
+          "quantity": 20
+        },
+        {
+          "item_id": "shaped_uranium",
+          "quantity": 8
+        },
+        {
+          "item_id": "small_wire",
+          "quantity": 4
+        },
+        {
+          "item_id": "electronic_parts",
+          "quantity": 2
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Feeder",
+        "url": "https://devastio.fandom.com/wiki/Feeder",
+        "revision": 4610,
+        "permalink": "https://devastio.fandom.com/wiki/Feeder?oldid=4610"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "string",
+      "name": "String",
+      "station": "workbench",
+      "ingredients": [
+        {
+          "item_id": "animal_tendon",
+          "quantity": 2
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 0,
+      "skill_points": 0,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "String",
+        "url": "https://devastio.fandom.com/wiki/String",
+        "revision": 4331,
+        "permalink": "https://devastio.fandom.com/wiki/String?oldid=4331"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "shaped_metal",
+      "name": "Shaped Metal",
+      "station": "firepit",
+      "ingredients": [
+        {
+          "item_id": "iron",
+          "quantity": 2
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 0,
+      "skill_points": 0,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Shaped Metal",
+        "url": "https://devastio.fandom.com/wiki/Shaped_Metal",
+        "revision": 4315,
+        "permalink": "https://devastio.fandom.com/wiki/Shaped_Metal?oldid=4315"
+      },
+      "notes": "Also produced faster in Smelter; alternative-station timing unmeasured.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "shaped_uranium",
+      "name": "Shaped Uranium",
+      "station": "smelter",
+      "ingredients": [
+        {
+          "item_id": "uranium",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Shaped uranium",
+        "url": "https://devastio.fandom.com/wiki/Shaped_uranium",
+        "revision": 4154,
+        "permalink": "https://devastio.fandom.com/wiki/Shaped_uranium?oldid=4154"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "alloys",
+      "name": "Alloys",
+      "station": "smelter",
+      "ingredients": [
+        {
+          "item_id": "iron",
+          "quantity": 1
+        },
+        {
+          "item_id": "junk",
+          "quantity": 1
+        },
+        {
+          "item_id": "sulfur",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Alloys",
+        "url": "https://devastio.fandom.com/wiki/Alloys",
+        "revision": 3969,
+        "permalink": "https://devastio.fandom.com/wiki/Alloys?oldid=3969"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "gasoline",
+      "name": "Gasoline",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "rotten_orange",
+          "quantity": 4
+        },
+        {
+          "item_id": "sulfur",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Gasoline",
+        "url": "https://devastio.fandom.com/wiki/Gasoline",
+        "revision": 4157,
+        "permalink": "https://devastio.fandom.com/wiki/Gasoline?oldid=4157"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "rotten_orange",
+      "name": "Rotten Orange",
+      "station": "compost",
+      "ingredients": [
+        {
+          "item_id": "orange",
+          "quantity": 4
+        }
+      ],
+      "output_quantity": 8,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Compost",
+        "url": "https://devastio.fandom.com/wiki/Compost",
+        "revision": 4611,
+        "permalink": "https://devastio.fandom.com/wiki/Compost?oldid=4611"
+      },
+      "notes": "Natural spoilage also yields rotten oranges; not this 2x batch ratio.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "nails",
+      "name": "Nails",
+      "station": "workbench",
+      "ingredients": [
+        {
+          "item_id": "shaped_metal",
+          "quantity": 2
+        }
+      ],
+      "output_quantity": 85,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Nails",
+        "url": "https://devastio.fandom.com/wiki/Nails",
+        "revision": 3100,
+        "permalink": "https://devastio.fandom.com/wiki/Nails?oldid=3100"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "energy_cells",
+      "name": "Energy Cells",
+      "station": "tesla_bench",
+      "ingredients": [
+        {
+          "item_id": "alloys",
+          "quantity": 1
+        },
+        {
+          "item_id": "shaped_uranium",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 30,
+      "required_level": 6,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Energy Cells",
+        "url": "https://devastio.fandom.com/wiki/Energy_Cells",
+        "revision": 1762,
+        "permalink": "https://devastio.fandom.com/wiki/Energy_Cells?oldid=1762"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "metal_axe",
+      "name": "Metal Axe",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "wood",
+          "quantity": 150
+        },
+        {
+          "item_id": "shaped_metal",
+          "quantity": 7
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 5,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Metal Axe",
+        "url": "https://devastio.fandom.com/wiki/Metal_Axe",
+        "revision": 3668,
+        "permalink": "https://devastio.fandom.com/wiki/Metal_Axe?oldid=3668"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "metal_pickaxe",
+      "name": "Metal Pickaxe",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "stone",
+          "quantity": 150
+        },
+        {
+          "item_id": "shaped_metal",
+          "quantity": 6
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 6,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Metal Pickaxe",
+        "url": "https://devastio.fandom.com/wiki/Metal_Pickaxe",
+        "revision": 4641,
+        "permalink": "https://devastio.fandom.com/wiki/Metal_Pickaxe?oldid=4641"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "sulfur_axe",
+      "name": "Sulfur Axe",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "metal_axe",
+          "quantity": 1
+        },
+        {
+          "item_id": "alloys",
+          "quantity": 8
+        },
+        {
+          "item_id": "shaped_metal",
+          "quantity": 10
+        },
+        {
+          "item_id": "sulfur",
+          "quantity": 20
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Sulfur Axe",
+        "url": "https://devastio.fandom.com/wiki/Sulfur_Axe",
+        "revision": 3463,
+        "permalink": "https://devastio.fandom.com/wiki/Sulfur_Axe?oldid=3463"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "sulfur_pickaxe",
+      "name": "Sulfur Pickaxe",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "shaped_metal",
+          "quantity": 6
+        },
+        {
+          "item_id": "sulfur",
+          "quantity": 6
+        },
+        {
+          "item_id": "alloys",
+          "quantity": 2
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 9,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Sulfur Pickaxe",
+        "url": "https://devastio.fandom.com/wiki/Sulfur_Pickaxe",
+        "revision": 4644,
+        "permalink": "https://devastio.fandom.com/wiki/Sulfur_Pickaxe?oldid=4644"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "hammer",
+      "name": "Hammer",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "wood",
+          "quantity": 100
+        },
+        {
+          "item_id": "shaped_metal",
+          "quantity": 10
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 7,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Hammer",
+        "url": "https://devastio.fandom.com/wiki/Hammer",
+        "revision": 4653,
+        "permalink": "https://devastio.fandom.com/wiki/Hammer?oldid=4653"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "repair_hammer",
+      "name": "Repair Hammer",
+      "station": "workbench",
+      "ingredients": [
+        {
+          "item_id": "wood",
+          "quantity": 120
+        },
+        {
+          "item_id": "shaped_metal",
+          "quantity": 2
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": null,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Repair Hammer",
+        "url": "https://devastio.fandom.com/wiki/Repair_Hammer",
+        "revision": 3194,
+        "permalink": "https://devastio.fandom.com/wiki/Repair_Hammer?oldid=3194"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "nail_gun",
+      "name": "Nail Gun",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "shaped_metal",
+          "quantity": 6
+        },
+        {
+          "item_id": "small_wire",
+          "quantity": 1
+        },
+        {
+          "item_id": "energy_cells",
+          "quantity": 4
+        },
+        {
+          "item_id": "junk",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 7,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Nail Gun",
+        "url": "https://devastio.fandom.com/wiki/Nail_Gun",
+        "revision": 4647,
+        "permalink": "https://devastio.fandom.com/wiki/Nail_Gun?oldid=4647"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "wood_chest",
+      "name": "Wood Chest",
+      "station": "workbench",
+      "ingredients": [
+        {
+          "item_id": "wood",
+          "quantity": 50
+        },
+        {
+          "item_id": "stone",
+          "quantity": 20
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 8,
+      "skill_points": 1,
+      "craft_seconds": 30,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Wood chest",
+        "url": "https://devastio.fandom.com/wiki/Wood_chest",
+        "revision": 4686,
+        "permalink": "https://devastio.fandom.com/wiki/Wood_chest?oldid=4686"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "fridge",
+      "name": "Fridge",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "shaped_metal",
+          "quantity": 5
+        },
+        {
+          "item_id": "energy_cells",
+          "quantity": 4
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 9,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Fridge",
+        "url": "https://devastio.fandom.com/wiki/Fridge",
+        "revision": 4706,
+        "permalink": "https://devastio.fandom.com/wiki/Fridge?oldid=4706"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "sleeping_bag",
+      "name": "Sleeping Bag",
+      "station": "weaving_machine",
+      "ingredients": [
+        {
+          "item_id": "string",
+          "quantity": 7
+        },
+        {
+          "item_id": "animal_fat",
+          "quantity": 7
+        },
+        {
+          "item_id": "leather",
+          "quantity": 7
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 9,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Sleeping bag",
+        "url": "https://devastio.fandom.com/wiki/Sleeping_bag",
+        "revision": 4160,
+        "permalink": "https://devastio.fandom.com/wiki/Sleeping_bag?oldid=4160"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "wood_wall",
+      "name": "Wood Wall",
+      "station": "workbench",
+      "ingredients": [
+        {
+          "item_id": "wood",
+          "quantity": 20
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 0,
+      "skill_points": 0,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Construction",
+        "url": "https://devastio.fandom.com/wiki/Construction",
+        "revision": 4606,
+        "permalink": "https://devastio.fandom.com/wiki/Construction?oldid=4606"
+      },
+      "notes": "Output doubles with Builder 1.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "wood_door",
+      "name": "Wood Door",
+      "station": "workbench",
+      "ingredients": [
+        {
+          "item_id": "wood",
+          "quantity": 60
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 0,
+      "skill_points": 0,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Construction",
+        "url": "https://devastio.fandom.com/wiki/Construction",
+        "revision": 4606,
+        "permalink": "https://devastio.fandom.com/wiki/Construction?oldid=4606"
+      },
+      "notes": "Output doubles with Builder 1.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "wood_low_wall",
+      "name": "Wood Low Wall",
+      "station": "workbench",
+      "ingredients": [
+        {
+          "item_id": "wood",
+          "quantity": 10
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 0,
+      "skill_points": 0,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Construction",
+        "url": "https://devastio.fandom.com/wiki/Construction",
+        "revision": 4606,
+        "permalink": "https://devastio.fandom.com/wiki/Construction?oldid=4606"
+      },
+      "notes": "Output doubles with Builder 1.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "wood_low_door",
+      "name": "Wood Low Door",
+      "station": "workbench",
+      "ingredients": [
+        {
+          "item_id": "wood",
+          "quantity": 40
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 0,
+      "skill_points": 0,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Construction",
+        "url": "https://devastio.fandom.com/wiki/Construction",
+        "revision": 4606,
+        "permalink": "https://devastio.fandom.com/wiki/Construction?oldid=4606"
+      },
+      "notes": "Output doubles with Builder 1.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "stone_wall",
+      "name": "Stone Wall",
+      "station": "workbench",
+      "ingredients": [
+        {
+          "item_id": "stone",
+          "quantity": 20
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 3,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Construction",
+        "url": "https://devastio.fandom.com/wiki/Construction",
+        "revision": 4606,
+        "permalink": "https://devastio.fandom.com/wiki/Construction?oldid=4606"
+      },
+      "notes": "Output doubles with Builder 1.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "stone_door",
+      "name": "Stone Door",
+      "station": "workbench",
+      "ingredients": [
+        {
+          "item_id": "stone",
+          "quantity": 60
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 3,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Construction",
+        "url": "https://devastio.fandom.com/wiki/Construction",
+        "revision": 4606,
+        "permalink": "https://devastio.fandom.com/wiki/Construction?oldid=4606"
+      },
+      "notes": "Output doubles with Builder 1.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "stone_low_wall",
+      "name": "Stone Low Wall",
+      "station": "workbench",
+      "ingredients": [
+        {
+          "item_id": "stone",
+          "quantity": 10
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 3,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Construction",
+        "url": "https://devastio.fandom.com/wiki/Construction",
+        "revision": 4606,
+        "permalink": "https://devastio.fandom.com/wiki/Construction?oldid=4606"
+      },
+      "notes": "Output doubles with Builder 1.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "stone_low_door",
+      "name": "Stone Low Door",
+      "station": "workbench",
+      "ingredients": [
+        {
+          "item_id": "stone",
+          "quantity": 40
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 3,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Construction",
+        "url": "https://devastio.fandom.com/wiki/Construction",
+        "revision": 4606,
+        "permalink": "https://devastio.fandom.com/wiki/Construction?oldid=4606"
+      },
+      "notes": "Output doubles with Builder 1.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "metal_wall",
+      "name": "Metal Wall",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "shaped_metal",
+          "quantity": 3
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 6,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Construction",
+        "url": "https://devastio.fandom.com/wiki/Construction",
+        "revision": 4606,
+        "permalink": "https://devastio.fandom.com/wiki/Construction?oldid=4606"
+      },
+      "notes": "Output doubles with Builder 1.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "metal_door",
+      "name": "Metal Door",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "shaped_metal",
+          "quantity": 9
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 6,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Construction",
+        "url": "https://devastio.fandom.com/wiki/Construction",
+        "revision": 4606,
+        "permalink": "https://devastio.fandom.com/wiki/Construction?oldid=4606"
+      },
+      "notes": "Metal door costs follow Construction (9 / 6), not older Door (15 / 10). Output doubles with Builder 1.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "metal_low_wall",
+      "name": "Metal Low Wall",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "shaped_metal",
+          "quantity": 2
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 6,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Construction",
+        "url": "https://devastio.fandom.com/wiki/Construction",
+        "revision": 4606,
+        "permalink": "https://devastio.fandom.com/wiki/Construction?oldid=4606"
+      },
+      "notes": "Output doubles with Builder 1.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "metal_low_door",
+      "name": "Metal Low Door",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "shaped_metal",
+          "quantity": 6
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 6,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Construction",
+        "url": "https://devastio.fandom.com/wiki/Construction",
+        "revision": 4606,
+        "permalink": "https://devastio.fandom.com/wiki/Construction?oldid=4606"
+      },
+      "notes": "Metal door costs follow Construction (9 / 6), not older Door (15 / 10). Output doubles with Builder 1.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "wood_floor",
+      "name": "Wood Floor",
+      "station": "workbench",
+      "ingredients": [
+        {
+          "item_id": "wood",
+          "quantity": 15
+        }
+      ],
+      "output_quantity": 2,
+      "required_level": 0,
+      "skill_points": 0,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Floor",
+        "url": "https://devastio.fandom.com/wiki/Floor",
+        "revision": 4651,
+        "permalink": "https://devastio.fandom.com/wiki/Floor?oldid=4651"
+      },
+      "notes": "Official changelog: two per craft, four with Builder 1.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "light_wood_floor",
+      "name": "Light Wood Floor",
+      "station": "workbench",
+      "ingredients": [
+        {
+          "item_id": "wood",
+          "quantity": 15
+        }
+      ],
+      "output_quantity": 2,
+      "required_level": 0,
+      "skill_points": 0,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Floor",
+        "url": "https://devastio.fandom.com/wiki/Floor",
+        "revision": 4651,
+        "permalink": "https://devastio.fandom.com/wiki/Floor?oldid=4651"
+      },
+      "notes": "Official changelog: two per craft, four with Builder 1.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "stone_floor",
+      "name": "Stone Floor",
+      "station": "workbench",
+      "ingredients": [
+        {
+          "item_id": "stone",
+          "quantity": 15
+        }
+      ],
+      "output_quantity": 2,
+      "required_level": 4,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Floor",
+        "url": "https://devastio.fandom.com/wiki/Floor",
+        "revision": 4651,
+        "permalink": "https://devastio.fandom.com/wiki/Floor?oldid=4651"
+      },
+      "notes": "Official changelog: two per craft, four with Builder 1.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "tiling_floor",
+      "name": "Tiling Floor",
+      "station": "workbench",
+      "ingredients": [
+        {
+          "item_id": "stone",
+          "quantity": 15
+        }
+      ],
+      "output_quantity": 2,
+      "required_level": 4,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Floor",
+        "url": "https://devastio.fandom.com/wiki/Floor",
+        "revision": 4651,
+        "permalink": "https://devastio.fandom.com/wiki/Floor?oldid=4651"
+      },
+      "notes": "Official changelog: two per craft, four with Builder 1.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "red_floor",
+      "name": "Red Floor",
+      "station": "workbench",
+      "ingredients": [
+        {
+          "item_id": "leather",
+          "quantity": 2
+        }
+      ],
+      "output_quantity": 2,
+      "required_level": 0,
+      "skill_points": 0,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Floor",
+        "url": "https://devastio.fandom.com/wiki/Floor",
+        "revision": 4651,
+        "permalink": "https://devastio.fandom.com/wiki/Floor?oldid=4651"
+      },
+      "notes": "Official changelog: two per craft, four with Builder 1.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "golden_floor",
+      "name": "Golden Floor",
+      "station": "workbench",
+      "ingredients": [
+        {
+          "item_id": "leather",
+          "quantity": 2
+        }
+      ],
+      "output_quantity": 2,
+      "required_level": 0,
+      "skill_points": 0,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Floor",
+        "url": "https://devastio.fandom.com/wiki/Floor",
+        "revision": 4651,
+        "permalink": "https://devastio.fandom.com/wiki/Floor?oldid=4651"
+      },
+      "notes": "Official changelog: two per craft, four with Builder 1.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "wooden_spike",
+      "name": "Wooden Spike",
+      "station": "workbench",
+      "ingredients": [
+        {
+          "item_id": "wood",
+          "quantity": 80
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 0,
+      "skill_points": 0,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Wooden Spike",
+        "url": "https://devastio.fandom.com/wiki/Wooden_Spike",
+        "revision": 4684,
+        "permalink": "https://devastio.fandom.com/wiki/Wooden_Spike?oldid=4684"
+      },
+      "notes": "Unlocked by default per v0.29; supersedes old level 7 listing.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "cable",
+      "name": "Cable",
+      "station": "welding_machine",
+      "ingredients": [
+        {
+          "item_id": "small_wire",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 3,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Welding Machine",
+        "url": "https://devastio.fandom.com/wiki/Welding_Machine",
+        "revision": 4094,
+        "permalink": "https://devastio.fandom.com/wiki/Welding_Machine?oldid=4094"
+      },
+      "notes": "Three per craft from official v0.29 wording for cables/platforms/lamps/gates; switch and bridge batch sizes require live confirmation.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "cable_bridge",
+      "name": "Cable Bridge",
+      "station": "welding_machine",
+      "ingredients": [
+        {
+          "item_id": "small_wire",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 3,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Welding Machine",
+        "url": "https://devastio.fandom.com/wiki/Welding_Machine",
+        "revision": 4094,
+        "permalink": "https://devastio.fandom.com/wiki/Welding_Machine?oldid=4094"
+      },
+      "notes": "Three per craft from official v0.29 wording for cables/platforms/lamps/gates; switch and bridge batch sizes require live confirmation.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "switch",
+      "name": "Switch",
+      "station": "welding_machine",
+      "ingredients": [
+        {
+          "item_id": "small_wire",
+          "quantity": 1
+        },
+        {
+          "item_id": "shaped_metal",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 3,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Welding Machine",
+        "url": "https://devastio.fandom.com/wiki/Welding_Machine",
+        "revision": 4094,
+        "permalink": "https://devastio.fandom.com/wiki/Welding_Machine?oldid=4094"
+      },
+      "notes": "Three per craft from official v0.29 wording for cables/platforms/lamps/gates; switch and bridge batch sizes require live confirmation.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "gate_or",
+      "name": "Gate OR",
+      "station": "welding_machine",
+      "ingredients": [
+        {
+          "item_id": "small_wire",
+          "quantity": 1
+        },
+        {
+          "item_id": "shaped_metal",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 3,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Welding Machine",
+        "url": "https://devastio.fandom.com/wiki/Welding_Machine",
+        "revision": 4094,
+        "permalink": "https://devastio.fandom.com/wiki/Welding_Machine?oldid=4094"
+      },
+      "notes": "Three per craft from official v0.29 wording for cables/platforms/lamps/gates; switch and bridge batch sizes require live confirmation.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "gate_and",
+      "name": "Gate AND",
+      "station": "welding_machine",
+      "ingredients": [
+        {
+          "item_id": "small_wire",
+          "quantity": 1
+        },
+        {
+          "item_id": "shaped_metal",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 3,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Welding Machine",
+        "url": "https://devastio.fandom.com/wiki/Welding_Machine",
+        "revision": 4094,
+        "permalink": "https://devastio.fandom.com/wiki/Welding_Machine?oldid=4094"
+      },
+      "notes": "Three per craft from official v0.29 wording for cables/platforms/lamps/gates; switch and bridge batch sizes require live confirmation.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "gate_not",
+      "name": "Gate NOT",
+      "station": "welding_machine",
+      "ingredients": [
+        {
+          "item_id": "small_wire",
+          "quantity": 1
+        },
+        {
+          "item_id": "shaped_metal",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 3,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Welding Machine",
+        "url": "https://devastio.fandom.com/wiki/Welding_Machine",
+        "revision": 4094,
+        "permalink": "https://devastio.fandom.com/wiki/Welding_Machine?oldid=4094"
+      },
+      "notes": "Three per craft from official v0.29 wording for cables/platforms/lamps/gates; switch and bridge batch sizes require live confirmation.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "gate_xor",
+      "name": "Gate XOR",
+      "station": "welding_machine",
+      "ingredients": [
+        {
+          "item_id": "small_wire",
+          "quantity": 1
+        },
+        {
+          "item_id": "shaped_metal",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 3,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Welding Machine",
+        "url": "https://devastio.fandom.com/wiki/Welding_Machine",
+        "revision": 4094,
+        "permalink": "https://devastio.fandom.com/wiki/Welding_Machine?oldid=4094"
+      },
+      "notes": "Three per craft from official v0.29 wording for cables/platforms/lamps/gates; switch and bridge batch sizes require live confirmation.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "gate_timer",
+      "name": "Gate Timer",
+      "station": "welding_machine",
+      "ingredients": [
+        {
+          "item_id": "small_wire",
+          "quantity": 1
+        },
+        {
+          "item_id": "shaped_metal",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 3,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Welding Machine",
+        "url": "https://devastio.fandom.com/wiki/Welding_Machine",
+        "revision": 4094,
+        "permalink": "https://devastio.fandom.com/wiki/Welding_Machine?oldid=4094"
+      },
+      "notes": "Three per craft from official v0.29 wording for cables/platforms/lamps/gates; switch and bridge batch sizes require live confirmation.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "lamp",
+      "name": "Lamp",
+      "station": "welding_machine",
+      "ingredients": [
+        {
+          "item_id": "small_wire",
+          "quantity": 1
+        },
+        {
+          "item_id": "shaped_metal",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 3,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Welding Machine",
+        "url": "https://devastio.fandom.com/wiki/Welding_Machine",
+        "revision": 4094,
+        "permalink": "https://devastio.fandom.com/wiki/Welding_Machine?oldid=4094"
+      },
+      "notes": "Three per craft from official v0.29 wording for cables/platforms/lamps/gates; switch and bridge batch sizes require live confirmation.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "platform",
+      "name": "Platform",
+      "station": "welding_machine",
+      "ingredients": [
+        {
+          "item_id": "small_wire",
+          "quantity": 1
+        },
+        {
+          "item_id": "shaped_metal",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 3,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Welding Machine",
+        "url": "https://devastio.fandom.com/wiki/Welding_Machine",
+        "revision": 4094,
+        "permalink": "https://devastio.fandom.com/wiki/Welding_Machine?oldid=4094"
+      },
+      "notes": "Three per craft from official v0.29 wording for cables/platforms/lamps/gates; switch and bridge batch sizes require live confirmation.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "cable_wall",
+      "name": "Cable Wall",
+      "station": "welding_machine",
+      "ingredients": [
+        {
+          "item_id": "small_wire",
+          "quantity": 1
+        },
+        {
+          "item_id": "shaped_metal",
+          "quantity": 8
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": null,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Welding Machine",
+        "url": "https://devastio.fandom.com/wiki/Welding_Machine",
+        "revision": 4094,
+        "permalink": "https://devastio.fandom.com/wiki/Welding_Machine?oldid=4094"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "automatic_door",
+      "name": "Automatic Door",
+      "station": "welding_machine",
+      "ingredients": [
+        {
+          "item_id": "small_wire",
+          "quantity": 1
+        },
+        {
+          "item_id": "electronic_parts",
+          "quantity": 1
+        },
+        {
+          "item_id": "shaped_metal",
+          "quantity": 8
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": null,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Welding Machine",
+        "url": "https://devastio.fandom.com/wiki/Welding_Machine",
+        "revision": 4094,
+        "permalink": "https://devastio.fandom.com/wiki/Welding_Machine?oldid=4094"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "spear",
+      "name": "Spear",
+      "station": "hand",
+      "ingredients": [
+        {
+          "item_id": "wood",
+          "quantity": 70
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 0,
+      "skill_points": 0,
+      "craft_seconds": 15,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Spear",
+        "url": "https://devastio.fandom.com/wiki/Spear",
+        "revision": 4088,
+        "permalink": "https://devastio.fandom.com/wiki/Spear?oldid=4088"
+      },
+      "notes": "Also Workbench. Craft time from Weapons table; station modifier remains unverified.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "bow",
+      "name": "Bow",
+      "station": "hand",
+      "ingredients": [
+        {
+          "item_id": "wood",
+          "quantity": 40
+        },
+        {
+          "item_id": "animal_tendon",
+          "quantity": 2
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 0,
+      "skill_points": 0,
+      "craft_seconds": 50,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Bow",
+        "url": "https://devastio.fandom.com/wiki/Bow",
+        "revision": 4174,
+        "permalink": "https://devastio.fandom.com/wiki/Bow?oldid=4174"
+      },
+      "notes": "Also Workbench. Prefer dedicated Bow article (40 wood) over Weapons table (60); chosen working value, not verified live.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "crossbow",
+      "name": "Crossbow",
+      "station": "workbench",
+      "ingredients": [
+        {
+          "item_id": "wood",
+          "quantity": 200
+        },
+        {
+          "item_id": "string",
+          "quantity": 2
+        },
+        {
+          "item_id": "shaped_metal",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 6,
+      "skill_points": 1,
+      "craft_seconds": 50,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Crossbow",
+        "url": "https://devastio.fandom.com/wiki/Crossbow",
+        "revision": 4622,
+        "permalink": "https://devastio.fandom.com/wiki/Crossbow?oldid=4622"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "wooden_arrow",
+      "name": "Wooden Arrow",
+      "station": "workbench",
+      "ingredients": [
+        {
+          "item_id": "wood",
+          "quantity": 40
+        }
+      ],
+      "output_quantity": 5,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Wooden arrow",
+        "url": "https://devastio.fandom.com/wiki/Wooden_arrow",
+        "revision": 4682,
+        "permalink": "https://devastio.fandom.com/wiki/Wooden_arrow?oldid=4682"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "crossbow_arrow",
+      "name": "Crossbow Arrow",
+      "station": "workbench",
+      "ingredients": [
+        {
+          "item_id": "wood",
+          "quantity": 40
+        },
+        {
+          "item_id": "shaped_metal",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 10,
+      "required_level": 0,
+      "skill_points": 0,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Crossbow Arrow",
+        "url": "https://devastio.fandom.com/wiki/Crossbow_Arrow",
+        "revision": 3452,
+        "permalink": "https://devastio.fandom.com/wiki/Crossbow_Arrow?oldid=3452"
+      },
+      "notes": "Default unlock per v0.29.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "bullet",
+      "name": "Bullet",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "sulfur",
+          "quantity": 3
+        },
+        {
+          "item_id": "shaped_metal",
+          "quantity": 3
+        },
+        {
+          "item_id": "animal_fat",
+          "quantity": 3
+        }
+      ],
+      "output_quantity": 30,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Bullet",
+        "url": "https://devastio.fandom.com/wiki/Bullet",
+        "revision": 4144,
+        "permalink": "https://devastio.fandom.com/wiki/Bullet?oldid=4144"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "heavy_bullet",
+      "name": "Heavy Bullet",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "alloys",
+          "quantity": 1
+        },
+        {
+          "item_id": "shaped_metal",
+          "quantity": 4
+        },
+        {
+          "item_id": "animal_fat",
+          "quantity": 4
+        }
+      ],
+      "output_quantity": 30,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Heavy Bullet",
+        "url": "https://devastio.fandom.com/wiki/Heavy_Bullet",
+        "revision": 4632,
+        "permalink": "https://devastio.fandom.com/wiki/Heavy_Bullet?oldid=4632"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "cartridge",
+      "name": "Cartridge",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "alloys",
+          "quantity": 1
+        },
+        {
+          "item_id": "shaped_metal",
+          "quantity": 4
+        },
+        {
+          "item_id": "animal_fat",
+          "quantity": 4
+        }
+      ],
+      "output_quantity": 15,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Cartridge",
+        "url": "https://devastio.fandom.com/wiki/Cartridge",
+        "revision": 4704,
+        "permalink": "https://devastio.fandom.com/wiki/Cartridge?oldid=4704"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "9mm",
+      "name": "9MM",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "junk",
+          "quantity": 6
+        },
+        {
+          "item_id": "shaped_metal",
+          "quantity": 9
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 7,
+      "skill_points": 1,
+      "craft_seconds": 160,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Weapons",
+        "url": "https://devastio.fandom.com/wiki/Weapons",
+        "revision": 4665,
+        "permalink": "https://devastio.fandom.com/wiki/Weapons?oldid=4665"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "mp5",
+      "name": "MP5",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "alloys",
+          "quantity": 6
+        },
+        {
+          "item_id": "shaped_metal",
+          "quantity": 6
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 10,
+      "skill_points": 1,
+      "craft_seconds": 200,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Weapons",
+        "url": "https://devastio.fandom.com/wiki/Weapons",
+        "revision": 4665,
+        "permalink": "https://devastio.fandom.com/wiki/Weapons?oldid=4665"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "desert_eagle",
+      "name": "Desert Eagle",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "alloys",
+          "quantity": 4
+        },
+        {
+          "item_id": "shaped_metal",
+          "quantity": 2
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 9,
+      "skill_points": 1,
+      "craft_seconds": 180,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Weapons",
+        "url": "https://devastio.fandom.com/wiki/Weapons",
+        "revision": 4665,
+        "permalink": "https://devastio.fandom.com/wiki/Weapons?oldid=4665"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "ak47",
+      "name": "AK47",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "alloys",
+          "quantity": 14
+        },
+        {
+          "item_id": "shaped_metal",
+          "quantity": 6
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 12,
+      "skill_points": 1,
+      "craft_seconds": 180,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Weapons",
+        "url": "https://devastio.fandom.com/wiki/Weapons",
+        "revision": 4665,
+        "permalink": "https://devastio.fandom.com/wiki/Weapons?oldid=4665"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "sniper",
+      "name": "Sniper",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "alloys",
+          "quantity": 10
+        },
+        {
+          "item_id": "shaped_metal",
+          "quantity": 8
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 13,
+      "skill_points": 1,
+      "craft_seconds": 180,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Weapons",
+        "url": "https://devastio.fandom.com/wiki/Weapons",
+        "revision": 4665,
+        "permalink": "https://devastio.fandom.com/wiki/Weapons?oldid=4665"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "shotgun",
+      "name": "Shotgun",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "alloys",
+          "quantity": 6
+        },
+        {
+          "item_id": "shaped_metal",
+          "quantity": 6
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 11,
+      "skill_points": 1,
+      "craft_seconds": 200,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Weapons",
+        "url": "https://devastio.fandom.com/wiki/Weapons",
+        "revision": 4665,
+        "permalink": "https://devastio.fandom.com/wiki/Weapons?oldid=4665"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "sawed_off",
+      "name": "Sawed Off",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "shotgun",
+          "quantity": 1
+        },
+        {
+          "item_id": "alloys",
+          "quantity": 6
+        },
+        {
+          "item_id": "shaped_metal",
+          "quantity": 6
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 13,
+      "skill_points": 1,
+      "craft_seconds": 200,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Weapons",
+        "url": "https://devastio.fandom.com/wiki/Weapons",
+        "revision": 4665,
+        "permalink": "https://devastio.fandom.com/wiki/Weapons?oldid=4665"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "laser_pistol",
+      "name": "Laser Pistol",
+      "station": "tesla_bench",
+      "ingredients": [
+        {
+          "item_id": "shaped_metal",
+          "quantity": 4
+        },
+        {
+          "item_id": "electronic_parts",
+          "quantity": 2
+        },
+        {
+          "item_id": "shaped_uranium",
+          "quantity": 2
+        },
+        {
+          "item_id": "alloys",
+          "quantity": 1
+        },
+        {
+          "item_id": "big_wires",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 14,
+      "skill_points": 1,
+      "craft_seconds": 200,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Laser Pistol",
+        "url": "https://devastio.fandom.com/wiki/Laser_Pistol",
+        "revision": 4705,
+        "permalink": "https://devastio.fandom.com/wiki/Laser_Pistol?oldid=4705"
+      },
+      "notes": "Prefer dedicated article (2 electronic parts) over Weapons table (3). Level and time from Weapons table.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "laser_submachine",
+      "name": "Laser Submachine",
+      "station": "tesla_bench",
+      "ingredients": [
+        {
+          "item_id": "shaped_metal",
+          "quantity": 6
+        },
+        {
+          "item_id": "electronic_parts",
+          "quantity": 3
+        },
+        {
+          "item_id": "shaped_uranium",
+          "quantity": 6
+        },
+        {
+          "item_id": "alloys",
+          "quantity": 10
+        },
+        {
+          "item_id": "big_wires",
+          "quantity": 2
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 14,
+      "skill_points": 1,
+      "craft_seconds": 200,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Weapons",
+        "url": "https://devastio.fandom.com/wiki/Weapons",
+        "revision": 4665,
+        "permalink": "https://devastio.fandom.com/wiki/Weapons?oldid=4665"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "laser_sniper",
+      "name": "Laser Sniper",
+      "station": "tesla_bench",
+      "ingredients": [
+        {
+          "item_id": "shaped_metal",
+          "quantity": 6
+        },
+        {
+          "item_id": "electronic_parts",
+          "quantity": 3
+        },
+        {
+          "item_id": "shaped_uranium",
+          "quantity": 5
+        },
+        {
+          "item_id": "alloys",
+          "quantity": 8
+        },
+        {
+          "item_id": "big_wires",
+          "quantity": 3
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 14,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Weapons",
+        "url": "https://devastio.fandom.com/wiki/Weapons",
+        "revision": 4665,
+        "permalink": "https://devastio.fandom.com/wiki/Weapons?oldid=4665"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "landmine",
+      "name": "Landmine",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "shaped_metal",
+          "quantity": 4
+        },
+        {
+          "item_id": "junk",
+          "quantity": 1
+        },
+        {
+          "item_id": "sulfur",
+          "quantity": 2
+        },
+        {
+          "item_id": "animal_fat",
+          "quantity": 2
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Landmine",
+        "url": "https://devastio.fandom.com/wiki/Landmine",
+        "revision": 4210,
+        "permalink": "https://devastio.fandom.com/wiki/Landmine?oldid=4210"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "dynamite",
+      "name": "Dynamite",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "string",
+          "quantity": 1
+        },
+        {
+          "item_id": "junk",
+          "quantity": 1
+        },
+        {
+          "item_id": "sulfur",
+          "quantity": 2
+        },
+        {
+          "item_id": "animal_fat",
+          "quantity": 2
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Dynamite",
+        "url": "https://devastio.fandom.com/wiki/Dynamite",
+        "revision": 4656,
+        "permalink": "https://devastio.fandom.com/wiki/Dynamite?oldid=4656"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "c4",
+      "name": "C4",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "dynamite",
+          "quantity": 2
+        },
+        {
+          "item_id": "small_wire",
+          "quantity": 2
+        },
+        {
+          "item_id": "alloys",
+          "quantity": 2
+        },
+        {
+          "item_id": "electronic_parts",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "C4",
+        "url": "https://devastio.fandom.com/wiki/C4",
+        "revision": 4649,
+        "permalink": "https://devastio.fandom.com/wiki/C4?oldid=4649"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "c4_trigger",
+      "name": "C4 Trigger",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "shaped_metal",
+          "quantity": 5
+        },
+        {
+          "item_id": "electronic_parts",
+          "quantity": 1
+        },
+        {
+          "item_id": "energy_cells",
+          "quantity": 8
+        },
+        {
+          "item_id": "small_wire",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "C4 Trigger",
+        "url": "https://devastio.fandom.com/wiki/C4_Trigger",
+        "revision": 3396,
+        "permalink": "https://devastio.fandom.com/wiki/C4_Trigger?oldid=3396"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "grenade",
+      "name": "Grenade",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "shaped_metal",
+          "quantity": 2
+        },
+        {
+          "item_id": "junk",
+          "quantity": 2
+        },
+        {
+          "item_id": "sulfur",
+          "quantity": 2
+        },
+        {
+          "item_id": "animal_fat",
+          "quantity": 2
+        }
+      ],
+      "output_quantity": 2,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Grenade",
+        "url": "https://devastio.fandom.com/wiki/Grenade",
+        "revision": 4650,
+        "permalink": "https://devastio.fandom.com/wiki/Grenade?oldid=4650"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "headscarf",
+      "name": "Headscarf",
+      "station": "weaving_machine",
+      "ingredients": [
+        {
+          "item_id": "string",
+          "quantity": 1
+        },
+        {
+          "item_id": "leather",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 0,
+      "skill_points": 0,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Clothing",
+        "url": "https://devastio.fandom.com/wiki/Clothing",
+        "revision": 4605,
+        "permalink": "https://devastio.fandom.com/wiki/Clothing?oldid=4605"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "chapka",
+      "name": "Chapka",
+      "station": "weaving_machine",
+      "ingredients": [
+        {
+          "item_id": "headscarf",
+          "quantity": 1
+        },
+        {
+          "item_id": "string",
+          "quantity": 6
+        },
+        {
+          "item_id": "leather",
+          "quantity": 8
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 7,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Clothing",
+        "url": "https://devastio.fandom.com/wiki/Clothing",
+        "revision": 4605,
+        "permalink": "https://devastio.fandom.com/wiki/Clothing?oldid=4605"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "winter_coat",
+      "name": "Winter Coat",
+      "station": "weaving_machine",
+      "ingredients": [
+        {
+          "item_id": "chapka",
+          "quantity": 1
+        },
+        {
+          "item_id": "string",
+          "quantity": 15
+        },
+        {
+          "item_id": "leather",
+          "quantity": 20
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 9,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Clothing",
+        "url": "https://devastio.fandom.com/wiki/Clothing",
+        "revision": 4605,
+        "permalink": "https://devastio.fandom.com/wiki/Clothing?oldid=4605"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "radiation_mask",
+      "name": "Radiation Mask",
+      "station": "weaving_machine",
+      "ingredients": [
+        {
+          "item_id": "shaped_metal",
+          "quantity": 1
+        },
+        {
+          "item_id": "string",
+          "quantity": 1
+        },
+        {
+          "item_id": "leather",
+          "quantity": 2
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 0,
+      "skill_points": 0,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Clothing",
+        "url": "https://devastio.fandom.com/wiki/Clothing",
+        "revision": 4605,
+        "permalink": "https://devastio.fandom.com/wiki/Clothing?oldid=4605"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "min_radiation_suit",
+      "name": "Min Radiation Suit",
+      "station": "weaving_machine",
+      "ingredients": [
+        {
+          "item_id": "radiation_mask",
+          "quantity": 1
+        },
+        {
+          "item_id": "alloys",
+          "quantity": 2
+        },
+        {
+          "item_id": "shaped_metal",
+          "quantity": 2
+        },
+        {
+          "item_id": "string",
+          "quantity": 4
+        },
+        {
+          "item_id": "leather",
+          "quantity": 4
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 8,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Clothing",
+        "url": "https://devastio.fandom.com/wiki/Clothing",
+        "revision": 4605,
+        "permalink": "https://devastio.fandom.com/wiki/Clothing?oldid=4605"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "radiation_suit",
+      "name": "Radiation Suit",
+      "station": "weaving_machine",
+      "ingredients": [
+        {
+          "item_id": "min_radiation_suit",
+          "quantity": 1
+        },
+        {
+          "item_id": "alloys",
+          "quantity": 6
+        },
+        {
+          "item_id": "shaped_metal",
+          "quantity": 4
+        },
+        {
+          "item_id": "string",
+          "quantity": 8
+        },
+        {
+          "item_id": "leather",
+          "quantity": 20
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 10,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Clothing",
+        "url": "https://devastio.fandom.com/wiki/Clothing",
+        "revision": 4605,
+        "permalink": "https://devastio.fandom.com/wiki/Clothing?oldid=4605"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "leather_jacket",
+      "name": "Leather Jacket",
+      "station": "weaving_machine",
+      "ingredients": [
+        {
+          "item_id": "string",
+          "quantity": 2
+        },
+        {
+          "item_id": "leather",
+          "quantity": 4
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 0,
+      "skill_points": 0,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Clothing",
+        "url": "https://devastio.fandom.com/wiki/Clothing",
+        "revision": 4605,
+        "permalink": "https://devastio.fandom.com/wiki/Clothing?oldid=4605"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "kevlar_suit",
+      "name": "Kevlar Suit",
+      "station": "weaving_machine",
+      "ingredients": [
+        {
+          "item_id": "shaped_metal",
+          "quantity": 6
+        },
+        {
+          "item_id": "string",
+          "quantity": 4
+        },
+        {
+          "item_id": "leather",
+          "quantity": 6
+        },
+        {
+          "item_id": "alloys",
+          "quantity": 2
+        },
+        {
+          "item_id": "leather_jacket",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 12,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Clothing",
+        "url": "https://devastio.fandom.com/wiki/Clothing",
+        "revision": 4605,
+        "permalink": "https://devastio.fandom.com/wiki/Clothing?oldid=4605"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "swat_suit",
+      "name": "SWAT Suit",
+      "station": "weaving_machine",
+      "ingredients": [
+        {
+          "item_id": "shaped_metal",
+          "quantity": 10
+        },
+        {
+          "item_id": "string",
+          "quantity": 10
+        },
+        {
+          "item_id": "leather",
+          "quantity": 10
+        },
+        {
+          "item_id": "alloys",
+          "quantity": 4
+        },
+        {
+          "item_id": "kevlar_suit",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 18,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Clothing",
+        "url": "https://devastio.fandom.com/wiki/Clothing",
+        "revision": 4605,
+        "permalink": "https://devastio.fandom.com/wiki/Clothing?oldid=4605"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "protective_suit",
+      "name": "Protective Suit",
+      "station": "weaving_machine",
+      "ingredients": [
+        {
+          "item_id": "shaped_metal",
+          "quantity": 6
+        },
+        {
+          "item_id": "string",
+          "quantity": 6
+        },
+        {
+          "item_id": "leather",
+          "quantity": 6
+        },
+        {
+          "item_id": "alloys",
+          "quantity": 2
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 12,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Clothing",
+        "url": "https://devastio.fandom.com/wiki/Clothing",
+        "revision": 4605,
+        "permalink": "https://devastio.fandom.com/wiki/Clothing?oldid=4605"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "camouflage_gear",
+      "name": "Camouflage Gear",
+      "station": "weaving_machine",
+      "ingredients": [
+        {
+          "item_id": "wood",
+          "quantity": 90
+        },
+        {
+          "item_id": "string",
+          "quantity": 2
+        },
+        {
+          "item_id": "leather",
+          "quantity": 2
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 0,
+      "skill_points": 0,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Clothing",
+        "url": "https://devastio.fandom.com/wiki/Clothing",
+        "revision": 4605,
+        "permalink": "https://devastio.fandom.com/wiki/Clothing?oldid=4605"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "metal_helmet",
+      "name": "Metal Helmet",
+      "station": "workbench",
+      "ingredients": [
+        {
+          "item_id": "shaped_metal",
+          "quantity": 3
+        },
+        {
+          "item_id": "animal_tendon",
+          "quantity": 3
+        },
+        {
+          "item_id": "leather",
+          "quantity": 3
+        },
+        {
+          "item_id": "nails",
+          "quantity": 80
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 0,
+      "skill_points": 0,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Clothing",
+        "url": "https://devastio.fandom.com/wiki/Clothing",
+        "revision": 4605,
+        "permalink": "https://devastio.fandom.com/wiki/Clothing?oldid=4605"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "welding_helmet",
+      "name": "Welding Helmet",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "shaped_metal",
+          "quantity": 10
+        },
+        {
+          "item_id": "alloys",
+          "quantity": 2
+        },
+        {
+          "item_id": "leather",
+          "quantity": 3
+        },
+        {
+          "item_id": "nails",
+          "quantity": 160
+        },
+        {
+          "item_id": "metal_helmet",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 7,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Clothing",
+        "url": "https://devastio.fandom.com/wiki/Clothing",
+        "revision": 4605,
+        "permalink": "https://devastio.fandom.com/wiki/Clothing?oldid=4605"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "gladiator_helmet",
+      "name": "Gladiator Helmet",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "shaped_metal",
+          "quantity": 12
+        },
+        {
+          "item_id": "alloys",
+          "quantity": 6
+        },
+        {
+          "item_id": "leather",
+          "quantity": 4
+        },
+        {
+          "item_id": "nails",
+          "quantity": 255
+        },
+        {
+          "item_id": "welding_helmet",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 17,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Clothing",
+        "url": "https://devastio.fandom.com/wiki/Clothing",
+        "revision": 4605,
+        "permalink": "https://devastio.fandom.com/wiki/Clothing?oldid=4605"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "power_armor",
+      "name": "Power Armor",
+      "station": "tesla_bench",
+      "ingredients": [
+        {
+          "item_id": "shaped_metal",
+          "quantity": 20
+        },
+        {
+          "item_id": "shaped_uranium",
+          "quantity": 2
+        },
+        {
+          "item_id": "electronic_parts",
+          "quantity": 1
+        },
+        {
+          "item_id": "big_wires",
+          "quantity": 2
+        },
+        {
+          "item_id": "alloys",
+          "quantity": 2
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 10,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Clothing",
+        "url": "https://devastio.fandom.com/wiki/Clothing",
+        "revision": 4605,
+        "permalink": "https://devastio.fandom.com/wiki/Clothing?oldid=4605"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "tesla_armor",
+      "name": "Tesla Armor",
+      "station": "tesla_bench",
+      "ingredients": [
+        {
+          "item_id": "power_armor",
+          "quantity": 1
+        },
+        {
+          "item_id": "shaped_uranium",
+          "quantity": 10
+        },
+        {
+          "item_id": "electronic_parts",
+          "quantity": 5
+        },
+        {
+          "item_id": "big_wires",
+          "quantity": 5
+        },
+        {
+          "item_id": "alloys",
+          "quantity": 10
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 18,
+      "skill_points": 3,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Tesla Armor",
+        "url": "https://devastio.fandom.com/wiki/Tesla_Armor",
+        "revision": 4406,
+        "permalink": "https://devastio.fandom.com/wiki/Tesla_Armor?oldid=4406"
+      },
+      "notes": "Three skill points from official changelog v0.18.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "bandage",
+      "name": "Bandage",
+      "station": "weaving_machine",
+      "ingredients": [
+        {
+          "item_id": "string",
+          "quantity": 1
+        },
+        {
+          "item_id": "leather",
+          "quantity": 2
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 0,
+      "skill_points": 0,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Bandage",
+        "url": "https://devastio.fandom.com/wiki/Bandage",
+        "revision": 4150,
+        "permalink": "https://devastio.fandom.com/wiki/Bandage?oldid=4150"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "medkit",
+      "name": "Medkit",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "string",
+          "quantity": 2
+        },
+        {
+          "item_id": "leather",
+          "quantity": 2
+        },
+        {
+          "item_id": "shaped_metal",
+          "quantity": 2
+        },
+        {
+          "item_id": "bandage",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 10,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Medkit",
+        "url": "https://devastio.fandom.com/wiki/Medkit",
+        "revision": 4149,
+        "permalink": "https://devastio.fandom.com/wiki/Medkit?oldid=4149"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "syringe",
+      "name": "Syringe",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "junk",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Syringe",
+        "url": "https://devastio.fandom.com/wiki/Syringe",
+        "revision": 3277,
+        "permalink": "https://devastio.fandom.com/wiki/Syringe?oldid=3277"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "radaway",
+      "name": "RadAway",
+      "station": "agitator",
+      "ingredients": [
+        {
+          "item_id": "syringe",
+          "quantity": 1
+        },
+        {
+          "item_id": "chemical_component",
+          "quantity": 1
+        },
+        {
+          "item_id": "boletus",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 0,
+      "skill_points": 0,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "RadAway",
+        "url": "https://devastio.fandom.com/wiki/RadAway",
+        "revision": 3636,
+        "permalink": "https://devastio.fandom.com/wiki/RadAway?oldid=3636"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "ghoul_drug",
+      "name": "Ghoul Drug",
+      "station": "agitator",
+      "ingredients": [
+        {
+          "item_id": "syringe",
+          "quantity": 1
+        },
+        {
+          "item_id": "chemical_component",
+          "quantity": 1
+        },
+        {
+          "item_id": "boletus",
+          "quantity": 1
+        },
+        {
+          "item_id": "russula",
+          "quantity": 1
+        },
+        {
+          "item_id": "ghoul_blood",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Ghoul Drug",
+        "url": "https://devastio.fandom.com/wiki/Ghoul_Drug",
+        "revision": 3772,
+        "permalink": "https://devastio.fandom.com/wiki/Ghoul_Drug?oldid=3772"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "lapadone",
+      "name": "Lapadone",
+      "station": "agitator",
+      "ingredients": [
+        {
+          "item_id": "syringe",
+          "quantity": 1
+        },
+        {
+          "item_id": "chemical_component",
+          "quantity": 1
+        },
+        {
+          "item_id": "amanita",
+          "quantity": 1
+        },
+        {
+          "item_id": "ghoul_blood",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Lapadone",
+        "url": "https://devastio.fandom.com/wiki/Lapadone",
+        "revision": 4294,
+        "permalink": "https://devastio.fandom.com/wiki/Lapadone?oldid=4294"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "antidote",
+      "name": "Antidote",
+      "station": "agitator",
+      "ingredients": [
+        {
+          "item_id": "syringe",
+          "quantity": 1
+        },
+        {
+          "item_id": "chemical_component",
+          "quantity": 1
+        },
+        {
+          "item_id": "amanita",
+          "quantity": 1
+        },
+        {
+          "item_id": "rare_flower",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Antidote",
+        "url": "https://devastio.fandom.com/wiki/Antidote",
+        "revision": 4289,
+        "permalink": "https://devastio.fandom.com/wiki/Antidote?oldid=4289"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "cooked_steak",
+      "name": "Cooked Steak",
+      "station": "campfire",
+      "ingredients": [
+        {
+          "item_id": "raw_steak",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 0,
+      "skill_points": 0,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Cooked Steak",
+        "url": "https://devastio.fandom.com/wiki/Cooked_Steak",
+        "revision": 4146,
+        "permalink": "https://devastio.fandom.com/wiki/Cooked_Steak?oldid=4146"
+      },
+      "notes": "Also in Firepit, at a different unmeasured speed.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "can",
+      "name": "Can",
+      "station": "workbench",
+      "ingredients": [
+        {
+          "item_id": "shaped_metal",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Can",
+        "url": "https://devastio.fandom.com/wiki/Can",
+        "revision": 4197,
+        "permalink": "https://devastio.fandom.com/wiki/Can?oldid=4197"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "soda",
+      "name": "Soda",
+      "station": "campfire",
+      "ingredients": [
+        {
+          "item_id": "ghoul_blood",
+          "quantity": 1
+        },
+        {
+          "item_id": "chemical_component",
+          "quantity": 1
+        },
+        {
+          "item_id": "can",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 5,
+      "skill_points": 1,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Soda",
+        "url": "https://devastio.fandom.com/wiki/Soda",
+        "revision": 4151,
+        "permalink": "https://devastio.fandom.com/wiki/Soda?oldid=4151"
+      },
+      "notes": "Also Firepit.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "tomato_soup",
+      "name": "Tomato Soup",
+      "station": "campfire",
+      "ingredients": [
+        {
+          "item_id": "tomato",
+          "quantity": 2
+        },
+        {
+          "item_id": "can",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 0,
+      "skill_points": 0,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Tomato Soup",
+        "url": "https://devastio.fandom.com/wiki/Tomato_Soup",
+        "revision": 4615,
+        "permalink": "https://devastio.fandom.com/wiki/Tomato_Soup?oldid=4615"
+      },
+      "notes": "Also Firepit; drinking returns empty can per v0.29.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "orange_seed",
+      "name": "Orange Seed",
+      "station": "campfire",
+      "ingredients": [
+        {
+          "item_id": "orange",
+          "quantity": 4
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 0,
+      "skill_points": 0,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Seeds",
+        "url": "https://devastio.fandom.com/wiki/Seeds",
+        "revision": 4133,
+        "permalink": "https://devastio.fandom.com/wiki/Seeds?oldid=4133"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "tomato_seed",
+      "name": "Tomato Seed",
+      "station": "campfire",
+      "ingredients": [
+        {
+          "item_id": "tomato",
+          "quantity": 4
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": 0,
+      "skill_points": 0,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Seeds",
+        "url": "https://devastio.fandom.com/wiki/Seeds",
+        "revision": 4133,
+        "permalink": "https://devastio.fandom.com/wiki/Seeds?oldid=4133"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "tree_seed",
+      "name": "Tree Seed",
+      "station": "campfire",
+      "ingredients": [
+        {
+          "item_id": "acorn",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 5,
+      "required_level": 0,
+      "skill_points": 0,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Tree seed",
+        "url": "https://devastio.fandom.com/wiki/Tree_seed",
+        "revision": 3872,
+        "permalink": "https://devastio.fandom.com/wiki/Tree_seed?oldid=3872"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "lapabot",
+      "name": "LapaBot",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "shaped_metal",
+          "quantity": 6
+        },
+        {
+          "item_id": "small_wire",
+          "quantity": 1
+        },
+        {
+          "item_id": "alloys",
+          "quantity": 1
+        },
+        {
+          "item_id": "electronic_parts",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "LapaBot",
+        "url": "https://devastio.fandom.com/wiki/LapaBot",
+        "revision": 4123,
+        "permalink": "https://devastio.fandom.com/wiki/LapaBot?oldid=4123"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "hal_bot",
+      "name": "HAL Bot",
+      "station": "research_bench",
+      "ingredients": [
+        {
+          "item_id": "shaped_metal",
+          "quantity": 6
+        },
+        {
+          "item_id": "small_wire",
+          "quantity": 1
+        },
+        {
+          "item_id": "alloys",
+          "quantity": 1
+        },
+        {
+          "item_id": "electronic_parts",
+          "quantity": 1
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "HAL Bot",
+        "url": "https://devastio.fandom.com/wiki/HAL_Bot",
+        "revision": 3783,
+        "permalink": "https://devastio.fandom.com/wiki/HAL_Bot?oldid=3783"
+      },
+      "notes": "Wiki gives same recipe as LapaBot. Verify before claiming final parity.",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    },
+    {
+      "id": "tesla_bot",
+      "name": "Tesla Bot",
+      "station": "tesla_bench",
+      "ingredients": [
+        {
+          "item_id": "shaped_uranium",
+          "quantity": 3
+        },
+        {
+          "item_id": "electronic_parts",
+          "quantity": 1
+        },
+        {
+          "item_id": "small_wire",
+          "quantity": 3
+        },
+        {
+          "item_id": "big_wires",
+          "quantity": 3
+        },
+        {
+          "item_id": "alloys",
+          "quantity": 3
+        }
+      ],
+      "output_quantity": 1,
+      "required_level": null,
+      "skill_points": null,
+      "craft_seconds": null,
+      "confidence": "selected_working_baseline",
+      "source": {
+        "title": "Tesla Bot",
+        "url": "https://devastio.fandom.com/wiki/Tesla_Bot",
+        "revision": 3727,
+        "permalink": "https://devastio.fandom.com/wiki/Tesla_Bot?oldid=3727"
+      },
+      "notes": "",
+      "validation": "Requires live calibration; multiple fields may combine dedicated article, category table, changelog override or documented provisional choice."
+    }
+  ]
+}

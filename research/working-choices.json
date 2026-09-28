@@ -1,0 +1,1112 @@
+[
+  {
+    "id": "hatchet",
+    "field": "craft_seconds",
+    "value": 2,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "campfire",
+    "field": "craft_seconds",
+    "value": 5,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "stone_pickaxe",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "firepit",
+    "field": "craft_seconds",
+    "value": 20,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "weaving_machine",
+    "field": "craft_seconds",
+    "value": 20,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "research_bench",
+    "field": "craft_seconds",
+    "value": 20,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "smelter",
+    "field": "craft_seconds",
+    "value": 20,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "tesla_bench",
+    "field": "required_level",
+    "value": 8,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "tesla_bench",
+    "field": "skill_points",
+    "value": 1,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "tesla_bench",
+    "field": "craft_seconds",
+    "value": 20,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "welding_machine",
+    "field": "required_level",
+    "value": 2,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "welding_machine",
+    "field": "skill_points",
+    "value": 1,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "welding_machine",
+    "field": "craft_seconds",
+    "value": 20,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "compost",
+    "field": "required_level",
+    "value": 8,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "compost",
+    "field": "craft_seconds",
+    "value": 20,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "agitator",
+    "field": "required_level",
+    "value": 8,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "agitator",
+    "field": "skill_points",
+    "value": 1,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "agitator",
+    "field": "craft_seconds",
+    "value": 20,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "extractor",
+    "field": "required_level",
+    "value": 8,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "extractor",
+    "field": "skill_points",
+    "value": 1,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "extractor",
+    "field": "craft_seconds",
+    "value": 20,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "feeder",
+    "field": "required_level",
+    "value": 14,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "feeder",
+    "field": "skill_points",
+    "value": 1,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "feeder",
+    "field": "craft_seconds",
+    "value": 20,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "string",
+    "field": "craft_seconds",
+    "value": 8,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "shaped_metal",
+    "field": "craft_seconds",
+    "value": 8,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "shaped_uranium",
+    "field": "required_level",
+    "value": 0,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "shaped_uranium",
+    "field": "skill_points",
+    "value": 0,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "shaped_uranium",
+    "field": "craft_seconds",
+    "value": 8,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "alloys",
+    "field": "required_level",
+    "value": 0,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "alloys",
+    "field": "skill_points",
+    "value": 0,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "alloys",
+    "field": "craft_seconds",
+    "value": 8,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "gasoline",
+    "field": "required_level",
+    "value": 0,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "gasoline",
+    "field": "skill_points",
+    "value": 0,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "gasoline",
+    "field": "craft_seconds",
+    "value": 8,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "rotten_orange",
+    "field": "required_level",
+    "value": 0,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "rotten_orange",
+    "field": "skill_points",
+    "value": 0,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "rotten_orange",
+    "field": "craft_seconds",
+    "value": 8,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "nails",
+    "field": "required_level",
+    "value": 0,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "nails",
+    "field": "skill_points",
+    "value": 0,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "nails",
+    "field": "craft_seconds",
+    "value": 8,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "energy_cells",
+    "field": "craft_seconds",
+    "value": 8,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "metal_axe",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "metal_pickaxe",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "sulfur_axe",
+    "field": "required_level",
+    "value": 8,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "sulfur_axe",
+    "field": "skill_points",
+    "value": 1,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "sulfur_axe",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "sulfur_pickaxe",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "hammer",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "repair_hammer",
+    "field": "required_level",
+    "value": 2,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "repair_hammer",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "nail_gun",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "fridge",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "sleeping_bag",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "wood_wall",
+    "field": "craft_seconds",
+    "value": 2,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "wood_door",
+    "field": "craft_seconds",
+    "value": 2,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "wood_low_wall",
+    "field": "craft_seconds",
+    "value": 2,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "wood_low_door",
+    "field": "craft_seconds",
+    "value": 2,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "stone_wall",
+    "field": "craft_seconds",
+    "value": 2,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "stone_door",
+    "field": "craft_seconds",
+    "value": 2,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "stone_low_wall",
+    "field": "craft_seconds",
+    "value": 2,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "stone_low_door",
+    "field": "craft_seconds",
+    "value": 2,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "metal_wall",
+    "field": "craft_seconds",
+    "value": 2,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "metal_door",
+    "field": "craft_seconds",
+    "value": 2,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "metal_low_wall",
+    "field": "craft_seconds",
+    "value": 2,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "metal_low_door",
+    "field": "craft_seconds",
+    "value": 2,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "wood_floor",
+    "field": "craft_seconds",
+    "value": 2,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "light_wood_floor",
+    "field": "craft_seconds",
+    "value": 2,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "stone_floor",
+    "field": "craft_seconds",
+    "value": 2,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "tiling_floor",
+    "field": "craft_seconds",
+    "value": 2,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "red_floor",
+    "field": "craft_seconds",
+    "value": 2,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "golden_floor",
+    "field": "craft_seconds",
+    "value": 2,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "wooden_spike",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "cable",
+    "field": "required_level",
+    "value": 4,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "cable",
+    "field": "skill_points",
+    "value": 1,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "cable",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "cable_bridge",
+    "field": "required_level",
+    "value": 4,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "cable_bridge",
+    "field": "skill_points",
+    "value": 1,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "cable_bridge",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "switch",
+    "field": "required_level",
+    "value": 4,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "switch",
+    "field": "skill_points",
+    "value": 1,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "switch",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "gate_or",
+    "field": "required_level",
+    "value": 4,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "gate_or",
+    "field": "skill_points",
+    "value": 1,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "gate_or",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "gate_and",
+    "field": "required_level",
+    "value": 4,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "gate_and",
+    "field": "skill_points",
+    "value": 1,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "gate_and",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "gate_not",
+    "field": "required_level",
+    "value": 4,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "gate_not",
+    "field": "skill_points",
+    "value": 1,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "gate_not",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "gate_xor",
+    "field": "required_level",
+    "value": 4,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "gate_xor",
+    "field": "skill_points",
+    "value": 1,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "gate_xor",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "gate_timer",
+    "field": "required_level",
+    "value": 4,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "gate_timer",
+    "field": "skill_points",
+    "value": 1,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "gate_timer",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "lamp",
+    "field": "required_level",
+    "value": 4,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "lamp",
+    "field": "skill_points",
+    "value": 1,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "lamp",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "platform",
+    "field": "required_level",
+    "value": 4,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "platform",
+    "field": "skill_points",
+    "value": 1,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "platform",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "cable_wall",
+    "field": "required_level",
+    "value": 4,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "cable_wall",
+    "field": "craft_seconds",
+    "value": 2,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "automatic_door",
+    "field": "required_level",
+    "value": 4,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "automatic_door",
+    "field": "craft_seconds",
+    "value": 2,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "wooden_arrow",
+    "field": "required_level",
+    "value": 0,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "wooden_arrow",
+    "field": "skill_points",
+    "value": 0,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "wooden_arrow",
+    "field": "craft_seconds",
+    "value": 8,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "crossbow_arrow",
+    "field": "craft_seconds",
+    "value": 8,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "bullet",
+    "field": "required_level",
+    "value": 0,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "bullet",
+    "field": "skill_points",
+    "value": 0,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "bullet",
+    "field": "craft_seconds",
+    "value": 8,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "heavy_bullet",
+    "field": "required_level",
+    "value": 0,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "heavy_bullet",
+    "field": "skill_points",
+    "value": 0,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "heavy_bullet",
+    "field": "craft_seconds",
+    "value": 8,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "cartridge",
+    "field": "required_level",
+    "value": 0,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "cartridge",
+    "field": "skill_points",
+    "value": 0,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "cartridge",
+    "field": "craft_seconds",
+    "value": 8,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "laser_sniper",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "landmine",
+    "field": "required_level",
+    "value": 8,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "landmine",
+    "field": "skill_points",
+    "value": 1,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "landmine",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "dynamite",
+    "field": "required_level",
+    "value": 8,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "dynamite",
+    "field": "skill_points",
+    "value": 1,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "dynamite",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "c4",
+    "field": "required_level",
+    "value": 8,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "c4",
+    "field": "skill_points",
+    "value": 1,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "c4",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "c4_trigger",
+    "field": "required_level",
+    "value": 8,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "c4_trigger",
+    "field": "skill_points",
+    "value": 1,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "c4_trigger",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "grenade",
+    "field": "required_level",
+    "value": 8,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "grenade",
+    "field": "skill_points",
+    "value": 1,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "grenade",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "headscarf",
+    "field": "craft_seconds",
+    "value": 25,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "chapka",
+    "field": "craft_seconds",
+    "value": 25,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "winter_coat",
+    "field": "craft_seconds",
+    "value": 25,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "radiation_mask",
+    "field": "craft_seconds",
+    "value": 25,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "min_radiation_suit",
+    "field": "craft_seconds",
+    "value": 25,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "radiation_suit",
+    "field": "craft_seconds",
+    "value": 25,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "leather_jacket",
+    "field": "craft_seconds",
+    "value": 25,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "kevlar_suit",
+    "field": "craft_seconds",
+    "value": 25,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "swat_suit",
+    "field": "craft_seconds",
+    "value": 25,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "protective_suit",
+    "field": "craft_seconds",
+    "value": 25,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "camouflage_gear",
+    "field": "craft_seconds",
+    "value": 25,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "metal_helmet",
+    "field": "craft_seconds",
+    "value": 25,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "welding_helmet",
+    "field": "craft_seconds",
+    "value": 25,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "gladiator_helmet",
+    "field": "craft_seconds",
+    "value": 25,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "power_armor",
+    "field": "craft_seconds",
+    "value": 25,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "tesla_armor",
+    "field": "craft_seconds",
+    "value": 25,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "bandage",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "medkit",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "syringe",
+    "field": "required_level",
+    "value": 0,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "syringe",
+    "field": "skill_points",
+    "value": 0,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "syringe",
+    "field": "craft_seconds",
+    "value": 8,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "radaway",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "ghoul_drug",
+    "field": "required_level",
+    "value": 8,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "ghoul_drug",
+    "field": "skill_points",
+    "value": 1,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "ghoul_drug",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "lapadone",
+    "field": "required_level",
+    "value": 8,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "lapadone",
+    "field": "skill_points",
+    "value": 1,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "lapadone",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "antidote",
+    "field": "required_level",
+    "value": 8,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "antidote",
+    "field": "skill_points",
+    "value": 1,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "antidote",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "cooked_steak",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "can",
+    "field": "required_level",
+    "value": 0,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "can",
+    "field": "skill_points",
+    "value": 0,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "can",
+    "field": "craft_seconds",
+    "value": 8,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "soda",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "tomato_soup",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "orange_seed",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "tomato_seed",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "tree_seed",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "lapabot",
+    "field": "required_level",
+    "value": 8,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "lapabot",
+    "field": "skill_points",
+    "value": 1,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "lapabot",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "hal_bot",
+    "field": "required_level",
+    "value": 8,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "hal_bot",
+    "field": "skill_points",
+    "value": 1,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "hal_bot",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "tesla_bot",
+    "field": "required_level",
+    "value": 14,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "tesla_bot",
+    "field": "skill_points",
+    "value": 1,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  },
+  {
+    "id": "tesla_bot",
+    "field": "craft_seconds",
+    "value": 10,
+    "basis": "Explicit Stage 2 working balance; original value unmeasured."
+  }
+]

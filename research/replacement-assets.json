@@ -1,0 +1,179 @@
+{
+  "tool": "built-in image_gen",
+  "modelVersion": "not exposed by tool",
+  "date": "2026-09-17",
+  "review": "All 20 replacement files inspected standalone and at gameplay scale with the actual renderer. Original outputs and prompts preserved; authored equipment and fidelity limits are recorded in docs/DIFFERENCES.md.",
+  "assets": [
+    {
+      "path": "public/assets/replacements/iron-node-v1.png",
+      "source": "stage1/assets/wiki/Iron Stone.png",
+      "prompt": "Use case: background-extraction. Asset type: a single top-down ore rock sprite for a local Devast.io remake. Input image 1 is the edit target. Remove only the flat green background and its surrounding green-tinted halo to actual transparency, including the empty corners. Keep the irregular dark gray rock silhouette, all gray facets, thick nearly black outline, flat cartoon colors, proportions and orientation as close to the reference as possible. Center the rock with 8% transparent margin on all sides on a square canvas. No ground, no scenery, no added objects, no text, no inventory slot, no shadow outside the outline, no new highlights or rendering style. Output an RGBA image with a genuinely transparent background.",
+      "role": "world sprite",
+      "rights": "Derivative of original reference; original rights remain unresolved"
+    },
+    {
+      "path": "public/assets/replacements/metal-axe-v1.png",
+      "source": "stage1/assets/wiki/Hachet.png",
+      "prompt": "Use case: precise-object-edit. Asset type: one transparent metal axe sprite for the local Devast.io remake. Image 1 is the edit target and style reference. Replace the rough stone head with a forged medium gray steel axe head: a clean wedge blade with a broad cutting edge pointing left, a compact poll on the right, one flat light-gray facet. Keep the diagonal dark brown wood handle and the same simple flat cartoon style with a very thick nearly black outline. Remove the entire inventory square and all background to real transparency. Keep the axe centered and fully visible with 10% transparent margin. A single complete axe only; no hand, no player, no inventory slot, no lettering, no realism, no gradients or glow. This will be drawn small in a top-down survival game.",
+      "role": "Inventory icon; held equipment uses separately documented code-drawn geometry",
+      "rights": "Generated replacement using original style reference; do not imply cleared original media"
+    },
+    {
+      "path": "public/assets/replacements/computers-v1.png",
+      "source": "stage1/assets/wiki/TVandPC.png",
+      "prompt": "Use case: background-extraction. Image 1 is the edit target, a tiny reference sprite strip with TWO sprites. Produce the same two game sprites with genuinely transparent background: television on the left and computer terminal on the right. Keep the exact silhouettes, proportions, dark muted gray/blue colors and thick near-black flat cartoon outlines. Enlarge cleanly without adding detail. Preserve the left-to-right order and separation; use a wide 2:1 canvas divided into two equal invisible square cells, one centered complete sprite in each, both facing exactly as in the reference. Each sprite should fill 80% of its cell. Remove every green background pixel and halo, with transparent negative space. No ground, shadows, slot frames, labels or other objects. These are original-reference furniture sprites for a top-down Devast.io remake.",
+      "role": "world sprite strip; separately mapped frames",
+      "rights": "Derivative of original reference; original rights remain unresolved"
+    },
+    {
+      "path": "public/assets/replacements/sofas-v1.png",
+      "source": "stage1/assets/wiki/Sofa.png",
+      "prompt": "Use case: background-extraction. Image 1 is the edit target: a strip of FIVE simple top-down upholstered chair/sofa modules. Preserve the five silhouettes, left-to-right order, sizes and simple thick black cartoon outline with muted colors: teal chair with yellow cushion, burgundy chair with yellow cushion, burgundy sofa module, dark gray sofa module, dark gray end module. Remove ALL flat green background to genuine transparency. Enlarge cleanly, keep each module separate and fully visible, five centered objects in equal-width invisible cells across one wide strip with a small transparent gap around each. No text, no outlines around cells, no floor, no shadow outside the objects, no added detail, no changed viewpoint. The output is a transparent furniture sprite strip for a local Devast.io remake.",
+      "role": "world sprite strip; separately mapped frames",
+      "rights": "Derivative of original reference; original rights remain unresolved"
+    },
+    {
+      "path": "public/assets/replacements/beds-v1.png",
+      "sources": [
+        "stage1/assets/wiki/Bed.png",
+        "stage1/assets/wiki/BunkerBed.png"
+      ],
+      "prompt": "Create a clean transparent sprite strip for a top-down 2D survival game. Faithfully extract and reconstruct only the THREE separate bed objects from these two tiny reference images, preserving the simple hand-drawn Devast.io shape and color, black outlines, and flat shading. First image contains two square beds side by side: left brown frame, white pillow/blanket, charcoal bottom; right grey frame, white pillow/blanket, blue bottom. Second image contains one bunker bed with a dark grey frame, white pillow/blanket and grey bottom. Output those three bed sprites in that exact left-to-right order, equal visual size, facing up, in ONE evenly spaced horizontal row, with generous clear separation and fully transparent background. Each bed is nearly square like the reference, NOT a long realistic bed. No green surroundings, no floor, no slot background, no text, no decoration, no glow, no cast shadow beyond the original thin dark edge. Use crisp thick black outlines, restrained angular soft-grey shading, simple white cloth folds; do not add detail absent from the reference. Total image aspect ratio 3:1. This is reference restoration, keep the original graphic design at game-sprite scale.",
+      "role": "World furniture sprite strip; mapped independent crop frames",
+      "rights": "Derivative of original reference; original rights remain unresolved",
+      "generated": "2026-09-18",
+      "review": "Inspected in actual game furniture fixture on 2026-09-18"
+    },
+    {
+      "path": "public/assets/replacements/electronics-v1.png",
+      "sources": [
+        "stage1/assets/wiki/SmallComputer.png",
+        "stage1/assets/wiki/BigComputer.png",
+        "stage1/assets/wiki/Safe.png"
+      ],
+      "prompt": "Restore these three low resolution top-down Devast.io furniture sprites as a clean transparent sprite strip, in the exact provided order left to right: small blue-grey electronics computer panel, tall blue-grey big computer panel with the visible external cables and switches, dark steel safe with a side hinge/handle and rivets. Faithfully preserve each original object's simple flat shape, top-down projection, proportions, muted grey blue palette and very dark heavy outline. Remove ALL green rectangular scenery backgrounds; show only each object. Do not transform these top-down panel objects into perspective desktop monitors or front view appliances. Three equally sized sprite cells, one horizontal row, very generous clear separation, transparent background and transparent margins, no text, no labels, no floor, no new visual details or highlights. Crisp simple 2D game artwork at sprite scale, not realistic. Aspect ratio 3:1.",
+      "role": "World furniture sprite strip; mapped independent crop frames",
+      "rights": "Derivative of original reference; original rights remain unresolved",
+      "generated": "2026-09-18",
+      "review": "Inspected in actual game furniture fixture on 2026-09-18"
+    },
+    {
+      "path": "public/assets/replacements/plumbing-v1.png",
+      "sources": [
+        "stage1/assets/wiki/SinkKitchen.png",
+        "stage1/assets/wiki/WC.png"
+      ],
+      "prompt": "Restore the TWO provided tiny top-down Devast.io household sprites faithfully, in a transparent horizontal two-sprite strip. Left: the square kitchen sink with brown wooden border, grey basin, tiny curved faucet visible from above, and black outline. Right: the off-white toilet, rectangular cistern above oval bowl, visible black outlines and very simple grey interior shading, exactly as the reference. Keep original shapes, top-down angle and graphic simplicity. Remove all green background, leave fully transparent background, evenly spaced separate objects with ample clear margins. No floor, no perspective change, no new decoration, no text, no labels, no drop shadows, no realistic details. Restrained flat grey/brown/off-white colors and dark heavy outlines. Aspect ratio 2:1.",
+      "role": "World furniture sprite strip; mapped independent crop frames",
+      "rights": "Derivative of original reference; original rights remain unresolved",
+      "generated": "2026-09-18",
+      "review": "Inspected in actual game furniture fixture on 2026-09-18"
+    },
+    {
+      "path": "public/assets/replacements/tables-v1.png",
+      "sources": [
+        "stage1/assets/wiki/Table.png"
+      ],
+      "prompt": "Restore the TWO table sprites in this reference as two separate transparent sprites in one horizontal row, exactly the original order. Left is the small square dark-grey table with an off-white round cup at upper left, an off-white paper with dark scribbled markings at upper right, and a crumpled off-white scrap at lower right. Right is a plain larger square flat grey table with a thick black outline and subtly rounded corners. Preserve top-down projection, flat simple Devast.io artwork, muted grey palette and thick black outlines. Remove ALL green scenery background, no floor, no realistic grain or lighting, no new objects, no leg perspective, no extra text. Each sprite in its own square cell, generous fully transparent spacing and outer margins. The plain table should be about 1.3 times the visual width of the cluttered table, as in the reference. Aspect ratio 2:1.",
+      "role": "World furniture sprite strip; mapped independent crop frames",
+      "rights": "Derivative of original reference; original rights remain unresolved",
+      "generated": "2026-09-18",
+      "review": "Inspected in actual game furniture fixture on 2026-09-18"
+    },
+    {
+      "path": "public/assets/replacements/weaving-machine-v1.png",
+      "source": "stage1/assets/wiki/Weaving-machine.png",
+      "prompt": "Use case: background-extraction. Asset type: a single transparent world sprite for the local Devast.io remake. Input image 1 is the edit target. Extract the wooden weaving loom and its wooden work surface, including its thread, crossbars, crank and rollers from the supplied inventory icon. Keep the complete rectangular wooden tabletop beneath the loom as part of the machine. Remove the surrounding blue and gray interface frames; do not retain the inventory card. Preserve the object's original overhead perspective, silhouette, palette, near-black outline and simple flat cartoon shading. Improve edge clarity only as needed for a clean game sprite. Remove all gray or colored rounded-square backgrounds and every interface border. Place one isolated object centered with generous fully transparent margins. The output must have a real alpha-transparent background. No lettering, labels, checkerboard pixels, floor scenery, extra objects, photorealism or added lighting. Do not redesign the object.",
+      "role": "World sprite; mapped crop frame",
+      "rights": "Derived from original game artwork; original reuse rights unresolved",
+      "generated": "2026-09-21",
+      "review": "Standalone output inspected; source silhouette, palette and outline preserved; in-game scale reviewed; see docs/DIFFERENCES.md"
+    },
+    {
+      "path": "public/assets/replacements/string-ground-v1.png",
+      "source": "stage1/assets/wiki/Inv-string-in.png",
+      "prompt": "Use case: background-extraction. Asset type: a single transparent world sprite for the local Devast.io remake. Input image 1 is the edit target. Extract the brown wooden spool wound with pale gray string and its loose curved thread from the supplied inventory icon. Keep the diagonal orientation and small curved thread. Preserve the object's original overhead perspective, silhouette, palette, near-black outline and simple flat cartoon shading. Improve edge clarity only as needed for a clean game sprite. Remove all gray or colored rounded-square backgrounds and every interface border. Place one isolated object centered with generous fully transparent margins. The output must have a real alpha-transparent background. No lettering, labels, checkerboard pixels, floor scenery, extra objects, photorealism or added lighting. Do not redesign the object.",
+      "role": "World sprite; mapped crop frame",
+      "rights": "Derived from original game artwork; original reuse rights unresolved",
+      "generated": "2026-09-21",
+      "review": "Standalone output inspected; source silhouette, palette and outline preserved; in-game scale reviewed; see docs/DIFFERENCES.md"
+    },
+    {
+      "path": "public/assets/replacements/leather-ground-v1.png",
+      "source": "stage1/assets/wiki/Leather-boar.png",
+      "prompt": "Use case: background-extraction. Asset type: a single transparent world sprite for the local Devast.io remake. Input image 1 is the edit target. Extract the irregular brown animal-hide piece from the supplied inventory icon. Keep its asymmetric cut, dark brown edge, subdued brown fill and pointed upper corner. Preserve the object's original overhead perspective, silhouette, palette, near-black outline and simple flat cartoon shading. Improve edge clarity only as needed for a clean game sprite. Remove all gray or colored rounded-square backgrounds and every interface border. Place one isolated object centered with generous fully transparent margins. The output must have a real alpha-transparent background. No lettering, labels, checkerboard pixels, floor scenery, extra objects, photorealism or added lighting. Do not redesign the object.",
+      "role": "World sprite; mapped crop frame",
+      "rights": "Derived from original game artwork; original reuse rights unresolved",
+      "generated": "2026-09-21",
+      "review": "Standalone output inspected; source silhouette, palette and outline preserved; in-game scale reviewed; see docs/DIFFERENCES.md"
+    },
+    {
+      "path": "public/assets/replacements/tendon-ground-v1.png",
+      "source": "stage1/assets/wiki/Animal-tendon.png",
+      "prompt": "Use case: background-extraction. Asset type: a single transparent world sprite for the local Devast.io remake. Input image 1 is the edit target. Extract the single tan bone-shaped tendon from the supplied inventory icon. Keep the diagonal lower-left to upper-right orientation and the uneven ends. Preserve the object's original overhead perspective, silhouette, palette, near-black outline and simple flat cartoon shading. Improve edge clarity only as needed for a clean game sprite. Remove all gray or colored rounded-square backgrounds and every interface border. Place one isolated object centered with generous fully transparent margins. The output must have a real alpha-transparent background. No lettering, labels, checkerboard pixels, floor scenery, extra objects, photorealism or added lighting. Do not redesign the object.",
+      "role": "World sprite; mapped crop frame",
+      "rights": "Derived from original game artwork; original reuse rights unresolved",
+      "generated": "2026-09-21",
+      "review": "Standalone output inspected; source silhouette, palette and outline preserved; in-game scale reviewed; see docs/DIFFERENCES.md"
+    },
+    {
+      "path": "public/assets/replacements/fat-ground-v1.png",
+      "source": "stage1/assets/wiki/Inv-animal-fat-in.png",
+      "prompt": "Use case: background-extraction. Asset type: a single transparent world sprite for the local Devast.io remake. Input image 1 is the edit target. Extract the single pale cream, softly lobed piece of animal fat from the supplied inventory icon. Keep the irregular rounded silhouette and simple pale-yellow shading. Preserve the object's original overhead perspective, silhouette, palette, near-black outline and simple flat cartoon shading. Improve edge clarity only as needed for a clean game sprite. Remove all gray or colored rounded-square backgrounds and every interface border. Place one isolated object centered with generous fully transparent margins. The output must have a real alpha-transparent background. No lettering, labels, checkerboard pixels, floor scenery, extra objects, photorealism or added lighting. Do not redesign the object.",
+      "role": "World sprite; mapped crop frame",
+      "rights": "Derived from original game artwork; original reuse rights unresolved",
+      "generated": "2026-09-21",
+      "review": "Standalone output inspected; source silhouette, palette and outline preserved; in-game scale reviewed; see docs/DIFFERENCES.md"
+    },
+    {
+      "path": "public/assets/replacements/sulfur-ground-v1.png",
+      "source": "stage1/assets/wiki/Inv-sulfur-in.png",
+      "prompt": "Use case: background-extraction. Asset type: one transparent dropped-item sprite for a local Devast.io remake. Image 1 is the edit target. Extract only the three bright yellow sulfur crystal chunks, keeping their angular silhouette and flat yellow facets. Remove the entire rounded square interface card, its gray or green background, and any background border. Preserve the original simple cartoon game style, thick near-black outline, palette, proportions and orientation. Center one item group with ample genuinely alpha-transparent empty margins. No background, no floor, no checkerboard pixels, no text, no interface frame, no photorealism, no extra objects. Keep the dark outline around the item itself.",
+      "role": "dropped-item world sprite",
+      "rights": "Derivative of original reference; original rights remain unresolved"
+    },
+    {
+      "path": "public/assets/replacements/uranium-ground-v1.png",
+      "source": "stage1/assets/wiki/Inv-uranium-in.png",
+      "prompt": "Use case: background-extraction. Asset type: one transparent dropped-item sprite for a local Devast.io remake. Image 1 is the edit target. Extract only the two stacked green raw uranium ore pieces, keeping their green flat facets and irregular elongated silhouette. Remove the entire rounded square interface card, its gray or green background, and any background border. Preserve the original simple cartoon game style, thick near-black outline, palette, proportions and orientation. Center one item group with ample genuinely alpha-transparent empty margins. No background, no floor, no checkerboard pixels, no text, no interface frame, no photorealism, no extra objects. Keep the dark outline around the item itself.",
+      "role": "dropped-item world sprite",
+      "rights": "Derivative of original reference; original rights remain unresolved"
+    },
+    {
+      "path": "public/assets/replacements/shaped-uranium-ground-v1.png",
+      "source": "stage1/assets/wiki/Shaped-uranium.png",
+      "prompt": "Use case: background-extraction. Asset type: one transparent dropped-item sprite for a local Devast.io remake. Image 1 is the edit target. Extract only the shaped green uranium ingot and its little yellow-green sparkle, keeping the flat polygonal shape. Remove the entire rounded square interface card, its gray or green background, and any background border. Preserve the original simple cartoon game style, thick near-black outline, palette, proportions and orientation. Center one item group with ample genuinely alpha-transparent empty margins. No background, no floor, no checkerboard pixels, no text, no interface frame, no photorealism, no extra objects. Keep the dark outline around the item itself.",
+      "role": "dropped-item world sprite",
+      "rights": "Derivative of original reference; original rights remain unresolved"
+    },
+    {
+      "path": "public/assets/replacements/bandage-ground-v1.png",
+      "source": "stage1/assets/wiki/Inv-bandage-in.png",
+      "prompt": "Use case: background-extraction. Asset type: one transparent dropped-item sprite for a local Devast.io remake. Image 1 is the edit target. Extract only the two crossed cream bandages, keeping their diagonal angles, rounded ends and pale flat shading. Remove the entire rounded square interface card, its gray or green background, and any background border. Preserve the original simple cartoon game style, thick near-black outline, palette, proportions and orientation. Center one item group with ample genuinely alpha-transparent empty margins. No background, no floor, no checkerboard pixels, no text, no interface frame, no photorealism, no extra objects. Keep the dark outline around the item itself.",
+      "role": "dropped-item world sprite",
+      "rights": "Derivative of original reference; original rights remain unresolved"
+    },
+    {
+      "path": "public/assets/replacements/bullet-ground-v1.png",
+      "source": "stage1/assets/wiki/Bullet-9mm.png",
+      "prompt": "Use case: background-extraction. Asset type: one transparent dropped-item sprite for a local Devast.io remake. Image 1 is the edit target. Extract only the four gold pistol bullets, three upright and one lying diagonally, preserving the arrangement and simple flat brass coloring. Remove the entire rounded square interface card, its gray or green background, and any background border. Preserve the original simple cartoon game style, thick near-black outline, palette, proportions and orientation. Center one item group with ample genuinely alpha-transparent empty margins. No background, no floor, no checkerboard pixels, no text, no interface frame, no photorealism, no extra objects. Keep the dark outline around the item itself.",
+      "role": "dropped-item world sprite",
+      "rights": "Derivative of original reference; original rights remain unresolved"
+    },
+    {
+      "path": "public/assets/replacements/cartridge-ground-v1.png",
+      "source": "stage1/assets/wiki/Bullet-shotgun.png",
+      "prompt": "Use case: background-extraction. Asset type: one transparent dropped-item sprite for a local Devast.io remake. Image 1 is the edit target. Extract only the three shotgun shells with red bodies and yellow brass caps, two upright and one lying sideways, preserving their arrangement. Remove the entire rounded square interface card, its gray or green background, and any background border. Preserve the original simple cartoon game style, thick near-black outline, palette, proportions and orientation. Center one item group with ample genuinely alpha-transparent empty margins. No background, no floor, no checkerboard pixels, no text, no interface frame, no photorealism, no extra objects. Keep the dark outline around the item itself.",
+      "role": "dropped-item world sprite",
+      "rights": "Derivative of original reference; original rights remain unresolved"
+    },
+    {
+      "path": "public/assets/replacements/heavy-bullet-ground-v1.png",
+      "source": "stage1/assets/wiki/Bullet-sniper.png",
+      "prompt": "Use case: background-extraction. Asset type: one transparent dropped-item sprite for a local Devast.io remake. Image 1 is the edit target. Extract only the four long rifle bullets with golden tips and dark green lower cases, three upright and one sideways, preserving their arrangement. Remove the entire rounded square interface card, its gray or green background, and any background border. Preserve the original simple cartoon game style, thick near-black outline, palette, proportions and orientation. Center one item group with ample genuinely alpha-transparent empty margins. No background, no floor, no checkerboard pixels, no text, no interface frame, no photorealism, no extra objects. Keep the dark outline around the item itself.",
+      "role": "dropped-item world sprite",
+      "rights": "Derivative of original reference; original rights remain unresolved"
+    }
+  ],
+  "lastReview": "2026-09-27"
+}

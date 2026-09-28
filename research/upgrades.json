@@ -1,0 +1,93 @@
+[
+  {
+    "id": "inventory_1",
+    "required_level": 0,
+    "skill_points": 1,
+    "additional_slots": 1,
+    "requires": null,
+    "confidence": "selected_working_baseline",
+    "sources": [
+      "https://devastio.fandom.com/wiki/Player_upgrades?oldid=1882",
+      "https://devastio.fandom.com/wiki/Backpack?oldid=4594",
+      "https://devast.io/changelog/"
+    ],
+    "note": "Tier 3 cost disputed (1 vs 2); tier 4 latest official level 10. Prerequisite chain is provisional."
+  },
+  {
+    "id": "inventory_2",
+    "required_level": 5,
+    "skill_points": 1,
+    "additional_slots": 1,
+    "requires": "inventory_1",
+    "confidence": "selected_working_baseline",
+    "sources": [
+      "https://devastio.fandom.com/wiki/Player_upgrades?oldid=1882",
+      "https://devastio.fandom.com/wiki/Backpack?oldid=4594",
+      "https://devast.io/changelog/"
+    ],
+    "note": "Tier 3 cost disputed (1 vs 2); tier 4 latest official level 10. Prerequisite chain is provisional."
+  },
+  {
+    "id": "inventory_3",
+    "required_level": 7,
+    "skill_points": 2,
+    "additional_slots": 1,
+    "requires": "inventory_2",
+    "confidence": "selected_working_baseline",
+    "sources": [
+      "https://devastio.fandom.com/wiki/Player_upgrades?oldid=1882",
+      "https://devastio.fandom.com/wiki/Backpack?oldid=4594",
+      "https://devast.io/changelog/"
+    ],
+    "note": "Tier 3 cost disputed (1 vs 2); tier 4 latest official level 10. Prerequisite chain is provisional."
+  },
+  {
+    "id": "inventory_4",
+    "required_level": 10,
+    "skill_points": 2,
+    "additional_slots": 2,
+    "requires": "inventory_3",
+    "confidence": "selected_working_baseline",
+    "sources": [
+      "https://devastio.fandom.com/wiki/Player_upgrades?oldid=1882",
+      "https://devastio.fandom.com/wiki/Backpack?oldid=4594",
+      "https://devast.io/changelog/"
+    ],
+    "note": "Tier 3 cost disputed (1 vs 2); tier 4 latest official level 10. Prerequisite chain is provisional."
+  },
+  {
+    "id": "inventory_5",
+    "required_level": 12,
+    "skill_points": 3,
+    "additional_slots": 3,
+    "requires": "inventory_4",
+    "confidence": "selected_working_baseline",
+    "sources": [
+      "https://devastio.fandom.com/wiki/Player_upgrades?oldid=1882",
+      "https://devastio.fandom.com/wiki/Backpack?oldid=4594",
+      "https://devast.io/changelog/"
+    ],
+    "note": "Tier 3 cost disputed (1 vs 2); tier 4 latest official level 10. Prerequisite chain is provisional."
+  },
+  {
+    "id": "builder_1",
+    "required_level": 6,
+    "skill_points": 2,
+    "construction_output_multiplier": 2,
+    "source": "https://devastio.fandom.com/wiki/Player_upgrades?oldid=1882"
+  },
+  {
+    "id": "builder_2",
+    "required_level": 18,
+    "skill_points": 1,
+    "repair_speed_multiplier": null,
+    "source": "https://devastio.fandom.com/wiki/Player_upgrades?oldid=1882"
+  },
+  {
+    "id": "lightweight",
+    "required_level": 8,
+    "skill_points": 1,
+    "trap_trigger_probability": null,
+    "source": "https://devastio.fandom.com/wiki/Player_upgrades?oldid=1882"
+  }
+]

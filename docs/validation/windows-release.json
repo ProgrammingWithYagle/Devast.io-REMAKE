@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-27",
+  "version": "0.2.0",
+  "platform": "Windows x64",
+  "packagingExitCode": 0,
+  "installerExitCode": 0,
+  "signed": false,
+  "assets": [
+    {"name":"Devast-Remake-0.2.0-Setup.exe","bytes":231593572,"sha256":"f3319dd02580d7acaeb143689840bc1e7e61e746de9c48ab41b2fa57715f1394"},
+    {"name":"Devast-Remake-0.2.0-Portable.exe","bytes":231340287,"sha256":"42b4f1ae004f09ed3946f77c1e51f5ea69ea61baf3f4b7e11499d1638c73647c"}
+  ],
+  "installedArchive": {"bytes":122337186,"sha256":"6201090d9662e170c59b37b28c0ba9fda4550daf828888dca358a7b033409052","matchesPackagedArchive":true},
+  "nativePersistence": "2026-09-27 final package passed offline save/quit/relaunch/load after more than five hours closed; no closed-time advancement",
+  "finalNativeUi": "Passed retained manual slot 1, keyboard crafting, named write to manual slot 2, clean close, offline relaunch, slot-2 load and pause",
+  "finalSave": {"name":"Final Windows release check","slot":2,"ageSecondsDisplayed":127,"hp":255,"hunger":103,"warmth":255,"energy":255,"radiation":0,"inventory":"two stones"},
+  "publication": "Published v0.2.0; all three anonymous downloads return HTTP 200 with expected sizes and digests. See publication.json."
+}

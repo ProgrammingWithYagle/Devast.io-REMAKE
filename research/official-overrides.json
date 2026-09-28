@@ -1,0 +1,13 @@
+{
+  "source": "https://devast.io/changelog/",
+  "verified": "2026-09-18, rendered official page",
+  "recipes": [
+    {"id":"stone_pickaxe","values":{"skill_points":0,"required_level":0},"reason":"Official v0.17 explicitly unlocks stone pickaxe from the start. This supersedes the older research cost in the supplied recipe table."}
+  ],
+  "rules": [
+    {"rule":"Fridges accept all item types and preserve stored food.","version":"0.9.860","supersedes":"Food-only restriction in v0.2.644."},
+    {"rule":"Canceling a crafting job does not return perishable food inputs; nonperishable reserved inputs return.","version":"0.10.895","supersedes":"Earlier partial-orange refund; old implementation refunded every input."},
+    {"rule":"Ghouls do not damage player buildings during daylight.","version":"0.22.1280"},
+    {"rule":"Welding helmet slows movement slightly; Gladiator mitigates some ballistic and explosive damage; SWAT also mitigates some melee; protective suit supplies some warmth; energy armor offers some general protection.","version":"0.16.1120 and 0.28.1494","numericStatus":"Magnitude remains a configurable remake choice, not a measured original value."}
+  ]
+}
